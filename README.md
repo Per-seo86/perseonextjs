@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Perseo - Sito Next.js
 
-## Getting Started
+Migrazione completa del sito perseo.biz da WordPress a Next.js + React.
 
-First, run the development server:
+## Caratteristiche
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- ✅ **Next.js 15** con App Router
+- ✅ **TypeScript** per type safety
+- ✅ **Tailwind CSS** per lo styling
+- ✅ **Permalink identici** a WordPress (con trailing slash)
+- ✅ **Route dinamiche** per blog, categorie e showcase
+- ✅ **SEO ottimizzato** con metadata per ogni pagina
+- ✅ **Design responsive** con gradients purple/pink
+- ✅ **Componenti riutilizzabili** (Layout, Header, Footer, ContactForm)
+
+## Struttura del Progetto
+
+```
+perseo-nextjs/
+├── app/                          # Pages (Next.js App Router)
+│   ├── layout.tsx               # Layout principale
+│   ├── page.tsx                 # Homepage
+│   ├── chi-sono/                # Chi è Perseo
+│   ├── contatti/                # Contatti
+│   ├── risultati/               # I miei risultati
+│   ├── consulente-seo/          # Consulente SEO
+│   │   ├── seo-concessionarie/
+│   │   ├── seo-negozi-di-arredamento/
+│   │   └── seo-farmacie/
+│   ├── google-ads-specialist/   # Google Ads
+│   ├── meta-ads-specialist/     # Meta Ads
+│   ├── consulenza-seo-in-calabria/
+│   ├── blog/                    # Pagina blog
+│   ├── [category]/[slug]/       # Route dinamica articoli
+│   ├── category/[slug]/         # Route dinamica categorie
+│   └── showcase/                # Showcase strumenti
+│       └── [slug]/
+├── components/                   # Componenti React
+│   ├── Header.tsx
+│   ├── Footer.tsx
+│   ├── Layout.tsx
+│   └── ContactForm.tsx
+├── lib/                         # Utilities e data
+│   └── posts.ts                 # Database articoli blog
+└── public/                      # Assets statici
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Permalink e URL
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Il sito mantiene **tutti i permalink identici** al sito WordPress originale.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Pagine Statiche
+- `/` - Homepage
+- `/chi-sono/` - Chi è Perseo
+- `/contatti/` - Contatti
+- `/risultati/` - I miei risultati
+- `/consulente-seo/` - Consulente SEO
+- `/google-ads-specialist/`
+- `/meta-ads-specialist/`
 
-## Learn More
+### Blog e Articoli
+- `/blog/` - Lista articoli
+- `/seo/[slug]/` - Articoli SEO
+- `/google-ads/[slug]/` - Articoli Google Ads
+- `/meta-ads/[slug]/` - Articoli Meta Ads
+- `/category/seo/` - Categoria SEO
 
-To learn more about Next.js, take a look at the following resources:
+### Showcase
+- `/showcase/` - Lista strumenti
+- `/showcase/seozoom/`
+- `/showcase/search-console/`
+- `/showcase/ga4/`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installazione e Avvio
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+# Installa dipendenze
+npm install
 
-## Deploy on Vercel
+# Avvia server di sviluppo
+npm run dev
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Build per produzione
+npm run build
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Avvia server di produzione
+npm start
+```
+
+Il sito sarà disponibile su [http://localhost:3000](http://localhost:3000)
+
+## TODO - Lavori da Completare
+
+### 1. Contenuti Articoli Blog
+I contenuti completi degli articoli devono essere integrati nel file `lib/posts.ts`.
+
+### 2. Immagini
+Scaricare e inserire le immagini dal sito WordPress in `public/images/`.
+
+### 3. Pagine Rimanenti
+- `/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo/`
+- `/cookie-policy-ue/`
+- Pagine specializzate SEO (concessionarie, arredamento, farmacie)
+
+### 4. Form di Contatto
+Implementare backend per invio email e integrazione hCaptcha.
+
+### 5. SEO Avanzato
+- Sitemap.xml
+- Robots.txt
+- Open Graph tags
+- Structured data (JSON-LD)
+
+### 6. Analytics
+- Google Analytics 4
+- Google Tag Manager
+
+## Tecnologie Utilizzate
+
+- **Next.js 15** - Framework React
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+
+## Licenza
+
+Proprietario: Perseo (perseo.biz) - P.IVA: 03728590781
