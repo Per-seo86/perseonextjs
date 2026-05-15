@@ -22,7 +22,7 @@ export default function Home() {
         {/* wave bg overlay */}
         <div
           className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: "url('/images/Progetto-senza-titolo-15.png')" }}
+          style={{ backgroundImage: "url('/images/Progetto-senza-titolo-15.webp')" }}
         />
 
         {/* Content */}
