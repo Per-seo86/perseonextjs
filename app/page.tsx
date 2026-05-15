@@ -412,6 +412,9 @@ export default function Home() {
               { url: 'https://www.blteventi.it/', src: '/images/logo-bealternative-new.svg', name: 'BE Alternative' },
               { url: 'https://www.carboneclimatizzazione.com/', src: '/images/logo-carbone-new.webp', name: 'Carbone Climatizzazione' },
               { url: 'https://www.bomboniereportaconfetti.it/', src: '/images/logo-bomboniere.webp', name: 'Bomboniere Portaconfetti' },
+              { url: 'https://www2.dietasocial.it/', src: '/images/logo-dieta-social.svg', name: 'Dieta Social' },
+              { url: 'https://www.advertaria.it/', src: '/images/logo-advertaria.svg', name: 'Advertaria' },
+              { url: 'https://www.smartnetworkgroup.it/', src: '/images/logo-smart-network-group.png', name: 'Smart Network Group' },
             ].map(({ url, src, name }) => (
               <a key={name} href={url} target="_blank" rel="noopener noreferrer" className="transition">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
