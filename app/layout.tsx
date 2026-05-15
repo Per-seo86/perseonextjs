@@ -37,8 +37,7 @@ export default function RootLayout({
           rel="preload"
           as="image"
           href="/images/Progetto-senza-titolo-15.webp"
-          // @ts-ignore
-          fetchpriority="high"
+          fetchPriority="high"
         />
         {/* ── Consent Mode v2 — default tutto denied PRIMA di GTM ── */}
         <Script id="consent-mode-default" strategy="beforeInteractive">

@@ -18,9 +18,7 @@ export default function GoogleAdsSpecialist() {
       <section
         className="relative text-white py-20"
         style={{
-          backgroundImage: "url('https://perseo.biz/wp-content/uploads/2019/03/Banner.jpg')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          background: 'linear-gradient(to right, #6039ff, #76c6fd 56%, #19dffa 100%)',
         }}
       >
         <div className="absolute inset-0 bg-black/50" />
