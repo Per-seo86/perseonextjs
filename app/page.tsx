@@ -399,20 +399,19 @@ export default function Home() {
           <h3 className="text-center text-sm uppercase tracking-widest text-gray-400 font-semibold mb-8">Alcuni dei miei clienti</h3>
           <div className="flex flex-wrap justify-center items-center gap-8">
             {[
-              { url: 'https://www.avvocatoflash.it/', src: '/images/logo-avvocatoflash.webp', name: 'AvvocatoFlash' },
-              { url: 'https://www.internet-idee.net/', src: '/images/logo-internet-idee.webp', name: 'Internet Idee' },
-              { url: 'https://www.ultimavoce.it/', src: '/images/logo-ultimavoce.webp', name: 'UltimaVoce' },
-              { url: 'https://www.bomboniereportaconfetti.it/', src: '/images/logo-colore.svg', name: 'Bomboniere Portaconfetti' },
-              { url: 'https://ripetiamodiritto.com/', src: '/images/logo-ripetiamodiritto.webp', name: 'Ripetiamodiritto' },
-              { url: 'https://www.facebook.com/AziendaCupelli', src: '/images/logo-cupelli2.jpg', name: 'Cupelli Azienda Agricola' },
-              { url: 'https://www.mazingaeventi.it/', src: '/images/logo-mazinga.webp', name: 'Mazinga' },
-              { url: 'https://arkys.it/', src: '/images/logo-arkys2.png', name: 'Arkys' },
-              { url: 'https://zpress.it/', src: '/images/logo-zpress.png', name: 'Zpress' },
-              { url: 'https://www.sisem.it/', src: '/images/logo-sisem.png', name: 'SISEM' },
-              { url: 'http://moodsocialclub.it', src: '/images/logo-mood.webp', name: 'MOOD Social Club' },
-              { url: 'https://www.blteventi.it/', src: '/images/logo-bealternative.svg', name: 'BE Alternative' },
-              { url: 'https://www.carboneclimatizzazione.com/', src: '/images/logo-carbone.webp', name: 'Carbone Climatizzazione' },
-              { url: 'https://www.pubblioracalabria.com/', src: '/images/logo-unknown.svg', name: 'PubbliOra' },
+
+              { url: 'https://www.internet-idee.net/', src: '/images/logo-internet-idee-new.svg', name: 'Internet Idee' },
+              { url: 'https://www.ultimavoce.it/', src: '/images/logo-ultimavoce-new.webp', name: 'UltimaVoce' },
+              { url: 'https://ripetiamodiritto.com/', src: '/images/logo-ripetiamodiritto-new.webp', name: 'Ripetiamodiritto' },
+              { url: 'https://www.facebook.com/AziendaCupelli', src: '/images/logo-cupelli-new.jpg', name: 'Cupelli Azienda Agricola' },
+              { url: 'https://www.mazingaeventi.it/', src: '/images/logo-mazinga-new.png', name: 'Mazinga' },
+              { url: 'https://arkys.it/', src: '/images/logo-arkys-new.png', name: 'Arkys' },
+              { url: 'https://zpress.it/', src: '/images/logo-zpress-new.png', name: 'Zpress' },
+              { url: 'https://www.sisem.it/', src: '/images/logo-sisem-new.png', name: 'SISEM' },
+              { url: 'http://moodsocialclub.it', src: '/images/logo-unknown2.jpg', name: 'MOOD Social Club' },
+              { url: 'https://www.blteventi.it/', src: '/images/logo-bealternative-new.svg', name: 'BE Alternative' },
+              { url: 'https://www.carboneclimatizzazione.com/', src: '/images/logo-carbone-new.webp', name: 'Carbone Climatizzazione' },
+              { url: 'https://www.bomboniereportaconfetti.it/', src: '/images/logo-bomboniere.webp', name: 'Bomboniere Portaconfetti' },
             ].map(({ url, src, name }) => (
               <a key={name} href={url} target="_blank" rel="noopener noreferrer" className="transition">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
