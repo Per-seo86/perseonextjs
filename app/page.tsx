@@ -399,20 +399,20 @@ export default function Home() {
           <h3 className="text-center text-sm uppercase tracking-widest text-gray-400 font-semibold mb-8">Alcuni dei miei clienti</h3>
           <div className="flex flex-wrap justify-center items-center gap-8">
             {[
-              { url: 'https://www.avvocatoflash.it/', src: 'https://perseo.biz/wp-content/uploads/2023/01/108908597991777387.jpeg', name: 'AvvocatoFlash' },
-              { url: 'https://www.internet-idee.net/', src: 'https://perseo.biz/wp-content/uploads/2023/02/324560389_1406046430239807_3928253018773415561_n.jpeg', name: 'Internet Idee' },
-              { url: 'https://www.ultimavoce.it/', src: 'https://perseo.biz/wp-content/uploads/2023/01/800-x-300.png', name: 'UltimaVoce' },
-              { url: 'https://www.bomboniereportaconfetti.it/', src: 'https://perseo.biz/wp-content/uploads/2023/01/logo-1.png', name: 'Bomboniere Portaconfetti' },
-              { url: 'https://ripetiamodiritto.com/', src: 'https://perseo.biz/wp-content/uploads/2023/01/ripetiamo-1-1.png', name: 'Ripetiamodiritto' },
-              { url: 'https://www.facebook.com/AziendaCupelli', src: 'https://perseo.biz/wp-content/uploads/2023/02/304984003_582661473555604_6996711141770602891_n.jpeg', name: 'Cupelli Azienda Agricola' },
-              { url: 'https://www.mazingaeventi.it/', src: 'https://perseo.biz/wp-content/uploads/2023/02/cropped-LOGO-SCRITTA-2-e1603713397543.png', name: 'Mazinga' },
-              { url: 'https://arkys.it/', src: 'https://perseo.biz/wp-content/uploads/2023/02/67313958_2605804159439055_7727058718587617280_n.png', name: 'Arkys' },
-              { url: 'https://zpress.it/', src: 'https://perseo.biz/wp-content/uploads/2023/01/cropped-WhatsApp-Image-2022-08-04-at-17.52.29.jpeg', name: 'Zpress' },
-              { url: 'https://www.sisem.it/', src: 'https://perseo.biz/wp-content/uploads/2023/02/SISEM_logo-new-3.png', name: 'SISEM' },
-              { url: 'http://moodsocialclub.it', src: 'https://perseo.biz/wp-content/uploads/2023/02/Mood.png', name: 'MOOD Social Club' },
-              { url: 'https://www.blteventi.it/', src: 'https://perseo.biz/wp-content/uploads/2023/02/Logo-Be-Alternative-BW.png', name: 'BE Alternative' },
-              { url: 'https://www.carboneclimatizzazione.com/', src: 'https://perseo.biz/wp-content/uploads/2023/02/logo-2.png', name: 'Carbone Climatizzazione' },
-              { url: 'https://www.pubblioracalabria.com/', src: 'https://perseo.biz/wp-content/uploads/2023/02/unnamed-2.jpeg', name: 'PubbliOra' },
+              { url: 'https://www.avvocatoflash.it/', src: '/images/logo-avvocatoflash.webp', name: 'AvvocatoFlash' },
+              { url: 'https://www.internet-idee.net/', src: '/images/logo-internet-idee.webp', name: 'Internet Idee' },
+              { url: 'https://www.ultimavoce.it/', src: '/images/logo-ultimavoce.webp', name: 'UltimaVoce' },
+              { url: 'https://www.bomboniereportaconfetti.it/', src: '/images/logo-colore.svg', name: 'Bomboniere Portaconfetti' },
+              { url: 'https://ripetiamodiritto.com/', src: '/images/logo-ripetiamodiritto.webp', name: 'Ripetiamodiritto' },
+              { url: 'https://www.facebook.com/AziendaCupelli', src: '/images/logo-cupelli2.jpg', name: 'Cupelli Azienda Agricola' },
+              { url: 'https://www.mazingaeventi.it/', src: '/images/logo-mazinga.webp', name: 'Mazinga' },
+              { url: 'https://arkys.it/', src: '/images/logo-arkys2.png', name: 'Arkys' },
+              { url: 'https://zpress.it/', src: '/images/logo-zpress.png', name: 'Zpress' },
+              { url: 'https://www.sisem.it/', src: '/images/logo-sisem.png', name: 'SISEM' },
+              { url: 'http://moodsocialclub.it', src: '/images/logo-mood.webp', name: 'MOOD Social Club' },
+              { url: 'https://www.blteventi.it/', src: '/images/logo-bealternative.svg', name: 'BE Alternative' },
+              { url: 'https://www.carboneclimatizzazione.com/', src: '/images/logo-carbone.webp', name: 'Carbone Climatizzazione' },
+              { url: 'https://www.pubblioracalabria.com/', src: '/images/logo-unknown.svg', name: 'PubbliOra' },
             ].map(({ url, src, name }) => (
               <a key={name} href={url} target="_blank" rel="noopener noreferrer" className="transition">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
