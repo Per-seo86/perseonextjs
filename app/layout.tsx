@@ -14,6 +14,10 @@ export const metadata: Metadata = {
   title: "Perseo - Digital Marketing Specialist | SEO, Google Ads, Meta Ads",
   description: "Digital Strategist da più di 10 anni specializzato in SEO, Google Ads e Meta Ads. Consulenze e strategie su misura per far crescere la tua azienda online.",
   keywords: "SEO, Google Ads, Meta Ads, Digital Marketing, Consulente SEO, Web Marketing",
+  metadataBase: new URL("https://perseo.biz"),
+  alternates: {
+    canonical: "https://perseo.biz",
+  },
   icons: {
     icon: "/favicon-perseo.webp",
     apple: "/favicon-perseo.webp",
