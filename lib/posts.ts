@@ -2187,7 +2187,7 @@ Link:
     slug: 'perche-appare-2-nell-url',
     title: 'Perché nell\'URL appare "-2"? Cause, impatto SEO e come risolverlo',
     category: 'seo',
-    subcategory: 'cms-framework',
+    subcategory: 'technical-seo',
     date: '2026-05-26',
     excerpt: 'Hai notato che alcune pagine del tuo sito hanno un "-2" (o "-3", "-4"…) in fondo all\'URL? Non è un errore casuale. È il CMS che ti sta dicendo qualcosa. Vediamo cosa.',
     content: '',
