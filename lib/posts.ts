@@ -2183,6 +2183,191 @@ Link:
       }
     ]
   },
+  {
+    slug: 'perche-appare-2-nell-url',
+    title: 'Perché nell\'URL appare "-2"? Cause, impatto SEO e come risolverlo',
+    category: 'seo',
+    subcategory: 'cms-framework',
+    date: '2026-05-26',
+    excerpt: 'Hai notato che alcune pagine del tuo sito hanno un "-2" (o "-3", "-4"…) in fondo all\'URL? Non è un errore casuale. È il CMS che ti sta dicendo qualcosa. Vediamo cosa.',
+    content: '',
+    image: '/images/url-duplicato-featured.png',
+    sections: [
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Cosa significa quel "-2" nell\'URL?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Prima di tutto, un po\' di vocabolario. Quella parte dell\'URL che identifica una pagina specifica si chiama slug. Per esempio, nell\'indirizzo "https://www.tuosito.it/seo/guida-alla-seo", lo slug è "guida-alla-seo". È quella porzione leggibile, parlante, che dice sia agli utenti che ai motori di ricerca di cosa parla quella pagina.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Quando vedi un URL tipo "https://www.tuosito.it/seo/guida-alla-seo-2", quel "-2" non lo hai messo tu (o almeno, spero di no). Lo ha aggiunto il CMS — quasi sempre WordPress, ma capita anche con Drupal, Joomla, Shopify e altri — in modo automatico, per evitare che due pagine abbiano lo stesso identico indirizzo. In sostanza, è come quando salvi due file con lo stesso nome su Windows e lui li rinomina "documento" e "documento (2)". Stessa logica, diverso contesto.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Perché il CMS genera uno slug duplicato?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Le cause sono diverse, e ho visto tutte e quattro in prima persona lavorando sui siti dei miei clienti.'
+      },
+      {
+        type: 'list',
+        items: [
+          'Titolo duplicato: hai creato due articoli o pagine con lo stesso titolo. WordPress genera lo slug dal titolo in automatico, quindi lo primo ottiene "guida-alla-seo", il secondo diventa "guida-alla-seo-2".',
+          'Slug rigenerato dopo modifica: hai pubblicato una pagina, poi hai cambiato il titolo. WordPress a volte mantiene lo slug originale per non rompere i link esistenti, e se crei una versione nuova, questa prende il "-2".',
+          'Import massivo di contenuti: stai importando post da un altro sito o da un foglio Excel con titoli identici o quasi. Il sistema disambigua in automatico e ti ritrovi con una sfilza di "-2", "-3", "-4".',
+          'Bozze e pagine pubblicate in conflitto: in certi CMS, una bozza salvata e poi pubblicata di nuovo con lo stesso slug genera un doppione.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Mi è capitato, lavorando su un sito di un\'agenzia immobiliare, di trovare decine di annunci con slug tipo "appartamento-in-vendita-2", "appartamento-in-vendita-3" e così via fino al "-47". Il motivo? Il cliente caricava gli annunci copiando sempre lo stesso template, titolo incluso. Risultato: quarantasette pagine con URL praticamente identici e zero riconoscibilità da parte di Google.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Che impatto ha sulla SEO?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Dipende. Se si tratta di una o due pagine, Google se la cava da solo e probabilmente non noterai nulla di particolare. Ma se il problema è diffuso, gli effetti sono concreti e si fanno sentire.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il primo problema è la leggibilità. Uno slug come "servizi-seo-2" non dice niente né all\'utente né al motore di ricerca. Non descrive il contenuto, non contiene parole chiave utili, e un utente che lo vede nei risultati di ricerca difficilmente capisce di cosa tratta la pagina. Ricorda: lo slug è uno dei segnali che Google usa per interpretare la rilevanza di una pagina rispetto a una query.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il secondo problema, più sottile, riguarda il crawl budget (ovvero la quantità di pagine che Googlebot scansiona sul tuo sito in un determinato lasso di tempo). Se hai un sito con molte pagine e un bel po\' di URL con "-2" o "-3", stai sprecando crawl budget su pagine mal denominate invece di farlo usare su quelle che contano davvero. Non è un disastro per i siti piccoli, ma su siti medio-grandi inizia a pesare.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il terzo problema: se per caso hai davvero due pagine con contenuto simile (o identico) e slug simili, rischi di creare confusione su quale delle due indicizzare. Google potrebbe scegliere quella sbagliata come pagina canonica (cioè la versione "ufficiale" da mostrare nei risultati), penalizzando quella che invece volevi promuovere.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come si risolve?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Prima cosa: identifica il problema. Usa Screaming Frog (il tool che simula il comportamento dei bot di scansione), fai girare il crawl sul tuo dominio e filtra gli URL che contengono "-2", "-3" e simili. Oppure usa Search Console: vai su "Indicizzazione" > "Pagine" e guarda se compaiono URL anomali tra quelli indicizzati o esclusi.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Seconda cosa: decidi cosa fare con quelle pagine. Hai tre opzioni principali.'
+      },
+      {
+        type: 'list',
+        items: [
+          'La pagina con "-2" è un duplicato inutile: eliminala e imposta un redirect 301 verso la pagina originale (il redirect 301 dice a Google "questa pagina è stata spostata definitivamente qui", trasferendo anche il valore SEO accumulato).',
+          'La pagina con "-2" è quella giusta e quella originale è sbagliata: modifica manualmente lo slug della pagina buona, rimuovendo il "-2", e imposta il redirect dalla vecchia URL alla nuova.',
+          'Le due pagine sono diverse ma trattano argomenti simili: distinguile con slug chiari e descrittivi, aggiungi il tag canonical (un\'indicazione in codice che dice a Google quale versione preferire) se necessario, e lavora sui contenuti per differenziarle.'
+        ]
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come modificare lo slug in WordPress'
+      },
+      {
+        type: 'paragraph',
+        content: 'Se usi WordPress, modificare lo slug è semplicissimo. Entra nell\'editor del post o della pagina, guarda nella colonna di destra (o in alto, dipende dalla versione) e cerca la sezione "Permalink" o "URL". Trovi lì lo slug modificabile. Cambialo, togli il "-2", salva.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Attenzione però: se la pagina era già indicizzata con il vecchio URL, devi assolutamente impostare un redirect 301 dal vecchio indirizzo al nuovo. Altrimenti Google — e gli utenti che avevano salvato il link — troveranno una pagina 404 (non trovata). In WordPress puoi farlo con plugin come Redirection o Yoast SEO Premium, oppure direttamente nel file .htaccess se il sito gira su Apache.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Fix diretto dal database: quando l\'editor non basta'
+      },
+      {
+        type: 'paragraph',
+        content: 'A volte l\'editor di WordPress non è sufficiente. Succede soprattutto quando hai decine (o centinaia) di slug da correggere, quando il CMS non ti fa modificare lo slug perché il post è bloccato, o quando il "-2" è finito direttamente nel campo post_name del database e l\'interfaccia non lo rispecchia correttamente. In questi casi, si va direttamente nel database.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In WordPress, tutti i post, le pagine e i custom post type sono salvati nella tabella wp_posts (il prefisso "wp_" può variare se è stato personalizzato durante l\'installazione). Lo slug corrisponde al campo post_name. Quindi per trovare tutti i record con il problema ti basta questa query SQL:'
+      },
+      {
+        type: 'code',
+        language: 'sql',
+        content: `-- Trova tutti i record con slug che termina in -2, -3, -4 ecc.
+SELECT ID, post_title, post_name, post_status, post_type
+FROM wp_posts
+WHERE post_name REGEXP '-[0-9]+$'
+  AND post_status = 'publish'
+  AND post_type IN ('post', 'page');`
+      },
+      {
+        type: 'paragraph',
+        content: 'Questa query ti restituisce una lista pulita: ID, titolo, slug attuale, stato e tipo. Puoi eseguirla da phpMyAdmin (il pannello di gestione del database che trovi quasi sempre nell\'area di controllo del tuo hosting), da Adminer, o da qualsiasi client MySQL come TablePlus o DBeaver.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Una volta identificati i record da correggere, puoi aggiornare lo slug direttamente. Per esempio, se vuoi rimuovere il "-2" da uno specifico post:'
+      },
+      {
+        type: 'code',
+        language: 'sql',
+        content: `-- Aggiorna lo slug di un singolo post (sostituisci 42 con l'ID reale)
+UPDATE wp_posts
+SET post_name = 'nome-slug-corretto'
+WHERE ID = 42;`
+      },
+      {
+        type: 'paragraph',
+        content: 'Se invece vuoi eliminare direttamente il post duplicato con slug "-2" (quello inutile), prima assicurati che non abbia contenuto prezioso, poi:'
+      },
+      {
+        type: 'code',
+        language: 'sql',
+        content: `-- Elimina il record duplicato (sostituisci 42 con l'ID del post da rimuovere)
+DELETE FROM wp_posts WHERE ID = 42;
+
+-- Pulisci anche i metadati associati
+DELETE FROM wp_postmeta WHERE post_id = 42;`
+      },
+      {
+        type: 'paragraph',
+        content: 'Attenzione: prima di eseguire qualsiasi operazione di DELETE o UPDATE sul database, fai sempre un backup. Sempre. Non è un consiglio, è una regola. Un\'operazione sbagliata sul database non si può annullare con Ctrl+Z. Dalla maggior parte dei pannelli hosting (cPanel, Plesk, Aruba, SiteGround ecc.) puoi esportare l\'intero database in formato .sql con un click da phpMyAdmin: File > Esporta. Fallo prima di toccare qualsiasi cosa.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Dopo aver sistemato gli slug nel database, ricordati di impostare i redirect 301 per gli URL vecchi. Se non lo fai, chiunque avesse salvato o indicizzato il vecchio indirizzo troverà una 404. Per i redirect puoi usare il plugin Redirection su WordPress oppure aggiungerli direttamente nell\'.htaccess:'
+      },
+      {
+        type: 'code',
+        language: 'apache',
+        content: `# Redirect 301 dal vecchio slug con -2 al nuovo
+Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come prevenire il problema in futuro'
+      },
+      {
+        type: 'paragraph',
+        content: 'La soluzione definitiva è semplice: non creare mai due pagine con lo stesso titolo (o con titoli talmente simili da generare lo stesso slug). Prima di pubblicare un nuovo contenuto, cerca nel CMS se esiste già qualcosa di simile. WordPress stesso ti avvisa quando stai creando uno slug già usato, ma non sempre l\'avviso è abbastanza visibile da fermare chi lavora di fretta.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Se lavori con un team o gestisci un sito con molti collaboratori, stabilisci una convenzione sugli slug: ogni pagina deve avere un URL descrittivo, unico, con le parole chiave principali, senza numeri progressivi finali. Sembra una regola banale, ma ti risparmia ore di lavoro di pulizia a posteriori. E credimi, una pulizia degli URL su un sito con centinaia di pagine è una di quelle attività che nessuno vuole fare.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In sintesi: il "-2" nell\'URL non è la fine del mondo, ma è un segnale che qualcosa nel processo di creazione dei contenuti non funziona come dovrebbe. Meglio intercettarlo subito, quando le pagine sono poche, che scoprirlo dopo con un\'analisi SEO quando il danno si è moltiplicato.'
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
