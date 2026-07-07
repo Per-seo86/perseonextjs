@@ -105,7 +105,10 @@ export default function Header() {
                 <div className="absolute left-0 mt-0 pt-2 w-72">
                   <div className="bg-white shadow-lg rounded-lg py-2">
                     <Link href="/consulenza-seo-in-calabria" className="block px-4 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
-                      Consulenza SEO in Calabria: un approccio strategico alla visibilità online
+                      SEO in Calabria
+                    </Link>
+                    <Link href="/consulenza-seo-a-cosenza" className="block px-4 py-2 pl-8 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
+                      SEO a Cosenza
                     </Link>
                   </div>
                 </div>
@@ -154,7 +157,10 @@ export default function Header() {
               Zone di intervento
             </Link>
             <Link href="/consulenza-seo-in-calabria" className="block py-2 pl-8 text-sm text-gray-600">
-              Consulenza SEO in Calabria
+              SEO in Calabria
+            </Link>
+            <Link href="/consulenza-seo-a-cosenza" className="block py-2 pl-12 text-sm text-gray-600">
+              SEO a Cosenza
             </Link>
             <Link href="/blog" className="block py-2 text-gray-700">
               Blog
