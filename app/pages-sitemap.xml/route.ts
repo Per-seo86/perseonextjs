@@ -11,6 +11,7 @@ const pages = [
   { url: '/meta-ads-specialist', priority: 0.9, changeFrequency: 'monthly' },
   { url: '/risultati', priority: 0.7, changeFrequency: 'monthly' },
   { url: '/consulenza-seo-in-calabria', priority: 0.8, changeFrequency: 'monthly' },
+  { url: '/consulenza-seo-a-cosenza', priority: 0.8, changeFrequency: 'monthly' },
   { url: '/blog', priority: 0.8, changeFrequency: 'weekly' },
   { url: '/contatti', priority: 0.7, changeFrequency: 'yearly' },
   { url: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo', priority: 0.7, changeFrequency: 'monthly' },
