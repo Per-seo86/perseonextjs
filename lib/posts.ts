@@ -2368,6 +2368,90 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    slug: 'modificare-una-pagina-senza-perdere-il-posizionamento-seo',
+    title: 'Come modificare una pagina senza perdere il posizionamento SEO (e cosa c\'entra Fantozzi)',
+    category: 'seo',
+    subcategory: 'technical-seo',
+    date: '2026-07-08',
+    excerpt: 'L\'URL non cambia, niente redirect, eppure Google può trattare la tua pagina restyling come se fosse nuova di zecca. La soluzione? Fare come Fantozzi con le polpette di Bavaria: poco alla volta, senza farsi beccare da Birkermaier.',
+    content: '',
+    image: '/images/modificare-pagina-senza-perdere-posizionamento-featured.png',
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'Uno degli equivoci più diffusi tra chi gestisce un sito, e purtroppo anche tra qualche sviluppatore, è pensare che se l\'URL di una pagina resta identico, allora per Google è tutto sotto controllo. Nessun redirect da fare, nessun 301, nessuna paura: stesso indirizzo, stessa pagina, stessa storia. Sbagliato. O meglio: sbagliato quando la "manutenzione" si trasforma in uno stravolgimento totale fatto in un colpo solo.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'L\'URL resta lo stesso, ma per Google la pagina può essere un\'altra'
+      },
+      {
+        type: 'paragraph',
+        content: 'Cambiare il builder da Elementor a Divi (o viceversa), riscrivere buona parte dei testi, sostituire le immagini, ristrutturare div e span, cambiare l\'ordine delle sezioni: preso singolarmente ognuno di questi interventi è normale amministrazione. Fatto tutto insieme, nello stesso giorno, sulla stessa pagina che magari da mesi occupa una buona posizione, è un altro discorso. Google non ha bisogno di un cambio di URL per accorgersi che quella pagina non è più la stessa che aveva scansionato, indicizzato e premiato. Gli basta confrontare il "prima" e il "dopo" e trovare troppe poche somiglianze. E quando questo succede, il posizionamento che si era guadagnato con quella versione precedente della pagina non è garantito passi in eredità automaticamente alla nuova.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Per questo, prima ancora di toccare virgola o pixel, il primo passo è sempre lo stesso: capire dove sta esattamente quella pagina in questo momento. Per quali parole chiave si posiziona, con che volume di ricerca, in che posizione media, e soprattutto quali elementi del contenuto (title, H1, primi paragrafi, immagini con alt testuali pertinenti) stanno probabilmente contribuendo a quel posizionamento. Senza questa fotografia iniziale, il restyling è una scommessa alla cieca.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'La lezione che Fantozzi ha imparato a sue spese'
+      },
+      {
+        type: 'paragraph',
+        content: 'C\'è una scena in "Fantozzi contro tutti" che uso spesso per spiegare questo concetto ai clienti, e che puntualmente li fa ridere prima di farli riflettere. Fantozzi è "detenuto" in una clinica per dimagrire, e il professor Birkermaier, a cena, lo sottopone a un test crudele: mangia davanti a lui le polpette di Bavaria al provolone, per vedere se Fantozzi riesce a resistere alla tentazione. Fantozzi, ovviamente, non resiste: comincia a rubarne qualcuna dal piatto del professore, con metodo, una polpetta alla volta, con calma, senza dare nell\'occhio, aspettando il momento giusto tra una battuta e l\'altra. Funziona, per un po\'. Poi la fame (o l\'ingordigia) ha la meglio: Fantozzi perde la pazienza, molla la strategia del "poco alla volta" e si fionda a mangiarne una manciata tutta insieme. Ed è lì che Birkermaier alza lo sguardo, se ne accorge, e lo punisce sonoramente.'
+      },
+      {
+        type: 'image',
+        src: '/images/fantozzi-polpette-birkermaier.jpeg',
+        alt: 'Fantozzi ruba le polpette di Bavaria dal piatto del professor Birkermaier'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ecco, Google è un po\' il professor Birkermaier del posizionamento. Se togli una polpetta alla volta, cioè fai una modifica piccola oggi, aspetti qualche giorno che l\'algoritmo la digerisca e la accetti, poi ne fai un\'altra piccola, difficilmente si accorge di qualcosa di anomalo: per lui è la normale evoluzione di una pagina viva. Ma se stravolgi tutto in un colpo solo, layout, testi, immagini, struttura, è come se ti fiondassi sul piatto con tutte e due le mani: il rischio è che Google faccia esattamente quello che ha fatto Birkermaier con Fantozzi. Ti guarda, capisce che stai approfittando, e ti punisce togliendoti quello che avevi. Nel nostro caso, non un ceffone, ma qualche posizione persa in SERP.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Il caso reale: dalla prima pagina di Google alla terza in pochi giorni'
+      },
+      {
+        type: 'paragraph',
+        content: 'Mi è capitato con un cliente posizionato primo su Google per una keyword con un volume di ricerca di circa 1.300 ricerche al mese: non altissimo, ma nemmeno trascurabile, e con una concorrenza discreta, non spietata ma nemmeno banale da scavalcare. Il cliente, giustamente entusiasta dei risultati, ha voluto fortemente un restyling grafico completo della pagina: nuovo builder, nuova impaginazione, testi in gran parte riscritti, immagini tutte sostituite, spaziature e struttura HTML rifatte da capo. Tutto insieme, tutto subito, perché "tanto l\'URL resta lo stesso, quindi non cambia niente per Google", mi ha detto.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Avevo consigliato di procedere per gradi. Non è stato possibile, per tempistiche e per l\'entusiasmo (comprensibile) del cliente nel voler vedere subito la nuova veste grafica online. Risultato: nel giro di pochi giorni, la pagina è passata dalla prima posizione in prima pagina alla terza pagina dei risultati di Google. Nessun errore tecnico, nessun problema di crawl, nessuna penalizzazione manuale: semplicemente, Google ha ricalcolato la rilevanza di quella pagina come se fosse un contenuto sostanzialmente nuovo, senza più tutti i segnali accumulati nel tempo dalla versione precedente. La stessa identica lezione di Birkermaier, applicata al posizionamento organico.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come fare un restyling senza che Google se ne accorga (troppo)'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il metodo che uso da allora, e che consiglio sempre quando una pagina già posizionata deve cambiare pelle, è questo:'
+      },
+      {
+        type: 'list',
+        items: [
+          'Prima di tutto, fotografa lo stato attuale: posizione media, keyword principali e secondarie, CTR, quali blocchi di testo e quali immagini stanno probabilmente portando valore SEO (title, H1, primi 200-300 caratteri, alt text).',
+          'Dividi il restyling in fasi piccole e autonome: prima solo le immagini, poi solo qualche paragrafo di testo, poi la struttura di div e span, poi il resto. Mai tutto insieme.',
+          'Tra una fase e l\'altra, lascia passare qualche giorno (4-7 giorni è un buon punto di partenza) senza toccare nient\'altro sulla pagina, così Google ha il tempo di scansionare, digerire e "accettare" la singola modifica.',
+          'Mantieni fissi gli elementi che sai portare il posizionamento (title tag, H1, keyword principale nei primi paragrafi) fino a quando non hai la certezza che il resto delle modifiche non abbia impattato negativamente.',
+          'Dopo ogni fase, controlla Search Console: se noti cali di impressioni o posizione media sulla query principale, fermati e lascia stabilizzare prima di procedere con la fase successiva.',
+          'Solo alla fine, quando tutte le singole modifiche sono state digerite senza scossoni, valuta se intervenire anche su title e H1, che restano gli elementi più delicati da toccare su una pagina già ben posizionata.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Non è la soluzione più veloce, e capisco benissimo la frustrazione di chi ha appena investito soldi in un nuovo restyling e lo vuole vedere online subito, in tutto il suo splendore. Ma se quella pagina porta clienti reali grazie a un posizionamento conquistato in mesi o anni di lavoro, vale la pena avere la pazienza che Fantozzi non ha avuto con quelle polpette. Meglio una polpetta alla volta, con calma, che ritrovarsi puniti mentre si ha ancora la bocca piena.'
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
