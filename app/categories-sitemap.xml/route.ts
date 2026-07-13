@@ -8,8 +8,8 @@ export async function GET() {
   const urls = categories
     .map(([slug, meta]) => {
       const url = meta.parent
-        ? `${BASE_URL}/category/${meta.parent}/${slug}`
-        : `${BASE_URL}/category/${slug}`;
+        ? `${BASE_URL}/category/${meta.parent}/${slug}/`
+        : `${BASE_URL}/category/${slug}/`;
       return `
   <url>
     <loc>${url}</loc>

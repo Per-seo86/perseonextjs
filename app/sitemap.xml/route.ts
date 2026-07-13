@@ -26,7 +26,7 @@ export async function GET() {
   const staticUrls = staticPages.map(
     (p) => `
   <url>
-    <loc>${BASE_URL}${p.url}</loc>
+    <loc>${BASE_URL}${p.url}${p.url.endsWith('/') ? '' : '/'}</loc>
     <changefreq>${p.changefreq}</changefreq>
     <priority>${p.priority}</priority>
   </url>`
@@ -35,7 +35,7 @@ export async function GET() {
   const postUrls = posts.map(
     (post) => `
   <url>
-    <loc>${BASE_URL}/${post.category}/${post.slug}</loc>
+    <loc>${BASE_URL}/${post.category}/${post.slug}/</loc>
     <lastmod>${post.date ? new Date(post.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -44,8 +44,8 @@ export async function GET() {
 
   const categoryUrls = categories.map(([slug, meta]) => {
     const url = meta.parent
-      ? `${BASE_URL}/category/${meta.parent}/${slug}`
-      : `${BASE_URL}/category/${slug}`;
+      ? `${BASE_URL}/category/${meta.parent}/${slug}/`
+      : `${BASE_URL}/category/${slug}/`;
     return `
   <url>
     <loc>${url}</loc>

@@ -22,7 +22,7 @@ export async function GET() {
     .map(
       (p) => `
   <url>
-    <loc>${BASE_URL}${p.url}</loc>
+    <loc>${BASE_URL}${p.url}${p.url.endsWith('/') ? '' : '/'}</loc>
     <changefreq>${p.changeFrequency}</changefreq>
     <priority>${p.priority}</priority>
   </url>`

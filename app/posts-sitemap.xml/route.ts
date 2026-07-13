@@ -9,7 +9,7 @@ export async function GET() {
     .map(
       (post) => `
   <url>
-    <loc>${BASE_URL}/${post.category}/${post.slug}</loc>
+    <loc>${BASE_URL}/${post.category}/${post.slug}/</loc>
     <lastmod>${post.date ? new Date(post.date).toISOString().split('T')[0] : new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
