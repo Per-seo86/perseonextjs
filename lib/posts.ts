@@ -2369,6 +2369,177 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     ]
   },
   {
+    slug: 'keyword-research-google-search-console',
+    title: 'Keyword research con Google Search Console: la guida pratica',
+    category: 'seo',
+    subcategory: 'technical-seo',
+    date: '2026-05-26',
+    excerpt: 'Google Search Console è spesso usata solo per controllare errori e copertura. Eppure nasconde un\'enorme quantità di dati sulle parole chiave reali con cui il tuo sito viene trovato. Ecco come sfruttarla per fare keyword research.',
+    content: '',
+    image: '/images/keyword-research-search-console-featured.jpg',
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'La maggior parte delle persone apre Google Search Console per controllare se ci sono errori di copertura o per vedere com\'è andato il traffico nell\'ultimo mese. Fine. La chiude e passa ad altro. Eppure Search Console è anche uno strumento di keyword research spesso sottovalutato, e soprattutto gratuito. Ti dà qualcosa che nessun tool a pagamento può darti: i dati reali sulle query per cui il tuo sito appare su Google. Non stime, non proiezioni. Dati.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Cos\'è il report Rendimento di Search Console e cosa misura'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il report Rendimento (o "Performance" in inglese) è la sezione centrale per chi fa keyword research con Search Console. Lo trovi nella colonna sinistra, voce "Rendimento" → "Risultati della ricerca". Qui GSC ti mostra tutte le query per cui le tue pagine sono apparse nei risultati di Google, quante volte sono apparse, quante volte sono state cliccate e in che posizione media.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Una precisazione importante: i dati si riferiscono alla ricerca organica su Google Search. Non include YouTube, Google Discover o Google News (che hanno i loro report separati). Per la keyword research SEO classica, ci interessa la ricerca organica.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Le quattro metriche da tenere sempre d\'occhio'
+      },
+      {
+        type: 'paragraph',
+        content: 'Nel report trovi quattro metriche principali. Ognuna racconta una storia diversa e vanno lette insieme, non singolarmente.'
+      },
+      {
+        type: 'list',
+        items: [
+          'Clic totali: quante volte gli utenti hanno cliccato su un risultato del tuo sito dopo una certa query. È la metrica più vicina al traffico reale.',
+          'Impressioni totali: quante volte il tuo sito è apparso nella SERP per una query, indipendentemente dal fatto che l\'utente abbia visto o scrollato fino al risultato. Un\'impressione viene contata anche se sei in posizione 47.',
+          'CTR medio (Click-Through Rate): la percentuale di impressioni che si sono trasformate in clic. Se hai 1.000 impressioni e 50 clic, il CTR è 5%. Più sei in alto, più il CTR tende ad essere alto. Se sei in posizione 3 e hai un CTR del 2%, qualcosa non va nell\'headline o nella meta description.',
+          'Posizione media: la posizione media del tuo sito per quella query, calcolata su tutte le impressioni del periodo selezionato. Se un giorno sei in posizione 3 e un giorno in posizione 7, la posizione media è 5. Non è la posizione esatta in questo momento: è una media storica.'
+        ]
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come trovare keyword a bassa CTR ma alta impressione'
+      },
+      {
+        type: 'paragraph',
+        content: 'Questa è una delle analisi più utili che puoi fare con Search Console. Cerca query che ricevono molte impressioni ma pochi clic. Significa che Google ti mostra per quella keyword, ma gli utenti non cliccano sul tuo risultato. I motivi possono essere due: o sei troppo in basso nella SERP (posizione 20+), o il tuo snippet non è abbastanza convincente nonostante una posizione decente.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Per trovare queste opportunità, vai nel report Rendimento, seleziona un periodo ampio (almeno 3 mesi), poi clicca sull\'intestazione "Impressioni" per ordinare la tabella dal volume più alto al più basso. Scorri le query con più impressioni e guarda la colonna CTR. Ogni volta che vedi un CTR sotto il 3% con una posizione media tra 1 e 10, hai un\'opportunità da approfondire.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Mi è capitato lavorando su un blog di finanza personale: una pagina era in posizione 4 per la query "come investire 1000 euro" ma aveva un CTR del 1,8%. Il problema era il title tag: troppo generico, non comunicava la proposta di valore. Dopo averlo riscritto puntando su un beneficio concreto ("Come investire 1000 euro senza perdere soldi: guida per principianti"), il CTR è salito al 4,3% nel giro di sei settimane, senza toccare altro.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Query ad alto potenziale: come identificarle'
+      },
+      {
+        type: 'paragraph',
+        content: 'Le keyword ad alto potenziale per la keyword research sono quelle su cui non sei ancora ottimizzato ma per cui Google già ti associa. In pratica: query con posizione media tra 11 e 30 e un numero decente di impressioni. Stai già comparendo, ma nella seconda o terza pagina. Con un lavoro di ottimizzazione mirato puoi portare quelle pagine nella prima pagina, dove il traffico è.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Nella tabella delle query, filtra per posizione media maggiore di 10 e minore di 30. Ordina per impressioni. Le prime righe sono le tue keyword da lavorare con priorità. Per ognuna, identifica quale pagina del tuo sito appare per quella query (clic sulla query → scheda "Pagine") e poi valuta se ottimizzare quella pagina esistente o creare un contenuto nuovo più specifico.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Analisi per pagina: capire su cosa si posiziona ogni URL'
+      },
+      {
+        type: 'paragraph',
+        content: 'Oltre all\'analisi per query, puoi fare il percorso inverso: partire da una pagina specifica e vedere per quali parole chiave si posiziona. Clicca sulla scheda "Pagine" nella tabella in basso. Seleziona una pagina. Poi torna alla scheda "Query": vedrai solo le query associate a quell\'URL.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Questo mi serve moltissimo quando devo capire se una pagina è "cannibale" di un\'altra. Ho visto decine di volte due pagine diverse dello stesso sito che si contendevano le stesse query. Search Console te lo mostra in modo abbastanza chiaro: se due URL diversi appaiono per la stessa query con posizioni simili, hai un problema di keyword cannibalization da risolvere.'
+      },
+      {
+        type: 'paragraph',
+        content: 'L\'analisi per pagina è utile anche per trovare keyword secondarie che non avevi considerato in fase di scrittura. Una pagina ottimizzata per "software gestione magazzino" che riceve impressioni anche per "gestionale per magazzino piccolo" ti sta dicendo che c\'è un intento di ricerca leggermente diverso che potresti soddisfare meglio, magari aggiungendo una sezione dedicata o una FAQ.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Filtrare per dispositivo, paese e data per insight più precisi'
+      },
+      {
+        type: 'paragraph',
+        content: 'I filtri in cima al report Rendimento cambiano completamente il tipo di analisi che puoi fare. Ecco i tre più utili per la keyword research.'
+      },
+      {
+        type: 'list',
+        items: [
+          'Dispositivo: confronta le performance su desktop e mobile. Spesso una pagina si posiziona bene su desktop ma molto peggio su mobile, il che può essere un segnale di problemi di UX o velocità. Anche le query cambiano: su mobile le ricerche vocali e local sono molto più frequenti.',
+          'Paese: se il tuo sito riceve traffico da più mercati, filtra per paese per capire su quali keyword ti posizioni in ogni mercato. Un sito italiano che ha ambizioni di traffico dalla Svizzera o dal Belgio ha bisogno di analisi separate per le query in italiano provenienti da quei paesi.',
+          'Data: confronta due periodi (usa il filtro "Confronta") per vedere quali query hanno guadagnato o perso posizioni dopo un aggiornamento dell\'algoritmo o dopo aver modificato una pagina. È il modo più rapido per verificare se un\'ottimizzazione ha funzionato.'
+        ]
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come usare i dati di Search Console per aggiornare contenuti esistenti'
+      },
+      {
+        type: 'paragraph',
+        content: 'Uno dei casi d\'uso più potenti di questa keyword research è l\'ottimizzazione dei contenuti già pubblicati. Il processo che seguo io è questo: prendo le pagine che hanno più di 6 mesi di vita, vado nel report per pagina in Search Console, guardo le query per cui si posizionano e identifico quelle con buone impressioni ma posizione media tra 15 e 40.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Se una query ha impressioni significative ma stai in posizione 25, probabilmente il tuo contenuto la tratta in modo superficiale o non ha un\'intera sezione dedicata. La soluzione non è riscrivere tutto: spesso basta aggiungere un paragrafo con quella keyword come H3, rispondere in modo più esplicito all\'intento di ricerca, e magari aggiungere qualche link interno da pagine più autorevoli del sito.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ho usato questa tecnica su un sito di ricette: una pagina sulla pasta al forno riceveva impressioni per "pasta al forno senza besciamella" ma era in posizione 34. Ho aggiunto una variante della ricetta senza besciamella con la sua sezione dedicata. Nel giro di un mese quella query era passata in posizione 8, con un incremento di traffico organico sulla pagina del 60%.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'I limiti di Search Console che devi conoscere'
+      },
+      {
+        type: 'paragraph',
+        content: 'Search Console è potente, ma non è uno strumento perfetto. Conoscere i suoi limiti ti evita di prendere decisioni basate su dati mal interpretati.'
+      },
+      {
+        type: 'list',
+        items: [
+          'Dati aggregati, non a livello utente: GSC non ti dice quante persone distinte hanno cercato una query, ma quante sessioni totali hanno generato quella query. Se un utente cerca la stessa cosa due volte, sono due impressioni.',
+          'Query anonimizzate: le query con pochissime ricerche vengono raggruppate sotto "[altri]" per motivi di privacy. Non vedrai mai le query ultra-long-tail con zero o pochissimi dati.',
+          'Finestra temporale massima di 16 mesi: non puoi andare oltre. Per analisi storiche più lunghe devi esportare i dati periodicamente e conservarli tu.',
+          'Posizioni e impression possono variare: Google campiona i dati e non registra ogni singola impressione in tempo reale. I dati degli ultimi 2-3 giorni sono spesso incompleti. Lavora sempre su periodi di almeno 28 giorni.',
+          'Non mostra la difficoltà della keyword: GSC ti dice dove sei, non quanto è difficile scalare. Per questo aspetto hai bisogno di strumenti come Semrush, Ahrefs o Seozoom.'
+        ]
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Un flusso di lavoro pratico per la keyword research mensile'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ecco il processo che uso ogni mese con i clienti, adattabile a siti di qualsiasi dimensione. Non serve più di un\'ora al mese per eseguirlo.'
+      },
+      {
+        type: 'list',
+        items: [
+          'Apri il report Rendimento con un range di 3 mesi. Clicca su "Impressioni" per ordinare dal volume più alto.',
+          'Esporta la tabella in CSV (pulsante Esporta in alto a destra). Apri il file in Google Sheets o Excel.',
+          'Aggiungi una colonna "Opportunità" con una formula che evidenzia le righe con impressioni > 100, CTR < 3% e posizione media < 20. Queste sono le tue priorità immediate.',
+          'Aggiungi una seconda colonna per le query in posizione tra 11 e 30 con impressioni > 50. Queste sono le keyword su cui investire nelle settimane successive.',
+          'Per ciascuna keyword prioritaria, vai nel report per pagina di GSC e identifica quale URL si posiziona. Segna l\'URL e l\'azione da fare: ottimizzare lo snippet, arricchire il contenuto, o creare una pagina nuova.',
+          'Confronta con il mese precedente usando il filtro "Confronta". Verifica se le ottimizzazioni del mese scorso hanno prodotto risultati. Se la posizione è migliorata ma il CTR non è cambiato, il problema è lo snippet. Se la posizione non è cambiata, rivedi il contenuto.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Search Console non sostituisce un tool di keyword research dedicato per la fase di pianificazione iniziale, ma per l\'ottimizzazione continuativa di un sito già attivo è probabilmente lo strumento più preciso che hai a disposizione. Perché lavora sui tuoi dati reali, non su stime di mercato.'
+      }
+    ]
+  },
+  {
     slug: 'modificare-una-pagina-senza-perdere-il-posizionamento-seo',
     title: 'Come modificare una pagina senza perdere il posizionamento SEO (e cosa c\'entra Fantozzi)',
     category: 'seo',
@@ -2449,6 +2620,105 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'paragraph',
         content: 'Non è la soluzione più veloce, e capisco benissimo la frustrazione di chi ha appena investito soldi in un nuovo restyling e lo vuole vedere online subito, in tutto il suo splendore. Ma se quella pagina porta clienti reali grazie a un posizionamento conquistato in mesi o anni di lavoro, vale la pena avere la pazienza che Fantozzi non ha avuto con quelle polpette. Meglio una polpetta alla volta, con calma, che ritrovarsi puniti mentre si ha ancora la bocca piena.'
+      }
+    ]
+  },
+  {
+    slug: 'keyword-a-tempo-determinato-seo-editoriale',
+    title: 'Keyword a tempo determinato: quando la SEO non fa in tempo a misurare la realtà',
+    category: 'seo',
+    subcategory: 'copywriting',
+    image: '/images/keyword-a-tempo-determinato-featured.png',
+    date: '2026-07-13',
+    excerpt: 'Le keyword a tempo determinato nascono con una notizia e spariscono in poche ore: i tool non le vedono, ma il traffico sì.',
+    content: '',
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'Negli ultimi tempi mi sono trovato a riflettere su un fenomeno SEO tanto reale quanto sfuggente: quello delle keyword a tempo determinato. Parlo di quelle ricerche che nascono di colpo, bruciano in fretta e spariscono nel giro di poche ore o pochi giorni. Query che non esistono per nessun tool di keyword research, ma che esistono eccome per le persone, per Google, e per chi sa osservare i dati in tempo reale.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Tutto è partito da un fatto accaduto a Cosenza'
+      },
+      {
+        type: 'paragraph',
+        content: 'Pochi giorni fa, nella mia città, è successa una cosa terribile: una neonata è stata rapita da una clinica molto conosciuta. Un fatto che ha sconvolto l\'intera comunità, che ha iniziato a cercare notizie ovunque, con urgenza e apprensione.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Lavorando nel digitale per una testata locale, ho seguito da vicino la copertura dell\'evento. Abbiamo scritto articoli tempestivi, aggiornato costantemente le informazioni e, naturalmente, curato anche l\'ottimizzazione SEO.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Mi sono subito accorto di una cosa interessante. In Google Analytics 4 il traffico organico esplodeva: tantissime persone ci trovavano su Google cercando notizie su quanto accaduto. Eppure, quando sono andato a verificare su strumenti come Seozoom, Keyword Surfer o il Pianificatore di parole chiave di Google Ads, ho trovato il vuoto. Nessuna delle query principali aveva volume di ricerca.'
+      },
+      {
+        type: 'paragraph',
+        content: '"Neonata rapita a Cosenza", "bambina Sofia rapita clinica", "rapimento ospedale Cosenza"... tutte queste parole chiave, che nella realtà generavano traffico vero, non esistevano per i tool. Zero.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Le keyword a tempo determinato esistono, anche se i tool non le vedono'
+      },
+      {
+        type: 'paragraph',
+        content: 'Questo episodio mi ha portato a formalizzare un concetto che probabilmente molti professionisti SEO conoscono già in pratica, ma che raramente viene chiamato per nome: quello delle keyword effimere, legate al tempo. Io le chiamo "keyword a tempo determinato".'
+      },
+      {
+        type: 'paragraph',
+        content: 'Sono tutte quelle query che nascono in risposta a un fatto, a un evento, a una notizia. Hanno un picco breve ma intensissimo, poi si dissolvono. Non hanno bisogno di storicità, né di intenzione d\'acquisto. Sono impulsi collettivi di ricerca, figli del bisogno immediato di sapere, capire, informarsi.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Il punto è che gli strumenti di keyword research si basano su medie mensili o annuali. Sono pensati per contenuti stabili, duraturi, ricorrenti. Ma la realtà, a volte, corre più veloce. Google lo sa e reagisce, mostrando in SERP i contenuti più tempestivi. I tool, invece, arrivano tardi, quando ormai tutto è già finito.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Fare SEO in ambito editoriale è anche questo'
+      },
+      {
+        type: 'paragraph',
+        content: 'Chi lavora nel giornalismo digitale sa bene che non si vive solo di contenuti evergreen. Certo, gli articoli che spiegano come ottenere un bonus, come fare la dichiarazione dei redditi o quando cambiano gli orari dei mezzi pubblici sono importanti e generano visite per mesi.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ma ci sono momenti in cui serve essere sul pezzo, nell\'esatto istante in cui qualcosa accade. E lì non c\'è keyword research che tenga: c\'è solo la capacità di leggere la realtà, ascoltare il territorio e scrivere con lucidità e rapidità.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In quei momenti si fa SEO d\'istinto. Si sceglie il titolo giusto, la combinazione di parole più naturale, quella che gli utenti potrebbero digitare d\'impulso su Google. E, spesso, si viene premiati.'
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Come intercettare le keyword a tempo determinato'
+      },
+      {
+        type: 'paragraph',
+        content: 'Non esiste un tool magico per questo tipo di query, ma esistono segnali che, se osservati con costanza, ti permettono di arrivare prima degli altri:'
+      },
+      {
+        type: 'list',
+        items: [
+          'Google Trends in tempo reale, per cogliere le impennate di ricerca sul nascere.',
+          'Notifiche dai social (X, gruppi Facebook locali, canali Telegram) dove la notizia circola prima ancora di essere scritta.',
+          'Fonti ufficiali come ANSA, agenzie di stampa e comunicati delle forze dell\'ordine.',
+          'Osservazione diretta del comportamento utente in Google Analytics 4, per accorgersi in tempo reale di un picco di traffico organico anomalo.',
+          'Titoli scritti con le parole giuste, quelle che un utente digiterebbe d\'istinto, anche se "non esistono nei tool".'
+        ]
+      },
+      {
+        type: 'heading',
+        level: 2,
+        content: 'Una SEO che sa stare nel tempo giusto'
+      },
+      {
+        type: 'paragraph',
+        content: 'Le keyword a tempo determinato esistono eccome. Sono solo invisibili agli strumenti, non agli occhi di chi vive sul territorio e sa leggere i segnali. La sfida, per chi lavora nel digitale e nell\'editoria, è essere presenti nel momento giusto, anche senza numeri di supporto a dartela vinta in anticipo. Perché a volte il valore di una parola chiave non si misura in volumi, ma nell\'urgenza con cui viene cercata.'
       }
     ]
   },
