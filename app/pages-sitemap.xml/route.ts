@@ -14,6 +14,7 @@ const pages = [
   { url: '/consulenza-seo-a-cosenza', priority: 0.8, changeFrequency: 'monthly' },
   { url: '/blog', priority: 0.8, changeFrequency: 'weekly' },
   { url: '/contatti', priority: 0.7, changeFrequency: 'yearly' },
+  { url: '/uso-intelligenza-artificiale', priority: 0.3, changeFrequency: 'yearly' },
   { url: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo', priority: 0.7, changeFrequency: 'monthly' },
 ];
 

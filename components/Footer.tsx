@@ -67,12 +67,15 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
           <p>© {new Date().getFullYear()} Perseo - Digital Marketing Specialist</p>
-          <div className="mt-2 flex justify-center gap-6">
+          <div className="mt-2 flex flex-wrap justify-center gap-x-6 gap-y-2">
             <Link href="/cookie-policy-ue" className="hover:text-white transition">
               Privacy Policy
             </Link>
             <Link href="/cookie-policy" className="hover:text-white transition">
               Cookie Policy
+            </Link>
+            <Link href="/uso-intelligenza-artificiale" className="hover:text-white transition">
+              Uso dell&apos;IA
             </Link>
           </div>
         </div>

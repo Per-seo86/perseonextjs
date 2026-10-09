@@ -8,6 +8,14 @@ import ArticleSidebar from '@/components/ArticleSidebar';
 import QuickEmailForm from '@/components/QuickEmailForm';
 import Breadcrumb from '@/components/Breadcrumb';
 
+function AiImageLabel() {
+  return (
+    <figcaption className="mt-2 text-xs text-gray-500">
+      Immagine generata con IA
+    </figcaption>
+  );
+}
+
 interface PageProps {
   params: Promise<{
     category: string;
@@ -77,6 +85,8 @@ export default async function PostPage({ params }: PageProps) {
             {post.title}
           </h1>
           <div className="flex items-center gap-4 text-sm">
+            <span>di Lorenzo Curia</span>
+            <span>•</span>
             <span>{new Date(post.date).toLocaleDateString('it-IT', {
               day: 'numeric',
               month: 'long',
@@ -96,11 +106,14 @@ export default async function PostPage({ params }: PageProps) {
             {/* Article content */}
             <article className="min-w-0">
               {post.image && (
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-auto rounded-lg mb-8"
-                />
+                <figure className="mb-8">
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-auto rounded-lg"
+                  />
+                  {post.imageAiGenerated && <AiImageLabel />}
+                </figure>
               )}
 
               <div className="prose prose-lg max-w-none">
@@ -154,12 +167,14 @@ export default async function PostPage({ params }: PageProps) {
 
                         case 'image':
                           return (
-                            <img
-                              key={index}
-                              src={section.src || ''}
-                              alt={section.alt || ''}
-                              className="w-full h-auto rounded-lg shadow-md my-8"
-                            />
+                            <figure key={index} className="my-8">
+                              <img
+                                src={section.src || ''}
+                                alt={section.alt || ''}
+                                className="w-full h-auto rounded-lg shadow-md"
+                              />
+                              {section.aiGenerated && <AiImageLabel />}
+                            </figure>
                           );
 
                         case 'list':
@@ -226,6 +241,16 @@ export default async function PostPage({ params }: PageProps) {
                   </div>
                 ) : null}
               </div>
+
+              {/* Trasparenza IA (AI Act art. 50, L. 132/2025) */}
+              <aside className="mt-12 border-t border-gray-200 pt-6 text-sm text-gray-500">
+                <p>
+                  <strong className="text-gray-700">Nota sulla trasparenza:</strong> articolo scritto da Lorenzo Curia, che ne ha la responsabilità editoriale. Alcuni testi del blog sono preparati con il supporto di strumenti di intelligenza artificiale e vengono sempre rivisti, verificati e approvati dall&apos;autore prima della pubblicazione.{' '}
+                  <Link href="/uso-intelligenza-artificiale/" className="text-purple-600 hover:underline">
+                    Come uso l&apos;IA
+                  </Link>
+                </p>
+              </aside>
             </article>
 
             {/* Sidebar */}

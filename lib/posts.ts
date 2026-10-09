@@ -8,6 +8,7 @@ export interface Post {
   excerpt: string;
   content: string;
   image?: string;
+  imageAiGenerated?: boolean; // true se l'immagine di copertina è generata/modificata con IA (AI Act art. 50)
   sections?: PostSection[];
 }
 
@@ -32,6 +33,7 @@ export interface PostSection {
   items?: string[]; // for lists
   alt?: string; // for images
   src?: string; // for images
+  aiGenerated?: boolean; // for images: true se generata/modificata con IA, mostra la dicitura (AI Act art. 50)
   headers?: string[]; // for tables
   rows?: { label: string; pro: string[]; contro: string[] }[]; // for tables
 }
