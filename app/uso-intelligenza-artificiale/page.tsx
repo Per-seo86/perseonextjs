@@ -64,6 +64,9 @@ export default function UsoIntelligenzaArtificiale() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-3">Immagini e contenuti multimediali</h2>
               <p className="mb-4">
+                Alcune immagini in evidenza degli articoli sono generate con <strong>Google Gemini</strong> (Google LLC, Stati Uniti, servizio online). Sono illustrazioni pensate per accompagnare il tema dell&apos;articolo, non fotografie o documenti.
+              </p>
+              <p className="mb-4">
                 Le immagini generate o modificate in modo sostanziale con l&apos;IA sono indicate con la dicitura <strong>&ldquo;Immagine generata con IA&rdquo;</strong> direttamente sotto l&apos;immagine.
               </p>
               <p>

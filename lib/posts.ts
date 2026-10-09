@@ -2194,6 +2194,7 @@ Link:
     excerpt: 'Hai notato che alcune pagine del tuo sito hanno un "-2" (o "-3", "-4"…) in fondo all\'URL? Non è un errore casuale. È il CMS che ti sta dicendo qualcosa. Vediamo cosa.',
     content: '',
     image: '/images/url-duplicato-featured.png',
+    imageAiGenerated: true,
     sections: [
       {
         type: 'heading',
@@ -2379,6 +2380,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     excerpt: 'Google Search Console è spesso usata solo per controllare errori e copertura. Eppure nasconde un\'enorme quantità di dati sulle parole chiave reali con cui il tuo sito viene trovato. Ecco come sfruttarla per fare keyword research.',
     content: '',
     image: '/images/keyword-research-search-console-featured.jpg',
+    imageAiGenerated: true,
     sections: [
       {
         type: 'paragraph',
@@ -2550,6 +2552,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     excerpt: 'L\'URL non cambia, niente redirect, eppure Google può trattare la tua pagina restyling come se fosse nuova di zecca. La soluzione? Fare come Fantozzi con le polpette di Bavaria: poco alla volta, senza farsi beccare da Birkermaier.',
     content: '',
     image: '/images/modificare-pagina-senza-perdere-posizionamento-featured.png',
+    imageAiGenerated: true,
     sections: [
       {
         type: 'paragraph',
@@ -2631,6 +2634,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     category: 'seo',
     subcategory: 'copywriting',
     image: '/images/keyword-a-tempo-determinato-featured.png',
+    imageAiGenerated: true,
     date: '2026-07-13',
     excerpt: 'Le keyword a tempo determinato nascono con una notizia e spariscono in poche ore: i tool non le vedono, ma il traffico sì.',
     content: '',
