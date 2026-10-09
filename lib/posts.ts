@@ -2724,6 +2724,164 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    "slug": "remarketing-meta-ads-usa-come-suggerimento",
+    "title": "Remarketing su Meta Ads: perché spuntare \"Usa come suggerimento\"",
+    "category": "meta-ads",
+    "subcategory": "strategie-meta-ads",
+    "date": "2026-10-09",
+    "excerpt": "C'è una casella, nel gruppo di inserzioni, che quasi tutti spuntano senza pensarci: \"Usa come suggerimento\". Eppure è quella che può salvare il remarketing di chi non ha milioni di visite.",
+    "content": "",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Uno degli equivoci più diffusi su Meta Ads è che il remarketing serva solo a inseguire chi ti conosce già: ha visitato il sito, ha messo un like alla pagina, ha guardato un video. Vero, ma solo a metà. Se il tuo sito fa qualche migliaio di visite al mese, il pubblico di remarketing \"puro\" è talmente piccolo che dopo una settimana le stesse persone vedono il tuo annuncio per la decima volta. E smettono di guardarlo."
+      },
+      {
+        "type": "paragraph",
+        "content": "La soluzione sta in una casella che quasi tutti spuntano (o tolgono) senza farci troppo caso: \"Usa come suggerimento\". Vediamo cosa fa davvero e perché, secondo me, è uno degli strumenti più sottovalutati di Meta Ads."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cosa fa la casella \"Usa come suggerimento\"?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Quando nel gruppo di inserzioni inserisci un pubblico personalizzato (visitatori del sito, persone che hanno interagito con la pagina Facebook o con il profilo Instagram, una lista clienti) e lasci spuntato \"Usa come suggerimento\", stai dicendo a Meta una cosa precisa: parti da queste persone, ma non fermarti a loro."
+      },
+      {
+        "type": "paragraph",
+        "content": "L'algoritmo usa il pubblico che gli hai indicato come punto di partenza (tecnicamente è un input del pubblico Advantage+, cioè il sistema di targeting automatico di Meta). Prima mostra le inserzioni alle persone che ci sono dentro e, quando vede la possibilità di ottenere risultati migliori, si allarga a persone che somigliano a loro per comportamento e interessi. Lo dice anche la descrizione sotto la casella: \"Raggiungeremo anche i gruppi di pubblico simili quando c'è la possibilità di ottenere risultati migliori\"."
+      },
+      {
+        "type": "paragraph",
+        "content": "Se invece togli la spunta, il pubblico diventa un recinto: Meta mostrerà le inserzioni solo a chi è dentro quella lista. Ed è lì che, su un sito piccolo, il remarketing si strozza."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "La lista degli invitati di un matrimonio calabrese"
+      },
+      {
+        "type": "paragraph",
+        "content": "Per spiegarlo ai clienti uso sempre lo stesso esempio. Pensa alla lista degli invitati di un matrimonio qui al Sud. Sulla carta ci sono i parenti stretti e gli amici. Poi il giorno del matrimonio arrivano anche i cugini dei cugini, il collega del testimone, la vicina di casa della nonna. Nessuno li aveva messi in lista, ma somigliano talmente tanto agli invitati che nessuno si stupisce di vederli. Anzi, spesso sono quelli che ballano di più."
+      },
+      {
+        "type": "paragraph",
+        "content": "Ecco, \"Usa come suggerimento\" trasforma il tuo pubblico personalizzato nella lista degli invitati: il punto di partenza, non il limite. Meta fa entrare anche i cugini dei cugini, cioè persone che non ti conoscono ancora ma assomigliano molto a chi ti conosce già."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Inclusione ed esclusione non funzionano allo stesso modo"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui c'è un dettaglio che vedo sbagliare spesso. La casella \"Usa come suggerimento\" riguarda i pubblici che includi. I pubblici personalizzati che escludi restano invece un vincolo rigido: se escludi una lista, Meta non mostrerà l'inserzione a quelle persone, suggerimento o no."
+      },
+      {
+        "type": "paragraph",
+        "content": "Tornando al matrimonio: la lista degli invitati è flessibile, ma la lista di chi non deve entrare (l'ex della sposa, per dire) è consegnata al buttafuori. E il buttafuori non fa eccezioni."
+      },
+      {
+        "type": "image",
+        "src": "/images/meta-ads-usa-come-suggerimento-esclusione.png",
+        "alt": "Gruppo di inserzioni Meta Ads con lista clienti in esclusione e casella Usa come suggerimento spuntata"
+      },
+      {
+        "type": "paragraph",
+        "content": "Nello screenshot, per esempio, ho escluso una lista clienti con tutti i lead già raccolti (lead_tutti_meta.csv). Quelle persone non vedranno l'annuncio: ci hanno già lasciato i loro contatti e non ha senso pagare per riportarle sul modulo. Attenzione però a un dettaglio che Meta stesso segnala: l'associazione della lista ai profili può richiedere fino a 3 giorni. Nel frattempo puoi pubblicare, ma l'esclusione potrebbe non essere ancora completa. E vale solo per le persone che Meta riesce effettivamente ad abbinare a un profilo: chi si è registrato con un'email diversa da quella del suo account Facebook o Instagram può sfuggire al buttafuori."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Perché il remarketing classico non funziona su un sito piccolo"
+      },
+      {
+        "type": "paragraph",
+        "content": "Facciamo due conti. Un sito con 3.000 visite al mese, togliendo chi naviga con i cookie rifiutati e chi Meta non riesce ad associare a un profilo, ti lascia un pubblico di remarketing di qualche centinaio di persone. Anche aggiungendo chi ha interagito con la pagina Facebook e con il profilo Instagram, raramente si superano poche migliaia di utenti."
+      },
+      {
+        "type": "paragraph",
+        "content": "Con numeri del genere succedono tre cose:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Frequenza alle stelle: le stesse persone vedono lo stesso annuncio troppe volte, e dopo un po' smettono di notarlo (o peggio, lo nascondono).",
+          "Costi che salgono: su un pubblico minuscolo Meta ha poco margine di ottimizzazione e il costo per risultato cresce.",
+          "Fase di apprendimento infinita: l'algoritmo ha bisogno di un certo numero di conversioni a settimana per stabilizzarsi. Su poche centinaia di persone quel numero non arriva mai."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "E se pensavi di dividere ulteriormente il pubblico per regione o per città, dimenticalo. Quella segmentazione ha senso solo se il sito ha volumi enormi, del tipo milioni di visite. Per tutti gli altri, spezzettare un pubblico già piccolo vuol dire affamare l'algoritmo."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Il remarketing su base nazionale, con i pubblici come suggerimento"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il metodo che uso, quando il sito non ha numeri da grande e-commerce, è questo:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Località: tutta Italia (o il paese in cui vendi). Niente regioni o città, a meno che il servizio non sia davvero locale.",
+          "Pubblici in inclusione: visitatori del sito degli ultimi 180 giorni, persone che hanno interagito con la pagina Facebook e con il profilo Instagram negli ultimi 365 giorni, e chi ha compiuto azioni sul sito (visualizzazione di un prodotto, aggiunta al carrello, invio di un modulo).",
+          "Casella \"Usa come suggerimento\": spuntata. È lei che permette a Meta di partire da queste persone e allargarsi a chi gli somiglia.",
+          "Pubblici in esclusione: clienti e lead già acquisiti, caricati come lista clienti o tramite l'evento di conversione del pixel. Così il budget va a chi non ha ancora convertito.",
+          "Creatività: devono funzionare sia per chi ti conosce già sia per chi ti vede per la prima volta. Niente \"Ti sei dimenticato qualcosa nel carrello?\": il cugino del cugino non ha mai visto il tuo carrello."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "In pratica, è una campagna a metà tra remarketing e acquisizione. Il primo segnale che dai all'algoritmo è caldo, perché arriva da persone che ti hanno già cercato. Poi è Meta a trovare le persone simili, su scala nazionale, con abbastanza spazio per ottimizzare."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Che differenza c'è con un pubblico lookalike?"
+      },
+      {
+        "type": "paragraph",
+        "content": "A questo punto la domanda viene spontanea: ma allora non è un lookalike? Ci somiglia molto, ma con una differenza importante."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il lookalike (pubblico simile) di solito si costruisce partendo dagli acquirenti: persone che hanno già comprato quel prodotto o quel servizio. Meta cerca altre persone con caratteristiche simili e, di norma, le persone del pubblico di origine non sono il bersaglio della campagna."
+      },
+      {
+        "type": "paragraph",
+        "content": "Con i pubblici come suggerimento succede il contrario. Le persone che hanno interagito con te sono il primo gruppo a cui Meta mostra le inserzioni, e solo dopo si allarga. E il segnale di partenza non è \"ha comprato\", ma \"ha mostrato interesse per te\": ha visitato il sito, ha guardato un reel, ha scritto un commento, ha aggiunto qualcosa al carrello. Un pubblico più ampio di quello degli acquirenti, ma anche molto più caldo di un pubblico freddo per interessi."
+      },
+      {
+        "type": "paragraph",
+        "content": "Per i siti piccoli è proprio questo il vantaggio: gli acquirenti sono pochi, spesso troppo pochi per costruire un buon lookalike (Meta chiede almeno 100 persone in un paese, ma con qualche migliaio si lavora molto meglio). Le persone che hanno interagito, invece, ce le hai quasi sempre. Da notare anche che, per molti obiettivi di campagna, Meta oggi usa i lookalike stessi come suggerimento e non come confine rigido: un motivo in più per partire dal segnale più ricco che hai."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Come capire se sta funzionando"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il rischio di un pubblico che si allarga è non sapere più a chi stai parlando. Per tenerlo sotto controllo, nelle impostazioni dell'account pubblicitario puoi definire i segmenti di pubblico (clienti esistenti e pubblico coinvolto). Poi, nel Gestore inserzioni, usa la suddivisione per segmento di pubblico per vedere quanta parte del budget va a chi ti conosceva già e quanta a persone nuove, con i rispettivi costi per risultato."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Meglio una lista flessibile che una festa vuota"
+      },
+      {
+        "type": "paragraph",
+        "content": "Un remarketing rigido, su un sito con poche migliaia di visite, è come un matrimonio con quindici invitati in una sala da trecento posti: tutti ti conoscono, ma la festa non decolla. Lasciare che Meta faccia entrare anche i cugini dei cugini, tenendo il buttafuori fermo sulle esclusioni, è spesso il modo più semplice per riempire la sala con le persone giuste."
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
