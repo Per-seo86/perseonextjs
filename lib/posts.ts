@@ -2379,8 +2379,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     date: '2026-05-26',
     excerpt: 'Google Search Console è spesso usata solo per controllare errori e copertura. Eppure nasconde un\'enorme quantità di dati sulle parole chiave reali con cui il tuo sito viene trovato. Ecco come sfruttarla per fare keyword research.',
     content: '',
-    image: '/images/keyword-research-search-console-featured.jpg',
-    imageAiGenerated: true,
+    image: '/images/keyword-research-search-console-featured.webp',
     sections: [
       {
         type: 'paragraph',
