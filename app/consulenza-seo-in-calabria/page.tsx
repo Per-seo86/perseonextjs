@@ -96,9 +96,23 @@ export default function ConsulenzaSEOCalabria() {
           <p className="text-gray-700 mb-4">
             La pagina regionale sulla Calabria rappresenta il livello più alto della strategia territoriale. Serve a dare un contesto generale, a rafforzare la rilevanza geografica e a preparare il sito a un'espansione strutturata verso le province e, successivamente, verso le singole città.
           </p>
-          <p className="text-gray-700 mb-12">
+          <p className="text-gray-700 mb-4">
             Costruire prima una base regionale evita problemi comuni come la cannibalizzazione delle keyword o la creazione di pagine scollegate tra loro. È un approccio più lento all'inizio, ma molto più solido nel tempo.
           </p>
+          <p className="text-gray-700 mb-4">
+            Ogni territorio però ha la sua domanda e i suoi mercati. Per questo ho dedicato una pagina alle zone in cui lavoro più spesso:
+          </p>
+          <ul className="list-disc pl-6 text-gray-700 mb-12 space-y-2">
+            <li>
+              <Link href="/consulenza-seo-a-cosenza" className="text-purple-600 hover:underline">SEO a Cosenza</Link>: professionisti, commercio e aziende che vendono anche fuori regione.
+            </li>
+            <li>
+              <Link href="/consulenza-seo-a-crotone" className="text-purple-600 hover:underline">SEO a Crotone</Link>: turismo balneare, cantine e agroalimentare, attività locali in città.
+            </li>
+            <li>
+              <Link href="/consulenza-seo-a-vibo-valentia" className="text-purple-600 hover:underline">SEO a Vibo Valentia</Link>: strutture della Costa degli Dei, prodotti tipici e servizi nel capoluogo.
+            </li>
+          </ul>
 
           {/* Scelta strategica */}
           <h2 className="text-3xl font-bold mb-6">Perché iniziare dalla Calabria è una scelta strategica</h2>

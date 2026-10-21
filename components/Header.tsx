@@ -113,6 +113,9 @@ export default function Header() {
                     <Link href="/consulenza-seo-a-crotone" className="block px-4 py-2 pl-8 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
                       SEO a Crotone
                     </Link>
+                    <Link href="/consulenza-seo-a-vibo-valentia" className="block px-4 py-2 pl-8 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
+                      SEO a Vibo Valentia
+                    </Link>
                   </div>
                 </div>
               )}
@@ -167,6 +170,9 @@ export default function Header() {
             </Link>
             <Link href="/consulenza-seo-a-crotone" className="block py-2 pl-12 text-sm text-gray-600">
               SEO a Crotone
+            </Link>
+            <Link href="/consulenza-seo-a-vibo-valentia" className="block py-2 pl-12 text-sm text-gray-600">
+              SEO a Vibo Valentia
             </Link>
             <Link href="/blog" className="block py-2 text-gray-700">
               Blog

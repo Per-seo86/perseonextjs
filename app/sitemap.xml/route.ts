@@ -15,6 +15,7 @@ const staticPages = [
   { url: '/consulenza-seo-in-calabria', priority: 0.8, changefreq: 'monthly' },
   { url: '/consulenza-seo-a-cosenza', priority: 0.8, changefreq: 'monthly' },
   { url: '/consulenza-seo-a-crotone', priority: 0.8, changefreq: 'monthly' },
+  { url: '/consulenza-seo-a-vibo-valentia', priority: 0.8, changefreq: 'monthly' },
   { url: '/blog', priority: 0.8, changefreq: 'weekly' },
   { url: '/contatti', priority: 0.7, changefreq: 'yearly' },
   { url: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo', priority: 0.7, changefreq: 'monthly' },

@@ -13,6 +13,7 @@ const pages = [
   { url: '/consulenza-seo-in-calabria', priority: 0.8, changeFrequency: 'monthly' },
   { url: '/consulenza-seo-a-cosenza', priority: 0.8, changeFrequency: 'monthly' },
   { url: '/consulenza-seo-a-crotone', priority: 0.8, changeFrequency: 'monthly' },
+  { url: '/consulenza-seo-a-vibo-valentia', priority: 0.8, changeFrequency: 'monthly' },
   { url: '/blog', priority: 0.8, changeFrequency: 'weekly' },
   { url: '/contatti', priority: 0.7, changeFrequency: 'yearly' },
   { url: '/uso-intelligenza-artificiale', priority: 0.3, changeFrequency: 'yearly' },

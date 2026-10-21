@@ -18,6 +18,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'SEO per negozi di arredamento', path: '/consulente-seo/seo-negozi-di-arredamento/', description: 'Strategie SEO per e-commerce e showroom di arredamento.' },
   { title: 'Consulenza SEO a Cosenza', path: '/consulenza-seo-a-cosenza/', description: 'Consulenza SEO per aziende e attività locali di Cosenza.' },
   { title: 'Consulenza SEO a Crotone', path: '/consulenza-seo-a-crotone/', description: 'Consulenza SEO per turismo, agroalimentare e attività locali di Crotone.' },
+  { title: 'Consulenza SEO a Vibo Valentia', path: '/consulenza-seo-a-vibo-valentia/', description: 'Consulenza SEO per turismo sulla Costa degli Dei, prodotti tipici e attività locali di Vibo Valentia.' },
   { title: 'Consulenza SEO in Calabria', path: '/consulenza-seo-in-calabria/', description: 'Consulenza SEO per aziende calabresi.' },
   { title: 'Google Ads Specialist', path: '/google-ads-specialist/', description: 'Gestione e ottimizzazione di campagne Google Ads.' },
   { title: 'Meta Ads Specialist', path: '/meta-ads-specialist/', description: 'Gestione di campagne pubblicitarie su Facebook e Instagram.' },
