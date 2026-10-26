@@ -186,58 +186,6 @@ export default function CasiSEO() {
             A volte non serve scrivere di più. Serve scrivere quello che manca.
           </p>
 
-          {/* Caso 4 - Google Ads infissi */}
-          <h2 className="text-3xl font-bold mb-6">Azienda di infissi e serramenti – Google Ads: le keyword che nessun governo ha mai nominato</h2>
-          <p className="text-gray-700 mb-4">
-            Questo è un caso di Google Ads, ma la lezione è la stessa del caso precedente: <strong>la gente non cerca quello che dicono i telegiornali, cerca quello che ha in testa</strong>.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-4">Il caso studio è questo</h3>
-          <p className="text-gray-700 mb-4">
-            Un'azienda di infissi e serramenti che vende sostituzione e riparazione di porte, finestre e affini. Ogni cliente vale circa <strong>2.000€</strong>, quindi anche un costo per contatto non bassissimo si regge. Ma più è basso, più margine resta.
-          </p>
-          <p className="text-gray-700 mb-4">
-            Quando ho studiato i volumi di ricerca ho notato una cosa curiosa. Il governo, nelle sue comunicazioni, ha sempre parlato di "Bonus casa" e "Bonus sicurezza". Mai di "Bonus pergole", "Bonus tapparelle" o "Bonus finestre". Eppure su Google queste ricerche avevano volumi più che buoni. La gente, insomma, prende il bonus generico e lo traduce nel proprio problema: "ho una tapparella rotta, c'è un bonus?".
-          </p>
-          <p className="text-gray-700 mb-4">
-            E il bello è che il costo per clic era irrisorio.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-4">Cosa ho fatto</h3>
-          <p className="text-gray-700 mb-4">
-            Ho costruito le campagne di ricerca proprio su quelle keyword: "bonus pergole", "bonus tapparelle", "bonus finestre" e le loro varianti. Niente di sofisticato: il vantaggio stava nella scelta delle keyword, non nella tecnica.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-4">Com'è andata</h3>
-          <p className="text-gray-700 mb-4">
-            Da giugno al 26 ottobre 2026: <strong>9.484 clic, CTR del 10,34%, 31 conversioni a 58,43€ ciascuna</strong>, dove per conversione intendo un contatto lasciato da un utente sul form del sito. Facendo i conti, parliamo di circa 1.800€ di spesa totale, con un costo per clic di circa 0,19€. Quindi 58€ per acquisire un contatto, su un cliente che ne vale 2.000.
-          </p>
-          <div className="mb-6">
-            <Image
-              src="/images/caso-studio-google-ads-infissi.webp"
-              alt="Riepilogo del rendimento Google Ads: clic, CTR, costo per conversione e conversioni"
-              width={2000}
-              height={792}
-              className="rounded-lg shadow-md w-full"
-            />
-          </div>
-          <p className="text-gray-700 mb-4">
-            Il CTR del 10% non è un caso: quando una ricerca è così specifica, l'annuncio che la ripete parola per parola sembra scritto apposta per chi cerca. Nel grafico c'è un buco in mezzo: non è un errore, è che ad agosto l'azienda era chiusa e le campagne sono rimaste ferme.
-          </p>
-          <p className="text-gray-700 mb-4">
-            Onestà: i bonus sono un tema che sale e scende con le notizie, e questo tipo di opportunità non dura per sempre. Un CPC così basso non è garantito per sempre: se più inserzionisti si accorgono delle keyword, i prezzi salgono.
-          </p>
-
-          <h3 className="text-xl font-semibold mb-4">Cosa ci porto a casa</h3>
-          <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
-            <li><strong>Il linguaggio della gente batte quello delle istituzioni:</strong> le keyword migliori a volte non esistono in nessun comunicato ufficiale.</li>
-            <li><strong>Guarda il valore del cliente, non solo il costo del clic:</strong> 58€ per un contatto è tanto o poco a seconda che il cliente ne valga 100 o 2.000.</li>
-            <li><strong>Le finestre di opportunità si chiudono:</strong> se le trovi, sfruttale finché costano poco.</li>
-          </ul>
-          <p className="text-gray-700 mb-12">
-            Le keyword migliori spesso non le trovi nei comunicati. Le trovi nei volumi di ricerca.
-          </p>
-
         </div>
       </section>
 

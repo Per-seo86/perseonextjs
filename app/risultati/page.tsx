@@ -86,9 +86,15 @@ export default function Risultati() {
               <p className="text-gray-600 text-sm mb-6">
                 Il costo per acquisizione è sceso a circa 7€ per utente, con valore di conversione di 169€+.
               </p>
-              <div className="rounded-lg overflow-hidden border border-gray-100">
+              <div className="rounded-lg overflow-hidden border border-gray-100 mb-6">
                 <Image src="/images/risultati-3.png" alt="Risultato Google Ads" width={1990} height={665} className="w-full h-auto" />
               </div>
+              <Link
+                href="/casi-studio-google-ads"
+                className="text-purple-600 font-semibold hover:underline"
+              >
+                Vedi altri casi Google Ads →
+              </Link>
             </div>
           </div>
         </div>

@@ -24,6 +24,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'Meta Ads Specialist', path: '/meta-ads-specialist/', description: 'Gestione di campagne pubblicitarie su Facebook e Instagram.' },
   { title: 'Risultati', path: '/risultati/', description: 'Case study e risultati ottenuti con SEO, Google Ads e Meta Ads.' },
   { title: 'I casi SEO più problematici', path: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo/', description: 'Casi studio SEO reali e come sono stati risolti.' },
+  { title: 'Casi studio Google Ads', path: '/casi-studio-google-ads/', description: 'Casi studio Google Ads reali, con numeri e strategie.' },
   { title: 'Contatti', path: '/contatti/', description: 'Richiedi una consulenza su SEO, Google Ads o Meta Ads.' },
 ];
 
