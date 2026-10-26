@@ -124,6 +124,68 @@ export default function CasiSEO() {
             />
           </div>
 
+          {/* Caso 3 - Prodotto stagionale */}
+          <h2 className="text-3xl font-bold mb-6">Azienda enogastronomica – Prodotto stagionale: l'intento che mancava</h2>
+          <p className="text-gray-700 mb-4">
+            Questo non è un caso problematico, anzi. Ma insegna una cosa che vedo sbagliare di continuo: <strong>cercare di capire cosa cerca davvero la gente, prima di scrivere</strong>.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Il caso studio è questo</h3>
+          <p className="text-gray-700 mb-4">
+            Un'azienda del settore enogastronomico che vende un prodotto stagionale. Il sito ha già dei contenuti informativi che portano traffico, ma più o meno sempre gli stessi: qualche decina di visite al giorno, con picchi quando il periodo si avvicina.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Apro SEOZoom per vedere per quali ricerche il sito è visibile e per quali no. Il quadro è chiaro in dieci minuti: quasi tutte le keyword sono <strong>informazionali</strong> (chi vuole capire, informarsi, confrontare). Gli intenti <strong>transazionali</strong>, quelli di chi sta per comprare o vuole sapere quanto spenderà ("costo", "prezzo 2026" e simili), sono quasi assenti. Zero.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Ed è un problema, perché in un prodotto stagionale chi cerca il prezzo è chi ha già deciso di comprare. Ha un'urgenza, e il periodo è breve. Se in quella finestra non ci sei, ci sono gli altri.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Cosa ho fatto</h3>
+          <p className="text-gray-700 mb-4">
+            Un solo contenuto, pensato apposta per quel buco: un articolo sul prezzo del prodotto nel 2026, che risponde alla domanda che le persone si fanno davvero ("quanto costa quest'anno?") invece di girarci intorno.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Com'è andata</h3>
+          <p className="text-gray-700 mb-4">
+            Dalla pubblicazione dell'articolo, il sito è passato da circa <strong>30 clic al giorno a quasi 300</strong>. Nel grafico qui sotto (Search Console, da fine luglio a metà ottobre 2026) si vede bene: una linea piatta per due mesi e poi la verticale. Nel periodo: <strong>2,85K clic e 126K impressioni</strong>, con una posizione media di 9,8.
+          </p>
+          <div className="mb-6">
+            <Image
+              src="/images/caso-studio-prodotto-stagionale-search-console.webp"
+              alt="Andamento di clic e impressioni in Search Console dopo l'articolo sul prezzo 2026"
+              width={2000}
+              height={742}
+              className="rounded-lg shadow-md w-full"
+            />
+          </div>
+          <p className="text-gray-700 mb-4">
+            Ora, onestà prima di tutto: <strong>non è tutto merito dell'articolo</strong>. Il periodo di vendita sposta la domanda da solo, e le keyword legate al prodotto salgono comunque in autunno, con o senza contenuti. Ma è proprio qui che il caso diventa interessante: <strong>senza quell'articolo avremmo avuto circa il 50% di visite in meno</strong>. La stagionalità ha alzato la marea, l'articolo ci ha messo la barca che raccoglieva la parte di domanda che prima restava a riva.
+          </p>
+
+          <p className="text-gray-700 mb-4">
+            Il dato che mi convince di più è quello sulle query che contengono la parola "prezzo", cioè proprio gli intenti che prima mancavano. Filtrando Search Console su quella parola, tra il 14 e il 18 ottobre: <strong>230 clic, 4,93K impressioni, CTR del 4,7% e posizione media 5,3</strong>. E guarda la curva: parte da pochi clic al giorno e il 18 ottobre ne porta oltre 100, su un totale di 286 clic quel giorno (7,4K impressioni). In altre parole, una fetta enorme dell'impennata arriva da ricerche che prima non intercettavamo affatto.
+          </p>
+          <div className="mb-6">
+            <Image
+              src="/images/caso-studio-query-prezzo-search-console.webp"
+              alt="Clic e impressioni in Search Console per le query che contengono la parola prezzo"
+              width={2000}
+              height={1011}
+              className="rounded-lg shadow-md w-full"
+            />
+          </div>
+
+          <h3 className="text-xl font-semibold mb-4">Cosa ci porto a casa</h3>
+          <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
+            <li><strong>Guarda gli intenti, non solo i volumi:</strong> un sito pieno di contenuti informativi può essere invisibile proprio dove si decide l'acquisto.</li>
+            <li><strong>Nei prodotti stagionali conta il tempismo:</strong> il contenuto transazionale va pubblicato prima del picco, non durante.</li>
+            <li><strong>Separa sempre cosa fa il mercato da cosa fai tu:</strong> se non lo fai, ti attribuisci meriti che non hai, o peggio ti dai colpe che non hai.</li>
+          </ul>
+          <p className="text-gray-700 mb-12">
+            A volte non serve scrivere di più. Serve scrivere quello che manca.
+          </p>
+
         </div>
       </section>
 
