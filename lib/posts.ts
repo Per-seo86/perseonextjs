@@ -2935,7 +2935,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "Cosa non è il remarketing: non è un modo per creare domanda. Lavora su persone che, in qualche misura, ti hanno già scelto. Se il sito fa 200 visite al mese, il remarketing da solo non ti salverà, per il semplice motivo che non ha nessuno da richiamare."
+        "content": "Cosa non è il remarketing: non è un modo per creare domanda. Lavora su persone che, in qualche misura, ti hanno già scelto. Se il sito fa 200 visite al mese, il remarketing da solo non ti salverà, per il semplice motivo che non ha nessuno da richiamare. Per i siti piccoli c'è però un modo per aggirare il problema: ne parlo nell'articolo sul [remarketing su Meta Ads con \"Usa come suggerimento\"](/meta-ads/remarketing-meta-ads-usa-come-suggerimento/)."
       },
       {
         "type": "heading",
@@ -3062,7 +3062,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "Se hai un e-commerce con il feed prodotti su Merchant Center, il remarketing dinamico mostra a ogni utente esattamente i prodotti che ha visto. È lo stesso principio delle DPA di Meta."
+        "content": "Se hai un e-commerce con il feed prodotti su Merchant Center, il remarketing dinamico mostra a ogni utente esattamente i prodotti che ha visto. È lo stesso principio delle [DPA di Meta](/meta-ads/dpa-per-le-meta-ads/)."
       },
       {
         "type": "heading",
@@ -3130,7 +3130,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "Qui ti rimando all'articolo dedicato, perché è un tema che merita spazio. In breve: con le campagne Advantage+ i pubblici personalizzati possono essere usati come suggerimento per l'algoritmo invece che come limite rigido. Su un sito piccolo, è spesso l'unico modo per far funzionare il remarketing."
+        "content": "Qui ti rimando all'[articolo dedicato](/meta-ads/remarketing-meta-ads-usa-come-suggerimento/), perché è un tema che merita spazio. In breve: con le campagne Advantage+ i pubblici personalizzati possono essere usati come suggerimento per l'algoritmo invece che come limite rigido. Su un sito piccolo, è spesso l'unico modo per far funzionare il remarketing."
       },
       {
         "type": "heading",
@@ -3139,7 +3139,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "Per gli e-commerce, il remarketing dinamico su Meta passa dal catalogo prodotti: chi ha visto un prodotto rivede quel prodotto, chi lo ha messo nel carrello rivede il carrello. Ne ho parlato nell'articolo sulle DPA."
+        "content": "Per gli e-commerce, il remarketing dinamico su Meta passa dal catalogo prodotti: chi ha visto un prodotto rivede quel prodotto, chi lo ha messo nel carrello rivede il carrello. Ne ho parlato nell'[articolo sulle DPA](/meta-ads/dpa-per-le-meta-ads/)."
       },
       {
         "type": "heading",

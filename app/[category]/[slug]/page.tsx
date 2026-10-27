@@ -16,6 +16,19 @@ function AiImageLabel() {
   );
 }
 
+// Rende i link interni scritti nel testo come [etichetta](/percorso/)
+function renderInline(text: string) {
+  return text.split(/(\[[^\]]+\]\(\/[^)]*\))/g).map((part, i) => {
+    const match = part.match(/^\[([^\]]+)\]\((\/[^)]*)\)$/);
+    if (!match) return part;
+    return (
+      <Link key={i} href={match[2]} className="text-purple-600 underline hover:text-pink-500">
+        {match[1]}
+      </Link>
+    );
+  });
+}
+
 interface PageProps {
   params: Promise<{
     category: string;
@@ -154,7 +167,7 @@ export default async function PostPage({ params }: PageProps) {
                         case 'paragraph':
                           return (
                             <p key={index} className="text-gray-700 leading-relaxed">
-                              {section.content}
+                              {renderInline(section.content || '')}
                             </p>
                           );
 
@@ -181,7 +194,7 @@ export default async function PostPage({ params }: PageProps) {
                           return (
                             <ul key={index} className="list-disc list-inside space-y-2 text-gray-700">
                               {section.items?.map((item, i) => (
-                                <li key={i}>{item}</li>
+                                <li key={i}>{renderInline(item)}</li>
                               ))}
                             </ul>
                           );
