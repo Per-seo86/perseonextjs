@@ -2886,6 +2886,364 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    "slug": "strategie-remarketing-google-ads-meta-ads-email",
+    "title": "Strategie di remarketing: come le uso su Google Ads, Meta Ads e email",
+    "category": "google-ads",
+    "date": "2026-10-27",
+    "excerpt": "Hai mai avuto la sensazione che una scarpa vista online ti segua per tre settimane? Quello è remarketing. Fatto male, però. Vediamo come si fa bene.",
+    "content": "",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Uno degli equivoci più diffusi sul remarketing è che basti \"inseguire\" chi è passato dal sito. Metti il pixel, crei un pubblico di tutti i visitatori degli ultimi 30 giorni, lanci una campagna e aspetti le vendite. Fine."
+      },
+      {
+        "type": "paragraph",
+        "content": "Ecco, no. Quello è il modo più rapido per spendere soldi mostrando lo stesso annuncio a chi ha già comprato, a chi è finito sul sito per sbaglio e a chi cercava il tuo numero di telefono per lamentarsi."
+      },
+      {
+        "type": "paragraph",
+        "content": "Le strategie di remarketing che funzionano partono da un'idea più semplice: non tutti quelli che ti hanno conosciuto sono uguali. C'è chi ha letto un articolo, chi ha guardato un prodotto, chi lo ha messo nel carrello, chi ha chiesto un preventivo e poi è sparito. Ognuno di loro merita un messaggio diverso, in un momento diverso, sul canale giusto."
+      },
+      {
+        "type": "paragraph",
+        "content": "In questo articolo ti racconto come imposto il remarketing su tre canali: Google Ads, Meta Ads ed email marketing. Non è un manuale completo di ogni impostazione. È quello che uso davvero, con i clienti, e quello che ho smesso di fare."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cos'è il remarketing (e cosa non è)"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il remarketing (o retargeting, i due termini nella pratica si usano come sinonimi) è la possibilità di mostrare un messaggio a persone che hanno già avuto un contatto con te: hanno visitato il sito, guardato un video, aperto un modulo, comprato qualcosa, lasciato la propria email."
+      },
+      {
+        "type": "paragraph",
+        "content": "Per spiegarlo ai clienti uso sempre la stessa immagine: il barista sotto casa."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il barista bravo si ricorda come prendi il caffè. Non ti chiede ogni mattina \"desidera qualcosa?\", ma neanche ti rincorre fino alla macchina urlando \"sicuro che non vuoi un cornetto?\". Sa chi sei, sa cosa ti piace e ti propone la cosa giusta quando entri."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il remarketing fatto male è il commesso che ti rincorre fino alla macchina. Quello fatto bene è il barista."
+      },
+      {
+        "type": "paragraph",
+        "content": "Cosa non è il remarketing: non è un modo per creare domanda. Lavora su persone che, in qualche misura, ti hanno già scelto. Se il sito fa 200 visite al mese, il remarketing da solo non ti salverà, per il semplice motivo che non ha nessuno da richiamare."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Prima di tutto: segmenta per temperatura"
+      },
+      {
+        "type": "paragraph",
+        "content": "Prima di aprire qualsiasi piattaforma, faccio sempre lo stesso esercizio con il cliente: dividiamo il pubblico per \"temperatura\", cioè per quanto è vicino alla conversione."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Freddo-tiepido: ha letto un articolo del blog, ha visto una pagina generica, ha guardato metà di un video. Ti conosce di vista.",
+          "Tiepido: ha visitato una pagina prodotto o servizio, ha visto il listino, è tornato più volte.",
+          "Caldo: ha aggiunto al carrello, ha iniziato il checkout, ha aperto il modulo di contatto senza inviarlo, ha chiesto un preventivo.",
+          "Clienti: ha già comprato o firmato. Qui non si fa remarketing, si fa fidelizzazione (o esclusione, vedremo)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "A ogni temperatura corrisponde un messaggio diverso. Al tiepido racconti perché sceglierti. Al caldo togli l'ultimo dubbio: spedizione, garanzia, recensioni, un incentivo se ha senso. Al cliente proponi il prodotto complementare, oppure lo lasci in pace."
+      },
+      {
+        "type": "paragraph",
+        "content": "E a ogni temperatura corrisponde anche una finestra temporale diversa. Chi ha abbandonato il carrello ieri è caldo. Chi lo ha abbandonato 60 giorni fa, probabilmente, ha già comprato da un'altra parte."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Remarketing su Google Ads"
+      },
+      {
+        "type": "paragraph",
+        "content": "Su Google Ads il remarketing si costruisce con i segmenti di pubblico (quelli che una volta si chiamavano \"elenchi per il remarketing\"). Li trovi in Strumenti → Libreria condivisa → Gestione segmenti di pubblico, e si alimentano dal tag Google, da GA4 collegato all'account o da liste clienti caricate (Customer Match)."
+      },
+      {
+        "type": "image",
+        "src": "/images/remarketing-google-ads-segmenti-pubblico.png",
+        "alt": "Google Ads, menu Strumenti: Libreria condivisa → Gestione segmenti di pubblico"
+      },
+      {
+        "type": "paragraph",
+        "content": "Attenzione: se il sito usa Consent Mode (e in Europa deve), chi rifiuta i cookie non finisce nei segmenti. Su molti siti italiani questo significa perdere una fetta importante del pubblico. Non è un errore di configurazione: è il prezzo del consenso, e va messo in conto quando stimi la dimensione delle liste."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Prima di iniziare: il tuo settore può fare remarketing?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Non è una domanda retorica. Google classifica alcuni settori come \"categorie di interessi sensibili\", e chi promuove quei prodotti non può usare i segmenti di pubblico creati dall'inserzionista. Questo significa niente remarketing e niente Customer Match."
+      },
+      {
+        "type": "paragraph",
+        "content": "Tra le categorie ci sono:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Alcolici: vino, birra, liquori. Sì, anche la cantina che vende online il suo Cirò.",
+          "Giochi e scommesse.",
+          "Salute: alcune condizioni mediche e trattamenti.",
+          "Altre categorie sensibili, come i contenuti politici e l'orientamento sessuale."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Meglio saperlo prima di preparare banner e segmenti, non dopo. Se vendi vino, su Google devi puntare su altro: campagne Shopping, Rete di ricerca senza segmenti di pubblico, e soprattutto email marketing, che resta tutto tuo."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "RLSA: il remarketing sulla Rete di ricerca"
+      },
+      {
+        "type": "paragraph",
+        "content": "È la strategia che uso di più e quella che, secondo me, è più sottovalutata. RLSA (Remarketing Lists for Search Ads, ovvero liste di remarketing applicate agli annunci di ricerca) significa usare i segmenti di pubblico dentro le campagne sulla Rete di ricerca."
+      },
+      {
+        "type": "paragraph",
+        "content": "Non mostri un banner a chi ti ha visitato: aspetti che quella persona torni a cercare su Google, e in quel momento sai già che ti conosce."
+      },
+      {
+        "type": "paragraph",
+        "content": "Hai due modalità:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Osservazione: la campagna continua a mostrarsi a tutti, ma il segmento ti dà i dati separati (e, con le offerte intelligenti, diventa un segnale per l'algoritmo). È quella che uso quasi sempre come punto di partenza.",
+          "Targeting: la campagna si mostra solo a chi è nel segmento. La uso per una cosa specifica: keyword troppo generiche o troppo costose per un pubblico freddo, che diventano sostenibili se a cercarle è qualcuno che è già passato dal sito."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Un esempio: per un'azienda di infissi, \"finestre\" è una keyword inutile da comprare a freddo. Troppo vaga, troppo costosa. Ma se la cerca qualcuno che la settimana scorsa ha visitato la pagina dei serramenti in PVC, cambia tutto."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Display, YouTube e Demand Gen"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il remarketing visivo classico (i banner che ti seguono) oggi lo faccio quasi sempre con le campagne Demand Gen, che mostrano gli annunci su YouTube, Discover e Gmail, invece che con le vecchie campagne Display. L'inventario è più pulito e le creatività somigliano di più a quelle dei social."
+      },
+      {
+        "type": "paragraph",
+        "content": "Due regole che applico sempre:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Limite di frequenza: non più di qualche impressione al giorno per utente. Oltre, non stai ricordando niente a nessuno: stai irritando.",
+          "Creatività diverse per temperatura: chi ha visto il prodotto vede il prodotto. Chi ha abbandonato il carrello vede la garanzia, la spedizione gratuita, le recensioni."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Remarketing dinamico"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se hai un e-commerce con il feed prodotti su Merchant Center, il remarketing dinamico mostra a ogni utente esattamente i prodotti che ha visto. È lo stesso principio delle DPA di Meta."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "E Performance Max?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Performance Max fa remarketing da sola, che tu lo voglia o no. I segmenti che inserisci nei \"segnali di pubblico\" non sono un recinto: sono un suggerimento. È lo stesso concetto della casella \"Usa come suggerimento\" su Meta, solo che qui non puoi toglierlo."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il rischio è che PMax si prenda il merito di conversioni che sarebbero arrivate comunque: utenti che conoscevano già il brand, che sarebbero tornati da soli. Per questo, quando l'obiettivo è acquisire clienti nuovi, attivo l'obiettivo di acquisizione nuovi clienti e controllo nei report quanta parte delle conversioni arriva da chi era già nei segmenti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Le esclusioni (la parte che tutti dimenticano)"
+      },
+      {
+        "type": "paragraph",
+        "content": "Escludi sempre chi ha già convertito dalle campagne di remarketing, almeno per la durata in cui ha senso. Sembra banale. Eppure succede: il cliente che ha appena comprato una cucina continua a vedere per settimane gli annunci della stessa cucina."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Remarketing su Meta Ads"
+      },
+      {
+        "type": "paragraph",
+        "content": "Su Meta il remarketing si fa con i pubblici personalizzati, che crei da Gestione inserzioni → Gruppi di pubblico → Crea pubblico → Pubblico personalizzato. Le fonti che uso di più:"
+      },
+      {
+        "type": "image",
+        "src": "/images/remarketing-meta-gruppi-di-pubblico.png",
+        "alt": "Gestione inserzioni di Meta, menu laterale con la voce Gruppi di pubblico"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Sito web: visitatori di pagine specifiche, eventi come AddToCart o InitiateCheckout, con finestre temporali da 1 a 180 giorni.",
+          "Video: persone che hanno visto almeno il 25%, 50%, 75% o 95% di un video.",
+          "Instagram e Pagina Facebook: chi ha interagito, salvato un post, scritto in DM, visitato il profilo.",
+          "Moduli per acquisizione contatti: chi ha aperto il modulo ma non lo ha inviato. Questo è oro, e quasi nessuno lo usa.",
+          "Lista clienti: email e telefoni caricati, ovviamente con il consenso."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Il remarketing video per chi ha pochi visitatori"
+      },
+      {
+        "type": "paragraph",
+        "content": "Per le attività locali, quelle con un sito da poche centinaia di visite al mese, il pubblico \"visitatori del sito\" è troppo piccolo per funzionare. Qui uso il video come imbuto: una campagna a basso costo di visualizzazioni video, poi remarketing su chi ha guardato almeno il 50%."
+      },
+      {
+        "type": "paragraph",
+        "content": "Costruisci il pubblico caldo che il sito non ti dà. Una visualizzazione costa pochi centesimi, una visita al sito molto di più."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Pubblici come suggerimento, non come recinto"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui ti rimando all'articolo dedicato, perché è un tema che merita spazio. In breve: con le campagne Advantage+ i pubblici personalizzati possono essere usati come suggerimento per l'algoritmo invece che come limite rigido. Su un sito piccolo, è spesso l'unico modo per far funzionare il remarketing."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Catalogo e inserzioni dinamiche"
+      },
+      {
+        "type": "paragraph",
+        "content": "Per gli e-commerce, il remarketing dinamico su Meta passa dal catalogo prodotti: chi ha visto un prodotto rivede quel prodotto, chi lo ha messo nel carrello rivede il carrello. Ne ho parlato nell'articolo sulle DPA."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quanto deve pesare il remarketing sul budget?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Dipende. La domanda che mi faccio è un'altra: quanti utenti ho nel pubblico? Se il pubblico è di 2.000 persone e ci metto 50 euro al giorno, in una settimana le avrò raggiunte tutte venti volte. Controlla sempre la frequenza nel report: quando sale sopra certe soglie e il costo per risultato peggiora, il pubblico è esaurito."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Remarketing con l'email marketing"
+      },
+      {
+        "type": "paragraph",
+        "content": "L'email è il canale di remarketing che costa meno e che, nella mia esperienza, rende di più. Con un limite: funziona solo su chi ti ha dato il suo indirizzo. Per questo ogni strategia di remarketing seria parte dalla raccolta dei contatti (iscrizione alla newsletter, lead magnet, account al checkout)."
+      },
+      {
+        "type": "paragraph",
+        "content": "Le sequenze automatiche che imposto più spesso (con Brevo, Mailchimp o Klaviyo, dipende dal cliente):"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Carrello abbandonato: la prima email entro poche ore, la seconda dopo un giorno, la terza (eventualmente con un incentivo) dopo due o tre giorni. Non di più.",
+          "Navigazione abbandonata: l'utente iscritto ha visto un prodotto più volte senza aggiungerlo al carrello. Gli ricordi il prodotto, magari con un'alternativa.",
+          "Preventivo senza risposta: per chi lavora a lead (infissi, impianti, servizi) è l'equivalente del carrello abbandonato. Una sequenza che risponde ai dubbi tipici: tempi, garanzie, pagamenti, lavori già fatti.",
+          "Post-acquisto: istruzioni, richiesta di recensione, poi il prodotto complementare.",
+          "Riattivazione (win-back): clienti che non comprano da mesi. Prima un contenuto utile, poi un'offerta. Se non aprono nulla, li togli dalla lista: stanno solo peggiorando la deliverability (ovvero la capacità delle tue email di arrivare in posta in arrivo e non nello spam)."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Su Brevo, per esempio, il modello \"Carrello abbandonato\" parte già impostato: l'evento \"Carrello aggiornato\" avvia l'automazione, Brevo attende 2 ore e invia la prima email. È una buona base, ma è solo la prima email della sequenza: le altre (dopo un giorno, dopo due o tre) vanno aggiunte a mano."
+      },
+      {
+        "type": "image",
+        "src": "/images/remarketing-brevo-carrello-abbandonato.png",
+        "alt": "Automazione Carrello abbandonato su Brevo: Carrello aggiornato, Attendi 2 ore, Invia un'email, Uscita"
+      },
+      {
+        "type": "paragraph",
+        "content": "Attenzione: in Italia l'email marketing richiede il consenso esplicito. L'unica eccezione è il cosiddetto \"soft spam\" (art. 130, comma 4, del Codice Privacy): puoi scrivere ai tuoi clienti per prodotti analoghi a quelli già acquistati, se gli hai dato la possibilità di opporsi. Per tutto il resto serve la spunta, e non preselezionata."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Come far lavorare insieme i tre canali"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il remarketing dà il meglio quando i canali si parlano. Ecco come li faccio collaborare:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "La lista email diventa un pubblico: carico gli iscritti (con il consenso, e specificandolo nell'informativa) su Google Customer Match e sui pubblici personalizzati di Meta. Così posso escluderli dalle campagne di acquisizione, oppure mostrare loro un messaggio diverso.",
+          "Chi converte esce ovunque: l'acquisto o il contatto chiude la sequenza email e lo esclude dai pubblici di remarketing su Google e Meta. Il barista non ti ripropone il caffè che hai appena bevuto.",
+          "Un messaggio, tre canali: se l'email di carrello abbandonato parla di spedizione gratuita, l'annuncio di remarketing su Meta dice la stessa cosa. Coerenza, non ripetizione."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Il remarketing funziona davvero? Come misurarlo"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui serve un po' di onestà. Il remarketing ha quasi sempre ottimi numeri in piattaforma: costi per conversione bassi, ROAS alti. Il problema è che una parte di quelle conversioni sarebbe arrivata comunque. Chi aveva il carrello pieno spesso torna da solo."
+      },
+      {
+        "type": "paragraph",
+        "content": "Come lo verifico:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Confronto il costo per conversione del remarketing con il costo complessivo (non solo quello della campagna). Se il remarketing \"va benissimo\" ma le vendite totali non si muovono, qualcosa non torna.",
+          "Quando il budget lo permette, uso gli esperimenti: Conversion Lift su Meta, o un gruppo di controllo escluso dalle campagne. È l'unico modo per sapere quante conversioni sono davvero incrementali.",
+          "Guardo i percorsi di conversione in GA4 (Pubblicità → Percorsi di conversione) per capire se il remarketing chiude vendite iniziate altrove o se si limita a prendersi il merito."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Gli errori che vedo più spesso"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Un solo pubblico \"tutti i visitatori a 180 giorni\", con un solo annuncio.",
+          "Nessuna esclusione dei clienti già acquisiti.",
+          "Nessun limite di frequenza.",
+          "Lo stesso messaggio a chi ha letto un articolo del blog e a chi ha abbandonato il checkout.",
+          "Liste email comprate o senza consenso caricate sulle piattaforme pubblicitarie.",
+          "Giudicare il remarketing solo dal ROAS in piattaforma."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Il remarketing non serve a ricordare a tutti che esisti. Serve a ricordare alla persona giusta la cosa giusta, come il barista che ti vede entrare e ha già la tazzina sul bancone."
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
