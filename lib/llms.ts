@@ -16,6 +16,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'SEO per concessionarie', path: '/consulente-seo/seo-concessionarie/', description: 'Strategie SEO per il settore automotive.' },
   { title: 'SEO per farmacie', path: '/consulente-seo/seo-farmacie/', description: 'Strategie SEO per farmacie online e fisiche.' },
   { title: 'SEO per negozi di arredamento', path: '/consulente-seo/seo-negozi-di-arredamento/', description: 'Strategie SEO per e-commerce e showroom di arredamento.' },
+  { title: 'Consulenza SEO a Catanzaro', path: '/consulenza-seo-a-catanzaro/', description: 'Consulenza SEO per studi professionali, sanità, servizi e turismo sulla costa ionica in provincia di Catanzaro.' },
   { title: 'Consulenza SEO a Cosenza', path: '/consulenza-seo-a-cosenza/', description: 'Consulenza SEO per aziende e attività locali di Cosenza.' },
   { title: 'Consulenza SEO a Crotone', path: '/consulenza-seo-a-crotone/', description: 'Consulenza SEO per turismo, agroalimentare e attività locali di Crotone.' },
   { title: 'Consulenza SEO a Vibo Valentia', path: '/consulenza-seo-a-vibo-valentia/', description: 'Consulenza SEO per turismo sulla Costa degli Dei, prodotti tipici e attività locali di Vibo Valentia.' },

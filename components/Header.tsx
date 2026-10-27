@@ -107,6 +107,9 @@ export default function Header() {
                     <Link href="/consulenza-seo-in-calabria" className="block px-4 py-2 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
                       SEO in Calabria
                     </Link>
+                    <Link href="/consulenza-seo-a-catanzaro" className="block px-4 py-2 pl-8 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
+                      SEO a Catanzaro
+                    </Link>
                     <Link href="/consulenza-seo-a-cosenza" className="block px-4 py-2 pl-8 text-gray-700 hover:bg-purple-50 hover:text-purple-600">
                       SEO a Cosenza
                     </Link>
@@ -164,6 +167,9 @@ export default function Header() {
             </Link>
             <Link href="/consulenza-seo-in-calabria" className="block py-2 pl-8 text-sm text-gray-600">
               SEO in Calabria
+            </Link>
+            <Link href="/consulenza-seo-a-catanzaro" className="block py-2 pl-12 text-sm text-gray-600">
+              SEO a Catanzaro
             </Link>
             <Link href="/consulenza-seo-a-cosenza" className="block py-2 pl-12 text-sm text-gray-600">
               SEO a Cosenza

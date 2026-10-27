@@ -104,6 +104,9 @@ export default function ConsulenzaSEOCalabria() {
           </p>
           <ul className="list-disc pl-6 text-gray-700 mb-12 space-y-2">
             <li>
+              <Link href="/consulenza-seo-a-catanzaro" className="text-purple-600 hover:underline">SEO a Catanzaro</Link>: studi professionali, sanità e servizi nel capoluogo, turismo sulla costa ionica.
+            </li>
+            <li>
               <Link href="/consulenza-seo-a-cosenza" className="text-purple-600 hover:underline">SEO a Cosenza</Link>: professionisti, commercio e aziende che vendono anche fuori regione.
             </li>
             <li>
