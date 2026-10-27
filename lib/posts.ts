@@ -2890,6 +2890,8 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     "slug": "strategie-remarketing-google-ads-meta-ads-email",
     "title": "Strategie di remarketing: come le uso su Google Ads, Meta Ads e email",
     "category": "google-ads",
+    "image": "/images/strategie-remarketing-featured.png",
+    "imageAiGenerated": true,
     "date": "2026-10-27",
     "excerpt": "Hai mai avuto la sensazione che una scarpa vista online ti segua per tre settimane? Quello è remarketing. Fatto male, però. Vediamo come si fa bene.",
     "content": "",

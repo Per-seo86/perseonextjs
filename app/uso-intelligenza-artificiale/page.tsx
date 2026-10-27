@@ -16,7 +16,7 @@ export default function UsoIntelligenzaArtificiale() {
         <div className="container mx-auto px-4 max-w-4xl">
           <Breadcrumb items={[{ label: "Uso dell'intelligenza artificiale" }]} light />
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Uso dell&apos;intelligenza artificiale</h1>
-          <p className="text-lg opacity-90">Ultima modifica: 9 ottobre 2026</p>
+          <p className="text-lg opacity-90">Ultima modifica: 27 ottobre 2026</p>
         </div>
       </section>
 
@@ -64,7 +64,7 @@ export default function UsoIntelligenzaArtificiale() {
             <div>
               <h2 className="text-2xl font-bold text-gray-900 mb-3">Immagini e contenuti multimediali</h2>
               <p className="mb-4">
-                Alcune immagini in evidenza degli articoli sono generate con <strong>Google Gemini</strong> (Google LLC, Stati Uniti, servizio online). Sono illustrazioni pensate per accompagnare il tema dell&apos;articolo, non fotografie o documenti.
+                Alcune immagini in evidenza degli articoli sono generate con <strong>Google Gemini</strong> (Google LLC, Stati Uniti, servizio online) oppure disegnate come grafiche vettoriali con <strong>Claude</strong> (Anthropic PBC, Stati Uniti, servizio online). Sono illustrazioni pensate per accompagnare il tema dell&apos;articolo, non fotografie o documenti.
               </p>
               <p className="mb-4">
                 Le immagini generate o modificate in modo sostanziale con l&apos;IA sono indicate con la dicitura <strong>&ldquo;Immagine generata con IA&rdquo;</strong> direttamente sotto l&apos;immagine.
