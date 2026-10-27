@@ -16,7 +16,8 @@ export const metadata: Metadata = {
   keywords: "SEO, Google Ads, Meta Ads, Digital Marketing, Consulente SEO, Web Marketing",
   metadataBase: new URL("https://perseo.biz"),
   alternates: {
-    canonical: "https://perseo.biz",
+    // Relativo: Next lo risolve sul pathname di ogni pagina (canonical self-referenziale)
+    canonical: "./",
   },
   icons: {
     icon: "/favicon-perseo.webp",
