@@ -2910,7 +2910,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "In questo articolo ti racconto come imposto il remarketing su tre canali: Google Ads, Meta Ads ed email marketing. Non è un manuale completo di ogni impostazione. È quello che uso davvero, con i clienti, e quello che ho smesso di fare."
+        "content": "In questo articolo ti racconto come imposto il remarketing su tre canali: [Google Ads](/google-ads-specialist/), [Meta Ads](/meta-ads-specialist/) ed email marketing. Non è un manuale completo di ogni impostazione. È quello che uso davvero, con i clienti, e quello che ho smesso di fare."
       },
       {
         "type": "heading",
