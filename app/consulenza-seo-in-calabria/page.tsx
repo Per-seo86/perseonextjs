@@ -113,6 +113,9 @@ export default function ConsulenzaSEOCalabria() {
               <Link href="/consulenza-seo-a-crotone" className="text-purple-600 hover:underline">SEO a Crotone</Link>: turismo balneare, cantine e agroalimentare, attività locali in città.
             </li>
             <li>
+              <Link href="/consulenza-seo-a-reggio-calabria" className="text-purple-600 hover:underline">SEO a Reggio Calabria</Link>: turismo tra Stretto, Costa Viola e Aspromonte, bergamotto e agroalimentare, attività locali in città.
+            </li>
+            <li>
               <Link href="/consulenza-seo-a-vibo-valentia" className="text-purple-600 hover:underline">SEO a Vibo Valentia</Link>: strutture della Costa degli Dei, prodotti tipici e servizi nel capoluogo.
             </li>
           </ul>

@@ -19,6 +19,7 @@ const pages = [
   { url: '/consulenza-seo-a-catanzaro', priority: 0.8, changefreq: 'monthly', lastmod: '2026-10-27' },
   { url: '/consulenza-seo-a-cosenza', priority: 0.8, changefreq: 'monthly', lastmod: '2026-07-07' },
   { url: '/consulenza-seo-a-crotone', priority: 0.8, changefreq: 'monthly', lastmod: '2026-10-12' },
+  { url: '/consulenza-seo-a-reggio-calabria', priority: 0.8, changefreq: 'monthly', lastmod: '2026-10-28' },
   { url: '/consulenza-seo-a-vibo-valentia', priority: 0.8, changefreq: 'monthly', lastmod: '2026-10-21' },
   { url: '/blog', priority: 0.8, changefreq: 'weekly', lastmod: 'latest-post' },
   { url: '/contatti', priority: 0.7, changefreq: 'yearly', lastmod: '2026-05-15' },

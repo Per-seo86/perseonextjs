@@ -19,6 +19,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'Consulenza SEO a Catanzaro', path: '/consulenza-seo-a-catanzaro/', description: 'Consulenza SEO per studi professionali, sanità, servizi e turismo sulla costa ionica in provincia di Catanzaro.' },
   { title: 'Consulenza SEO a Cosenza', path: '/consulenza-seo-a-cosenza/', description: 'Consulenza SEO per aziende e attività locali di Cosenza.' },
   { title: 'Consulenza SEO a Crotone', path: '/consulenza-seo-a-crotone/', description: 'Consulenza SEO per turismo, agroalimentare e attività locali di Crotone.' },
+  { title: 'Consulenza SEO a Reggio Calabria', path: '/consulenza-seo-a-reggio-calabria/', description: 'Consulenza SEO per turismo sullo Stretto e in Aspromonte, bergamotto, agroalimentare e attività locali di Reggio Calabria.' },
   { title: 'Consulenza SEO a Vibo Valentia', path: '/consulenza-seo-a-vibo-valentia/', description: 'Consulenza SEO per turismo sulla Costa degli Dei, prodotti tipici e attività locali di Vibo Valentia.' },
   { title: 'Consulenza SEO in Calabria', path: '/consulenza-seo-in-calabria/', description: 'Consulenza SEO per aziende calabresi.' },
   { title: 'Google Ads Specialist', path: '/google-ads-specialist/', description: 'Gestione e ottimizzazione di campagne Google Ads.' },
