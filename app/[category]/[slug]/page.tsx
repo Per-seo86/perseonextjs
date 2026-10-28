@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { getPostBySlug, getAllPosts, categoryMeta } from '@/lib/posts';
+import { getPostBySlug, getAllPosts, categoryMeta, PostSection } from '@/lib/posts';
 import TableOfContents from '@/components/TableOfContents';
 import { generateId } from '@/lib/utils';
 import ArticleSidebar from '@/components/ArticleSidebar';
@@ -27,6 +27,34 @@ function renderInline(text: string) {
       </Link>
     );
   });
+}
+
+// Schema FAQPage ricavato dalla sezione H2 "Domande frequenti…": ogni H3 è una domanda,
+// i paragrafi che lo seguono sono la risposta. Così il markup coincide sempre col testo visibile.
+function buildFaqSchema(sections: PostSection[]) {
+  const start = sections.findIndex(
+    (s) => s.type === 'heading' && s.level === 2 && /^domande frequenti/i.test(s.content || '')
+  );
+  if (start === -1) return null;
+
+  const faqs: { question: string; answer: string[] }[] = [];
+  for (const s of sections.slice(start + 1)) {
+    if (s.type === 'heading' && s.level === 2) break;
+    if (s.type === 'heading' && s.level === 3) faqs.push({ question: s.content || '', answer: [] });
+    else if (s.type === 'paragraph' && faqs.length) faqs[faqs.length - 1].answer.push(s.content || '');
+  }
+  if (faqs.length === 0) return null;
+
+  const plain = (t: string) => t.replace(/\[([^\]]+)\]\([^)]*\)/g, '$1');
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: plain(f.answer.join(' ')) },
+    })),
+  };
 }
 
 interface PageProps {
@@ -78,8 +106,16 @@ export default async function PostPage({ params }: PageProps) {
       ? 'Hai bisogno di una consulenza Meta Ads urgente?'
       : 'Hai bisogno di una consulenza SEO urgente?';
 
+  const faqSchema = post.sections ? buildFaqSchema(post.sections) : null;
+
   return (
     <div>
+      {faqSchema && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/</g, '\\u003c') }}
+        />
+      )}
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-purple-600 via-purple-500 to-pink-500 text-white py-16">
         <div className="container mx-auto px-4 max-w-6xl">

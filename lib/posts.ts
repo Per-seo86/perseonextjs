@@ -3246,6 +3246,306 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    "slug": "aeo-geo-differenza",
+    "title": "AEO e GEO: che differenza c'è (e cosa cambia davvero per la SEO)",
+    "category": "seo",
+    "subcategory": "copywriting",
+    "date": "2026-10-28",
+    "excerpt": "Ti hanno detto che la SEO è morta e che adesso serve la GEO? Non è così. È la stessa SEO, con un lettore in più. Vediamo quale.",
+    "content": "",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Negli ultimi mesi ho ricevuto più messaggi con le sigle AEO e GEO che con la parola \"SEO\". Di solito arrivano insieme a un'offerta: \"La SEO è morta, adesso serve la GEO. Ti facciamo un audit per comparire su ChatGPT\". Qualcuno mi ha chiesto se doveva rifare il sito da capo."
+      },
+      {
+        "type": "paragraph",
+        "content": "No. O meglio: qualcosa è cambiato davvero, ma non nel modo in cui te lo raccontano. AEO e GEO non sono due discipline nuove che mandano in pensione la SEO. Sono due modi di guardare lo stesso lavoro, con un lettore in più da accontentare: l'intelligenza artificiale che legge il tuo sito al posto della persona e poi le riassume quello che ha capito."
+      },
+      {
+        "type": "paragraph",
+        "content": "Vediamo cosa significano le due sigle, qual è la differenza tra AEO e GEO e cosa ha senso fare in pratica (e cosa invece no)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cos'è l'AEO (Answer Engine Optimization)?"
+      },
+      {
+        "type": "paragraph",
+        "content": "AEO sta per Answer Engine Optimization, cioè ottimizzazione per i motori di risposta. Il termine circola dalla fine degli anni Dieci, quando Google ha iniziato a rispondere direttamente nella pagina dei risultati invece di limitarsi a elencare dieci link blu."
+      },
+      {
+        "type": "paragraph",
+        "content": "Pensa ai featured snippet (il riquadro in cima ai risultati che riporta un paragrafo, un elenco o una tabella presi da un sito), al box \"Le persone hanno chiesto anche\", alle risposte di Google Assistant e Alexa quando chiedi a voce \"a che ora chiude la farmacia\". In tutti questi casi il motore sceglie una risposta sola e te la mette davanti."
+      },
+      {
+        "type": "paragraph",
+        "content": "L'obiettivo dell'AEO è essere quella risposta. Non uno dei risultati: il risultato. Per riuscirci devi capire qual è la domanda esatta che l'utente fa e rispondere in modo diretto, breve e completo, in un punto della pagina che il motore riesca a isolare senza fatica."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cos'è la GEO (Generative Engine Optimization)?"
+      },
+      {
+        "type": "paragraph",
+        "content": "GEO sta per Generative Engine Optimization. Il termine nasce da un paper accademico di ricercatori di Princeton e dell'IIT di Delhi, presentato alla conferenza KDD nel 2024, che studiava come aumentare la visibilità di un contenuto nelle risposte generate dall'IA."
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui il motore non sceglie una risposta tra quelle che trova: la scrive. AI Overviews e AI Mode di Google (arrivati in Italia rispettivamente a marzo e ottobre 2025), ChatGPT con la ricerca attiva, Perplexity, Copilot di Microsoft. Fanno tutti la stessa cosa: leggono più pagine, ne ricavano un testo nuovo e, quando va bene, citano le fonti con un link."
+      },
+      {
+        "type": "paragraph",
+        "content": "L'obiettivo della GEO quindi non è essere \"la\" risposta, ma essere una delle fonti da cui la risposta viene costruita. E possibilmente essere citato, perché una fonte usata ma non citata, per te, vale quanto una fonte ignorata."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "AEO e GEO: qual è la differenza in pratica?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Per spiegarlo ai clienti uso un'immagine che conosco bene, visto che da anni lavoro anche per una testata locale: il giornalista."
+      },
+      {
+        "type": "paragraph",
+        "content": "Immagina un cronista che deve scrivere un pezzo su un fatto accaduto a Cosenza. Fa qualche telefonata, raccoglie dichiarazioni, legge i comunicati."
+      },
+      {
+        "type": "list",
+        "items": [
+          "AEO: è la frase che il giornalista riporta tra virgolette nel titolo. Una sola, secca, presa così com'è. Se l'hai detta tu, hai vinto. Se l'ha detta un altro, sei fuori.",
+          "GEO: è il giornalista che mette insieme cinque fonti, le rielabora con parole sue e scrive l'articolo. Tu speri di essere tra quelle cinque e, soprattutto, di essere nominato (\"come spiega il consulente…\"), non solo usato."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Ecco la differenza, punto per punto:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Cosa cerchi di ottenere: con l'AEO vuoi essere estratto, con la GEO vuoi essere citato.",
+          "Chi decide: per l'AEO un motore di ricerca che sceglie un frammento della tua pagina, per la GEO un modello linguistico che riscrive il contenuto mescolandolo con altri.",
+          "Che tipo di domande: l'AEO lavora bene su domande secche (\"quanto costa\", \"cosa significa\", \"come si fa\"), la GEO su domande lunghe e complesse, del tipo che si fa a una persona (\"qual è il miglior gestionale per un piccolo ristorante che fa anche asporto?\").",
+          "Come lo misuri: l'AEO lo vedi abbastanza bene in Search Console, la GEO molto meno. Ci torno più avanti."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Il punto che di solito sfugge: le due cose si sovrappongono per buona parte. Un contenuto chiaro, ben strutturato, che risponde subito alla domanda e porta informazioni vere funziona per il featured snippet, per AI Overviews e per ChatGPT. Non devi scrivere tre versioni della stessa pagina."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cosa dice Google su AI Overviews e AI Mode?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui conviene leggere la fonte invece dei post su LinkedIn. Nella documentazione ufficiale di Google Search Central, alla pagina dedicata alle funzionalità IA, Google dice in sostanza tre cose:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Per comparire in AI Overviews e AI Mode non ci sono requisiti aggiuntivi né ottimizzazioni speciali: la pagina deve essere indicizzata e idonea a comparire nei risultati con uno snippet.",
+          "Non serve nessun dato strutturato schema.org particolare.",
+          "Valgono le stesse buone pratiche SEO di sempre: lasciare scansionare le pagine, curare i link interni, tenere i contenuti importanti in forma testuale."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Insomma, per Google la GEO sulle sue funzionalità IA è SEO. Puoi crederci o no (io ci credo a metà, come a tutto quello che Google dice di sé stesso), ma è la posizione ufficiale."
+      },
+      {
+        "type": "paragraph",
+        "content": "C'è poi un dettaglio che riguarda proprio l'AEO \"classica\": dal 7 maggio 2026 Google non mostra più i rich result FAQ, cioè le domande e risposte espandibili sotto il risultato. Per anni sono stati il trucco preferito per occupare spazio in SERP. Il markup FAQPage resta valido e non fa danni se lo lasci, ma non ti porta più quel tipo di visibilità."
+      },
+      {
+        "type": "paragraph",
+        "content": "Un'altra cosa che Google spiega è il query fan-out: quando fai una domanda ad AI Mode o quando si genera un AI Overview, il sistema lancia in automatico diverse ricerche correlate su sottotemi della domanda, e mette insieme i risultati. Tradotto: la tua pagina può essere citata anche per una query che non hai mai pensato di presidiare, perché risponde bene a un pezzo della domanda."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cosa fare per l'AEO"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se l'obiettivo è farti scegliere come risposta diretta, il lavoro è soprattutto di scrittura e struttura:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Parti dalle domande vere. Le trovi in Search Console, filtrando le query che contengono \"come\", \"cosa\", \"quanto\", \"perché\" ([qui spiego come fare keyword research con Search Console](/seo/keyword-research-google-search-console/)), nel box \"Le persone hanno chiesto anche\" e nelle domande che ti fanno i clienti al telefono.",
+          "Usa la domanda come titolo della sezione (H2 o H3) e rispondi subito nella prima frase. Non dopo tre righe di premessa: subito. Poi approfondisci.",
+          "Scrivi paragrafi che stanno in piedi da soli. Se qualcuno copiasse solo quel paragrafo, senza il resto della pagina, si capirebbe lo stesso? Se la risposta è no, riscrivilo.",
+          "Usa elenchi e tabelle quando la risposta è davvero un elenco o un confronto. Non trasformare tutto in elenco puntato per principio.",
+          "I dati strutturati vanno bene, ma devono descrivere quello che c'è scritto nella pagina. Il markup Product con prezzo e disponibilità, per esempio, ha ancora molto senso per un e-commerce ([ne ho parlato qui](/seo/anteprima-prodotti-in-pagine-google/)). Inventare FAQ solo per il markup, invece, non serve più."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cosa fare per la GEO"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui ci sono un paio di aspetti tecnici in più, e un aspetto editoriale che secondo me conta più di tutti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Fai entrare i crawler giusti"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se un sistema di IA non può leggere il tuo sito, non può citarti. Sembra ovvio, eppure molti siti bloccano tutto nel robots.txt \"per non farsi rubare i contenuti\" senza sapere cosa stanno bloccando. Ogni piattaforma ha più crawler, con scopi diversi:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "OpenAI: OAI-SearchBot è il crawler che decide se il tuo sito può comparire nelle risposte di ChatGPT con la ricerca; GPTBot invece raccoglie contenuti per addestrare i modelli. Sono indipendenti: puoi lasciare entrare il primo e bloccare il secondo.",
+          "Perplexity: PerplexityBot serve a far comparire il sito nei risultati di Perplexity e, secondo la loro documentazione, non viene usato per addestrare modelli.",
+          "Google: AI Overviews e AI Mode usano il normale Googlebot. Il token Google-Extended riguarda l'uso dei contenuti per l'addestramento e il grounding di altri sistemi IA di Google, non la presenza nella ricerca."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Attenzione: prima di toccare il robots.txt fai una copia di quello attuale. Una riga sbagliata può bloccare anche Googlebot, e lì il problema non è più la GEO."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Non dimenticare Bing"
+      },
+      {
+        "type": "paragraph",
+        "content": "Molti sistemi di IA si appoggiano, almeno in parte, a indici di ricerca esistenti. Bing alimenta Copilot e in Bing Webmaster Tools trovi un report che mostra quante volte le tue pagine vengono citate nelle risposte IA di Microsoft. Se non hai mai verificato il sito su Bing Webmaster Tools, è il momento: sono dieci minuti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Dai all'IA un motivo per citarti"
+      },
+      {
+        "type": "paragraph",
+        "content": "Questo è il punto editoriale. Un modello linguistico che deve scrivere una risposta su \"come scegliere un frantoio\" ha già letto migliaia di pagine generiche sull'argomento. Se la tua pagina dice le stesse cose con parole diverse, non ha nessun motivo per citare proprio te."
+      },
+      {
+        "type": "paragraph",
+        "content": "Ha un motivo, invece, se trova qualcosa che altrove non c'è:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Dati tuoi: numeri da casi reali, prezzi aggiornati, risultati di un test che hai fatto.",
+          "Fonti dichiarate: quando citi una statistica, scrivi da dove viene. Il paper sulla GEO di cui parlavo prima ha misurato proprio questo: aggiungere citazioni, statistiche e virgolettati di fonti autorevoli aumentava la visibilità nelle risposte generate fino al 40%. L'effetto cambiava molto da un settore all'altro, quindi prendilo come una direzione, non come una promessa.",
+          "Un'identità chiara: chi scrive, che esperienza ha, dove lavora. Le IA, come i giornalisti, si fidano di più di chi ha nome e cognome.",
+          "Esperienza diretta: \"mi è capitato con un cliente…\" è una frase che nessun riassunto automatico può produrre da solo."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "E il file llms.txt, serve?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il file llms.txt è una proposta di Jeremy Howard del settembre 2024: un file di testo in formato Markdown, da mettere nella root del sito, che riassume chi sei e dove trovare i contenuti principali, pensato per essere letto facilmente dai modelli linguistici. Un po' come una sitemap, ma scritta per un'IA invece che per un crawler."
+      },
+      {
+        "type": "paragraph",
+        "content": "Lo dico subito, così non ci sono equivoci: perseo.biz ce l'ha. Lo trovi a [perseo.biz/llms.txt](/llms.txt) e si aggiorna da solo ogni volta che pubblico un articolo. Mi è costato poco e male non fa."
+      },
+      {
+        "type": "paragraph",
+        "content": "Però devo essere onesto: Google ha detto più volte di non usarlo. John Mueller lo ha definito \"speculativo\" e Gary Illyes ha confermato che Google non lo supporta e non ha in programma di farlo. Al momento nessuna delle grandi piattaforme ha dichiarato ufficialmente di usarlo per decidere chi citare."
+      },
+      {
+        "type": "paragraph",
+        "content": "In sintesi: se il tuo sito è costruito in modo che generarlo costi poco, fallo. Se qualcuno te lo vende come la chiave per comparire su ChatGPT, cambia fornitore."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Come misuri se l'IA ti cita?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui arriva la parte meno divertente: la misurazione della GEO, oggi, è ancora approssimativa."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Search Console: i clic e le impressioni da AI Overviews e AI Mode sono inclusi nel report \"Rendimento\", sotto il tipo di ricerca \"Web\", insieme a tutto il resto. Non c'è un filtro dedicato, quindi non puoi isolarli.",
+          "Bing Webmaster Tools: il report sulle prestazioni IA mostra le citazioni nelle risposte di Copilot e di Bing, pagina per pagina. Non dice quanti clic hai ricevuto, ma almeno ti dice se e dove vieni citato.",
+          "GA4: in Report → Acquisizione → Acquisizione traffico puoi cercare le sorgenti chatgpt.com, perplexity.ai, copilot.microsoft.com e simili. Non è tutto il traffico che arriva dalle IA (una parte arriva senza referrer e finisce nel diretto), ma è un buon termometro.",
+          "Prove manuali: fai a ChatGPT, Perplexity e AI Mode le domande che ti farebbe un cliente e guarda chi viene citato. Non è statistica, ma ti dice molto sui concorrenti."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "E poi c'è il dato che fa più male. Uno studio del Pew Research Center su utenti americani ha rilevato che, quando nella pagina compare un riassunto IA, le persone cliccano su un risultato nell'8% delle visite; senza riassunto, nel 15%. Quasi la metà. Ed è il motivo per cui essere citati nel riassunto non è più un \"di più\": per molte query è l'unico modo per essere visti."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su AEO e GEO"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "AEO e GEO sostituiscono la SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. Sono due modi di applicare la SEO a motori che rispondono invece di elencare link. Le basi restano le stesse: una pagina che non viene scansionata e indicizzata non può essere né estratta come risposta né citata da un'IA."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Servono dati strutturati particolari per comparire negli AI Overviews?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Secondo la documentazione di Google, no: non esiste un markup schema.org specifico per AI Overviews e AI Mode. Basta che la pagina sia indicizzata e idonea a comparire con uno snippet. I dati strutturati restano utili per descrivere bene il contenuto, a patto che corrispondano al testo visibile."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Se blocco GPTBot sparisco da ChatGPT?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. GPTBot raccoglie contenuti per l'addestramento dei modelli, mentre la presenza nelle risposte di ChatGPT con la ricerca dipende da OAI-SearchBot. Sono due crawler indipendenti: puoi bloccare il primo e lasciare entrare il secondo."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come faccio a sapere se ChatGPT o Perplexity citano il mio sito?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il modo più semplice è guardare in GA4 il traffico con sorgente chatgpt.com o perplexity.ai. Per Copilot c'è il report sulle prestazioni IA di Bing Webmaster Tools. E poi le prove a mano: fai le domande dei tuoi clienti e guarda chi viene citato."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "La SEO non è morta, ha solo un lettore in più"
+      },
+      {
+        "type": "paragraph",
+        "content": "Torniamo al nostro giornalista. Il cronista bravo non cita chi urla di più o chi gli manda dieci comunicati al giorno. Cita chi gli dà un'informazione che non trova altrove, detta in modo chiaro, da qualcuno di cui si può fidare."
+      },
+      {
+        "type": "paragraph",
+        "content": "L'AEO ti chiede di essere la frase giusta tra virgolette. La GEO ti chiede di essere la fonte che vale la pena nominare. In tutti e due i casi, il lavoro parte dallo stesso punto: scrivere contenuti che rispondono davvero a una domanda, con qualcosa di tuo dentro. Se lo fai bene, il giornalista ti chiama. Che sia una persona o un algoritmo."
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
