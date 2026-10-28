@@ -257,6 +257,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Se stai ottimizzando siti con molto traffico o molte risorse statiche, abbina queste regole a versioning degli asset e a un CDN per benefici ulteriori su HTTP/2.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul file .htaccess"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Dove si trova il file .htaccess?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Nella root del sito (spesso public_html o htdocs). Su WordPress è nella stessa cartella del file wp-config.php. Se non lo vedi, attiva la visualizzazione dei file nascosti nel file manager o nel client FTP."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Che differenza c'è tra redirect 301 e 302?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il 301 è definitivo e consolida il valore SEO sul nuovo URL. Il 302 è temporaneo e va usato solo per transizioni brevi."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Perché dopo una modifica all'.htaccess il sito dà errore 500?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Quasi sempre per una regola scritta male o un modulo del server non attivo. Ripristina la copia di backup del file e reintroduci le modifiche una alla volta, testando ogni passaggio."
       }
     ]
   },
@@ -383,6 +415,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Come si è visto, le strade delle creazioni di siti sono infinite e sarebbe solo una follia elencarle in un articolo. Ci vorrebbero manuali e manuali (anzi già ci sono). Poi, come al solito, dipende dalla complessità del progetto che si intende realizzare. Progetti più semplici come un blog o un piccolo e-commerce, richiedono l\'intervento di un webmaster che sappia lavorare con i CMS. Altro conto è sviluppare un backend "gestionale" completamente personalizzato e un frontend che supporti alcune specifiche funzionalità per gli utenti. E in questi casi, mi spiace dirlo, ma bisognerebbe fare un investimento serio….molto serio.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su CMS e framework"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Qual è il CMS migliore per un blog?"
+      },
+      {
+        "type": "paragraph",
+        "content": "WordPress: è nato per i blog e l'ottimizzazione degli articoli resta uno dei suoi punti di forza. Conta molto anche l'hosting, che deve reggere il traffico senza errori 5xx."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Meglio Magento o PrestaShop per un e-commerce?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Dipende dalle dimensioni. Magento è pensato per e-commerce molto grandi, per numero di prodotti e traffico. PrestaShop è più semplice da gestire e adatto a negozi di media entità."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "I siti in React o JavaScript hanno problemi con la SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Possono averli se il contenuto viene generato solo nel browser: i motori di ricerca faticano o tardano a vederlo. Il rendering lato server, per esempio con Next.js, consegna ai crawler l'HTML completo della pagina."
       }
     ]
   },
@@ -573,6 +637,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Tuttavia, il digital marketing non è mai bianco o nero. In nicchie molto specifiche, con volumi bassissimi e CPC altissimi (es. settori B2B legali o industriali), un approccio ibrido o simil-SKAG per le keyword "money" potrebbe ancora avere senso per mantenere il controllo assoluto del budget.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su SKAG e STAG"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Le SKAG funzionano ancora su Google Ads?"
+      },
+      {
+        "type": "paragraph",
+        "content": "In generale no. Con le varianti simili anche la corrispondenza esatta intercetta query diverse, e le SKAG frammentano i dati di cui lo Smart Bidding ha bisogno. Possono avere ancora senso in nicchie con volumi bassissimi e CPC molto alti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quante keyword mettere in un gruppo di annunci STAG?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Indicativamente da 5 a 20 parole chiave dello stesso tema o intento di ricerca, così il gruppo accumula abbastanza dati per far lavorare le strategie di offerta automatiche."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come passo da SKAG a STAG senza perdere soldi?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Gradualmente: analizza i termini di ricerca, individua i gruppi con più volume e conversioni, accorpa lì le keyword dei gruppi più piccoli e tieni d'occhio tasso di conversione e costo per conversione durante la transizione."
       }
     ]
   },
@@ -729,6 +825,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Facile no?!'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sulle DPA di Meta"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa sono le DPA di Meta?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Le DPA (Dynamic Product Ads) sono annunci creati in automatico dai dati del catalogo prodotti: nome, descrizione, prezzo e immagine. Mostrano a ogni utente i prodotti che ha visto o messo nel carrello sul tuo sito."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Serve un catalogo prodotti per fare le DPA?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì. Il catalogo si crea nel Commerce Manager (il \"Gestore delle vendite\") e si può riempire a mano, se i prodotti sono pochi, oppure con un feed programmato che si aggiorna da solo dal sito."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Posso promuovere solo alcune categorie di prodotti?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì, con gli insiemi di prodotti: nel catalogo raggruppi gli articoli per categoria e poi, a livello di inserzione, scegli quale insieme promuovere."
       }
     ]
   },
@@ -884,6 +1012,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Per quanto riguarda, invece le DPA (Dynamic product ads), come puoi ben capire, sono rivolte principalmente agli e-commerce. Utilissime se hai un negozio online o un catalogo Meta e vuoi fare una campagna di remarketing: Le DPA sfruttano i dati dei prodotti che hai caricato su Facebook, come il nome del prodotto, la descrizione, il prezzo e l\'immagine, per creare annunci automatici e altamente rilevanti per gli utenti. Quando un utente visita il tuo sito web o interagisce con i tuoi prodotti, Facebook tiene traccia di tali azioni e può mostrare gli annunci dei prodotti che hanno suscitato interesse in quel particolare utente.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sulle creatività dinamiche"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa sono le creatività dinamiche su Meta Ads?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sono combinazioni automatiche di immagini o video, testi, titoli, descrizioni e call to action: Meta le mescola e mostra a ogni persona la combinazione che ritiene più efficace."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quando conviene non attivarle?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Quando vuoi il controllo pieno su ogni inserzione, con testi, immagini e call to action fissi e abbinati come decidi tu, senza lasciare il mix all'algoritmo."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come vedo quale combinazione funziona meglio?"
+      },
+      {
+        "type": "paragraph",
+        "content": "In Gestione inserzioni, dal menu \"Dettagli\" accanto alle colonne, scegli la suddivisione \"In base alla risorsa delle creatività dinamiche\": vedi le combinazioni generate con i rispettivi risultati."
       }
     ]
   },
@@ -1048,6 +1208,38 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'paragraph',
         content: 'Hai avuto o hai problemi con i contenuti duplicati o copiati? Scrivimelo in un commento ⤵️'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su contenuti copiati e duplicati"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Che differenza c'è tra contenuti copiati e duplicati?"
+      },
+      {
+        "type": "paragraph",
+        "content": "I contenuti copiati sono testi del tuo sito ripresi da un sito esterno. I duplicati sono testi identici presenti su due o più pagine del tuo stesso sito."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa faccio se un sito ha copiato i miei testi?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Prima contatta il gestore del sito e chiedi la rimozione. Se non risponde, puoi segnalare la violazione del copyright a Google con lo strumento apposito."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come trovo i contenuti duplicati o copiati?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Con tool come Siteliner (per i duplicati interni) e Copyscape (per le copie su altri siti). In alternativa, copia una frase del tuo testo e cercala su Google tra virgolette."
       }
     ]
   },
@@ -1278,6 +1470,38 @@ RewriteRule ^pagina/([0-9]+)/?$ pagina.php?id=$1 [NC,L]`
       {
         type: 'paragraph',
         content: 'Dove la parte ^pagina/([0-9]+)/?$ è un\'espressione regolare che corrisponde a un URL che inizia con "pagina/" seguito da uno o più numeri e termina con un "/" opzionale.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sull'URL rewriting"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Che differenza c'è tra URL rewriting e redirect?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Con il redirect il server manda l'utente a un altro indirizzo. Con il rewriting il server interpreta internamente un URL leggibile e restituisce la risorsa, senza che l'indirizzo nella barra cambi."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Perché gli URL dinamici possono creare problemi SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Perché sono lunghi e poco leggibili, possono generare contenuti duplicati (la stessa pagina con parametri diversi) e fanno sprecare tempo di scansione ai motori di ricerca su risorse poco importanti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come si attiva l'URL rewriting?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Dipende dal web server: su Apache con il modulo mod_rewrite e le regole nel file .htaccess, su Nginx con la direttiva rewrite nel file di configurazione, su IIS con il modulo URL Rewrite."
       }
     ]
   },
@@ -1563,6 +1787,38 @@ Link:
       {
         type: 'paragraph',
         content: 'Tutto questo è solo per la home page, non lo farei per nessuna delle altre pagine del sito perché è così complesso e difficile da gestire, e anche perché la home page è probabilmente la pagina che ottiene il maggior numero di impressioni di ricerca."'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sui siti multilingua"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "A cosa serve l'attributo hreflang?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Indica ai motori di ricerca le versioni di una pagina in altre lingue o per altri paesi, così Google può mostrare a ogni utente quella giusta. Si può inserire nell'head della pagina, nella sitemap o, per i file non HTML come i PDF, nell'intestazione HTTP."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Meglio sottocartelle, sottodomini o domini nazionali?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Dipende da risorse e obiettivi. I domini nazionali (.de, .fr) danno il segnale geografico più forte ma costano di più e sono più complessi da gestire. Sottocartelle e sottodomini su un unico dominio sono più semplici, e le sottocartelle sono le più facili da mantenere."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Si può tradurre il sito solo con l'intelligenza artificiale?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Meglio di no, almeno non senza revisione. Un copywriter che conosce lingua, modi di dire e regole locali evita errori e produce contenuti più adatti al mercato."
       }
     ]
   },
@@ -1640,6 +1896,38 @@ Link:
       {
         type: 'paragraph',
         content: 'Un altro piccolo strumento, che in realtà è un\'estensione di Chrome, si chiama Nightwatch. Una volta installato, nella barra "search query" puoi inserire la parola chiave che ti interessa e nella barra "find url" l\'url del sito. In un secondo ti restituirà la posizione esatta della pagina all\'interno dei risultati di ricerca. In questo capirai di quanto sei andato sotto per quella pagina, inserendo solo il nome dominio e non l\'url completo della pagina del tuo sito. È un piccolo strumento. La stessa operazione la puoi fare da Seozoom, ma se sei in quel momento su Chrome e vuoi fare una ricerca al volo, è molto utile.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul calo di traffico delle pagine"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come vedo quali pagine hanno perso traffico in GA4?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Vai su Report → Coinvolgimento → Pagine e schermate e confronta l'andamento delle pagine nel periodo che ti interessa."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "E in Search Console?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Nel report \"Rendimento\", scheda \"Pagine\": clicchi su una pagina e vedi clic, impressioni e posizione media nel tempo, fino a 16 mesi indietro, insieme alle query per cui si posiziona."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "La posizione media di Search Console è la posizione reale?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No, è una media sul periodo selezionato. Una pagina in posizione media 45 può trovarsi in terza, quarta o quinta pagina a seconda del giorno e della ricerca."
       }
     ]
   },
@@ -1831,6 +2119,38 @@ Link:
       {
         type: 'paragraph',
         content: 'Ma già adesso, su youtube e altri siti, troverai ottime guide che ti seguiranno step by step nel processo di aggiunta di prodotti. Ti basti sapere che i dati strutturati, più l\'utilizzo di Merchant Center, sono la migliore operazione per far capire e migliorare l\'esperienza dell\'algoritmo Google nella comprensione del feed dei prodotti del tuo e-commerce.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sui prodotti nei risultati di Google"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa sono i rich snippet?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sono risultati di ricerca arricchiti con informazioni in più rispetto a titolo, URL e descrizione: per esempio stelle delle recensioni, prezzo, disponibilità o immagini."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come si ottengono stelle e prezzo nei risultati di Google?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Aggiungendo alla pagina i dati strutturati Product in formato JSON-LD, con nome, prezzo e valutazioni. Google però decide in autonomia se mostrarli."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Basta il markup per comparire tra i prodotti di Google?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Non sempre. Per comparire nelle sezioni dedicate ai prodotti spesso serve anche caricare il catalogo su Google Merchant Center. Dati strutturati e Merchant Center insieme sono la combinazione più solida."
       }
     ]
   },
@@ -2092,6 +2412,38 @@ Link:
       {
         type: 'paragraph',
         content: 'Per siti creati con framework piuttosto che CMS, potrebbero esserci problemi più insidiosi. A volte, piccoli errori nel codice PHP (come una variabile inserita erroneamente) possono mettere il sito in noindex, causando crolli drastici di visite.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul calo di visite di un sito"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Il calo di visite in Analytics significa sempre un calo su Google?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. Prima controlla che il tracciamento funzioni: se il codice di Analytics è stato inserito nel tema principale di WordPress, un aggiornamento del tema può cancellarlo e far crollare le visite solo nei report."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come capisco se il calo è stagionale?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Guarda le keyword delle pagine che perdono traffico: se sono legate a un periodo (un hotel in montagna in primavera, un'azienda B2B nel weekend), il calo può essere del tutto normale."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Una migrazione del sito può far perdere traffico?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì, è una delle cause più frequenti. Per limitare i danni servono redirect pagina per pagina dai vecchi URL ai nuovi, la correzione delle pagine 404, il controllo dei meta tag e l'invio della nuova sitemap."
       }
     ]
   },
@@ -2182,6 +2534,38 @@ Link:
       {
         type: 'paragraph',
         content: 'È lecito porsi queste domande, ma se ci rifletti un attimo, non è una sciocchezza, anzi è una chance che dai in più a quei pochi (spero per te) utenti che atterrano sul tuo sito in una pagina in 404. Se non trovano nulla, ma solo la scritta "Pagina non trovata" quando va bene, se no addirittura in inglese "Not found" con tutto lo sfondo bianco, tenderanno ad andare via da qualche tuo competitor. Altro conto è far trovare una scritta creativa. Per esempio, se hai un e-commerce di prodotti alimentari, potresti scrivere "La pagina che stavi cercando se la sono già mangiati, ma non andare via. Guarda i nostri prodotti appena creati oppure effettua una nuova ricerca." E aggiungi la barra della ricerca. Già in questo modo un utente è più invogliato a non andarsene e può concederti un\'altra opportunità. Magari, chissà, magari diventa un tuo cliente fisso.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sugli errori 404"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa significa errore 404?"
+      },
+      {
+        "type": "paragraph",
+        "content": "È il codice di stato HTTP che indica una risorsa non trovata: il server funziona, ma l'indirizzo richiesto non esiste o non è più disponibile."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come trovo le pagine 404 del mio sito?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Con Screaming Frog, filtrando gli \"Errori client 4xx\", oppure in Search Console, in \"Indicizzazione\" → \"Pagine\", alla voce \"Non trovata (404)\"."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Devo per forza correggere tutti gli errori 404?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. Se sono pagine che hai eliminato tu o di un vecchio sito abbandonato, i motori di ricerca le rimuovono da soli col tempo. Vanno sistemate quelle importanti, con un redirect o ripristinandole."
       }
     ]
   },
@@ -2368,6 +2752,38 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'paragraph',
         content: 'In sintesi: il "-2" nell\'URL non è la fine del mondo, ma è un segnale che qualcosa nel processo di creazione dei contenuti non funziona come dovrebbe. Meglio intercettarlo subito, quando le pagine sono poche, che scoprirlo dopo con un\'analisi SEO quando il danno si è moltiplicato.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul \"-2\" nell'URL"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Perché WordPress aggiunge \"-2\" all'URL?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Perché esiste già un contenuto con lo stesso slug. Succede con titoli duplicati, import massivi, bozze ripubblicate o slug rigenerati dopo una modifica: il CMS aggiunge il numero per evitare che due pagine abbiano lo stesso indirizzo."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Il \"-2\" nell'URL fa male alla SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Su una o due pagine di solito no. Se il problema è diffuso, sì: gli slug diventano poco descrittivi, si spreca crawl budget e, se le pagine sono simili, Google può scegliere come canonica quella sbagliata."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come tolgo il \"-2\" senza perdere traffico?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Modifica lo slug dall'editor (o dal database se sono tante pagine) e imposta sempre un redirect 301 dal vecchio URL al nuovo, con un plugin come Redirection o nel file .htaccess. Prima di toccare il database, fai un backup."
       }
     ]
   },
@@ -2539,6 +2955,47 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'paragraph',
         content: 'Search Console non sostituisce un tool di keyword research dedicato per la fase di pianificazione iniziale, ma per l\'ottimizzazione continuativa di un sito già attivo è probabilmente lo strumento più preciso che hai a disposizione. Perché lavora sui tuoi dati reali, non su stime di mercato.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sulla keyword research con Search Console"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Si può fare keyword research con Google Search Console?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì, soprattutto su un sito già attivo. Il report \"Rendimento\" → \"Risultati della ricerca\" mostra le query reali per cui il sito appare su Google, con clic, impressioni, CTR e posizione media."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come trovo le keyword con più potenziale?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Cerca le query con posizione media tra 11 e 30 e un buon numero di impressioni: Google ti associa già a quelle ricerche, ma sei in seconda o terza pagina. Con un'ottimizzazione mirata puoi portarle in prima."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa significa un CTR basso con una buona posizione?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Che Google ti mostra, ma gli utenti non cliccano. Se il CTR è sotto il 3% con posizione media tra 1 e 10, di solito il problema è lo snippet: title o meta description poco convincenti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quanti mesi di dati conserva Search Console?"
+      },
+      {
+        "type": "paragraph",
+        "content": "16 mesi. Per analisi storiche più lunghe devi esportare i dati periodicamente e conservarli tu."
       }
     ]
   },
@@ -2624,6 +3081,38 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'paragraph',
         content: 'Non è la soluzione più veloce, e capisco benissimo la frustrazione di chi ha appena investito soldi in un nuovo restyling e lo vuole vedere online subito, in tutto il suo splendore. Ma se quella pagina porta clienti reali grazie a un posizionamento conquistato in mesi o anni di lavoro, vale la pena avere la pazienza che Fantozzi non ha avuto con quelle polpette. Meglio una polpetta alla volta, con calma, che ritrovarsi puniti mentre si ha ancora la bocca piena.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul restyling di una pagina posizionata"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Se l'URL non cambia, posso rifare una pagina senza rischi SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. Google non ha bisogno di un cambio di URL per accorgersi che la pagina è diversa: se testi, immagini e struttura cambiano tutti insieme, può trattarla come un contenuto nuovo e il posizionamento precedente non è garantito."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quanto aspettare tra una modifica e l'altra?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Un buon punto di partenza è lasciar passare 4-7 giorni tra una fase e l'altra, senza toccare altro sulla pagina, e controllare in Search Console che impressioni e posizione media non calino prima di andare avanti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quali elementi conviene toccare per ultimi?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Title tag e H1, insieme alla keyword principale nei primi paragrafi. Sono gli elementi più delicati su una pagina già posizionata, quindi vanno modificati solo quando tutte le altre modifiche sono state assorbite senza scossoni."
       }
     ]
   },
@@ -2724,6 +3213,38 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'paragraph',
         content: 'Le keyword a tempo determinato esistono eccome. Sono solo invisibili agli strumenti, non agli occhi di chi vive sul territorio e sa leggere i segnali. La sfida, per chi lavora nel digitale e nell\'editoria, è essere presenti nel momento giusto, anche senza numeri di supporto a dartela vinta in anticipo. Perché a volte il valore di una parola chiave non si misura in volumi, ma nell\'urgenza con cui viene cercata.'
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sulle keyword a tempo determinato"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa sono le keyword a tempo determinato?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sono le query che nascono di colpo in risposta a un fatto, a un evento o a una notizia, hanno un picco breve e intenso e poi spariscono nel giro di ore o giorni."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Perché i tool di keyword research non le vedono?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Perché si basano su medie mensili o annuali di volume di ricerca. Una query che vive per due giorni non fa in tempo a comparire nei dati, anche se nel frattempo porta traffico vero."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Come si intercettano le keyword legate a una notizia?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Con i segnali in tempo reale: Google Trends, i social e i gruppi locali dove la notizia circola per prima, le fonti ufficiali, il report in tempo reale di GA4. Poi scrivendo titoli con le parole che un utente digiterebbe d'istinto."
       }
     ]
   },
@@ -2883,6 +3404,38 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "paragraph",
         "content": "Un remarketing rigido, su un sito con poche migliaia di visite, è come un matrimonio con quindici invitati in una sala da trecento posti: tutti ti conoscono, ma la festa non decolla. Lasciare che Meta faccia entrare anche i cugini dei cugini, tenendo il buttafuori fermo sulle esclusioni, è spesso il modo più semplice per riempire la sala con le persone giuste."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su \"Usa come suggerimento\""
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cosa succede se spunto \"Usa come suggerimento\" su un pubblico personalizzato?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Meta mostra le inserzioni prima alle persone del pubblico che hai indicato e poi, quando vede la possibilità di ottenere risultati migliori, si allarga a persone simili. Se togli la spunta, il pubblico diventa un limite rigido."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "I pubblici esclusi vengono rispettati anche con \"Usa come suggerimento\"?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì. La casella riguarda solo i pubblici che includi. Quelli che escludi restano un vincolo rigido, con un limite: Meta esclude solo le persone che riesce ad abbinare a un profilo, e l'abbinamento di una lista clienti può richiedere fino a 3 giorni."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Che differenza c'è con un pubblico lookalike?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il lookalike di solito parte dagli acquirenti e cerca persone simili, senza mostrare le inserzioni al pubblico di origine. Con i pubblici come suggerimento, invece, le persone che hanno interagito con te sono le prime a vedere le inserzioni, e solo dopo Meta si allarga."
       }
     ]
   },
@@ -3243,6 +3796,47 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "paragraph",
         "content": "Il remarketing non serve a ricordare a tutti che esisti. Serve a ricordare alla persona giusta la cosa giusta, come il barista che ti vede entrare e ha già la tazzina sul bancone."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti sul remarketing"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Che differenza c'è tra remarketing e retargeting?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Nella pratica nessuna: i due termini si usano come sinonimi. Indicano la possibilità di mostrare un messaggio a chi ha già avuto un contatto con te, per esempio visitando il sito, guardando un video o lasciando la propria email."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Tutti i settori possono fare remarketing su Google Ads?"
+      },
+      {
+        "type": "paragraph",
+        "content": "No. Google considera alcuni settori \"categorie di interessi sensibili\", come alcolici, giochi e scommesse e alcune condizioni di salute. Chi promuove quei prodotti non può usare i segmenti di pubblico creati dall'inserzionista, quindi niente remarketing e niente Customer Match."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cos'è il remarketing RLSA?"
+      },
+      {
+        "type": "paragraph",
+        "content": "RLSA (Remarketing Lists for Search Ads) significa usare i segmenti di pubblico nelle campagne sulla Rete di ricerca. Invece di mostrare un banner a chi ti ha visitato, aspetti che quella persona torni a cercare su Google, sapendo già che ti conosce."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Quanto deve durare una sequenza email di carrello abbandonato?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Di solito tre email: la prima entro poche ore, la seconda dopo un giorno, la terza (eventualmente con un incentivo) dopo due o tre giorni. Non di più."
       }
     ]
   },
