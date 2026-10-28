@@ -3251,6 +3251,8 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     "title": "AEO e GEO: che differenza c'è (e cosa cambia davvero per la SEO)",
     "category": "seo",
     "subcategory": "copywriting",
+    "image": "/images/aeo-geo-differenza-featured.png",
+    "imageAiGenerated": true,
     "date": "2026-10-28",
     "excerpt": "Ti hanno detto che la SEO è morta e che adesso serve la GEO? Non è così. È la stessa SEO, con un lettore in più. Vediamo quale.",
     "content": "",
