@@ -86,7 +86,7 @@ export default function SEOBancheFinanza() {
             <p className="text-gray-700 font-medium">Un consiglio sbagliato su un tostapane ti fa perdere 30 euro. Un consiglio sbagliato su un mutuo o su un investimento ti può rovinare.</p>
           </div>
           <p className="text-gray-700 mb-4">
-            Per questo, sulle ricerche finanziarie, Google alza l'asticella su quello che chiama E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness, cioè esperienza, competenza, autorevolezza e affidabilità). E la "T", la fiducia, è quella che pesa di più.
+            Per questo, sulle ricerche finanziarie, Google alza l'asticella su quello che chiama <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">E-E-A-T</a> (Experience, Expertise, Authoritativeness, Trustworthiness, cioè esperienza, competenza, autorevolezza e affidabilità). E la "T", la fiducia, è quella che pesa di più.
           </p>
           <p className="text-gray-700 mb-12">
             Tradotto in pratica: in questo settore non basta scrivere bene. Devi dimostrare di essere chi dici di essere.
@@ -95,7 +95,7 @@ export default function SEOBancheFinanza() {
           {/* E-E-A-T */}
           <h2 className="text-3xl font-bold mb-6">Come dimostrare a Google che ci si può fidare di te</h2>
           <p className="text-gray-700 mb-4">
-            La buona notizia è che chi lavora nel finanziario regolamentato parte avvantaggiato. Una banca è iscritta all'albo della Banca d'Italia. Un consulente finanziario è iscritto all'albo dell'OCF (l'Organismo di vigilanza e tenuta dell'albo unico dei consulenti finanziari). Un mediatore creditizio o un agente in attività finanziaria è iscritto negli elenchi dell'OAM. Sono tutte informazioni pubbliche e verificabili.
+            La buona notizia è che chi lavora nel finanziario regolamentato parte avvantaggiato. Una banca è iscritta all'albo della <a href="https://www.bancaditalia.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Banca d'Italia</a>. Un consulente finanziario è iscritto all'albo dell'<a href="https://www.organismocf.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">OCF</a> (l'Organismo di vigilanza e tenuta dell'albo unico dei consulenti finanziari). Un mediatore creditizio o un agente in attività finanziaria è iscritto negli elenchi dell'<a href="https://www.organismo-am.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">OAM</a>. Sono tutte informazioni pubbliche e verificabili.
           </p>
           <p className="text-gray-700 mb-4">
             Il problema è che molti siti le nascondono in un footer scritto in corpo 8, o non le mettono proprio. Peccato, perché sono esattamente i segnali di affidabilità che Google cerca. Ecco cosa non può mancare:
@@ -105,7 +105,7 @@ export default function SEOBancheFinanza() {
             <li><strong>Iscrizioni e numeri di registrazione:</strong> albo, elenco OAM, codice ABI, partita IVA, con il link alla pagina pubblica dove verificarli.</li>
             <li><strong>Autore su ogni contenuto:</strong> chi ha scritto la guida al mutuo? Se è il responsabile crediti della filiale, dillo, con una breve bio e da quanti anni fa quel lavoro.</li>
             <li><strong>Data di aggiornamento:</strong> nel finanziario le informazioni scadono. Una guida sui tassi del 2022 oggi è sbagliata, e l'utente (e Google) se ne accorgono.</li>
-            <li><strong>Contatti completi:</strong> indirizzo, telefono, email, PEC. E le pagine sui reclami e sull'Arbitro Bancario Finanziario, che per una banca sono comunque obbligatorie: tanto vale che siano chiare e facili da trovare.</li>
+            <li><strong>Contatti completi:</strong> indirizzo, telefono, email, PEC. E le pagine sui reclami e sull'<a href="https://www.arbitrobancariofinanziario.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Arbitro Bancario Finanziario</a>, che per una banca sono comunque obbligatorie: tanto vale che siano chiare e facili da trovare.</li>
           </ul>
           <p className="text-gray-700 mb-12">
             <strong>Attenzione:</strong> niente scorciatoie. Biografie gonfiate, certificazioni inventate o recensioni comprate in questo settore non sono solo un rischio SEO. Sono un rischio legale.
@@ -191,8 +191,8 @@ export default function SEOBancheFinanza() {
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
             <li><strong>Niente promesse di rendimento:</strong> "fai fruttare i tuoi risparmi del 7%" non è un titolo, è un problema. Con la compliance e con Google.</li>
-            <li><strong>Numeri sempre datati:</strong> se citi un tasso, scrivi a quando si riferisce. I tassi cambiano a ogni riunione della BCE, il tuo articolo no (a meno che qualcuno non lo aggiorni).</li>
-            <li><strong>Fonti citate:</strong> Banca d'Italia, Consob, ABI, Istat. Linkare fonti ufficiali non ti "toglie" autorevolezza, te la dà.</li>
+            <li><strong>Numeri sempre datati:</strong> se citi un tasso, scrivi a quando si riferisce. I tassi cambiano a ogni riunione della <a href="https://www.ecb.europa.eu/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">BCE</a>, il tuo articolo no (a meno che qualcuno non lo aggiorni).</li>
+            <li><strong>Fonti citate:</strong> <a href="https://www.bancaditalia.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Banca d'Italia</a>, <a href="https://www.consob.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Consob</a>, <a href="https://www.abi.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">ABI</a>, <a href="https://www.istat.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Istat</a>. Linkare fonti ufficiali non ti "toglie" autorevolezza, te la dà.</li>
             <li><strong>Informazione separata dalla vendita:</strong> la guida spiega come funziona la surroga, poi, alla fine, dice che se vuoi valutarla puoi prendere un appuntamento. Non il contrario.</li>
           </ul>
           <p className="text-gray-700 mb-12">
@@ -218,25 +218,25 @@ export default function SEOBancheFinanza() {
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
             <li><strong>Fogli informativi e documenti di sintesi:</strong> sono obbligatori e hanno contenuti regolati dalla normativa sulla trasparenza bancaria. Non si riscrivono per metterci le keyword.</li>
-            <li><strong>Pubblicità del credito ai consumatori:</strong> se un annuncio indica un tasso o una cifra relativa al costo del credito, deve indicare anche il TAEG e le altre informazioni previste dall'art. 123 del Testo Unico Bancario. Vale anche per i banner e, in molti casi, per le pagine prodotto.</li>
+            <li><strong>Pubblicità del credito ai consumatori:</strong> se un annuncio indica un tasso o una cifra relativa al costo del credito, deve indicare anche il TAEG e le altre informazioni previste dall'<a href="https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:1993-09-01;385~art123" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">art. 123 del Testo Unico Bancario</a>. Vale anche per i banner e, in molti casi, per le pagine prodotto.</li>
             <li><strong>Avvertenze sugli investimenti:</strong> rischi, costi, "i rendimenti passati non sono indicativi di quelli futuri". Restano, anche se allungano la pagina.</li>
           </ul>
           <p className="text-gray-700 mb-4">
             La SEO, qui, lavora intorno: titoli, struttura, contenuti di supporto, collegamenti interni. Il consiglio pratico è coinvolgere la compliance dall'inizio, non alla fine. Mi è capitato di vedere progetti fermi per mesi perché l'ufficio legale ha visto i testi solo a sito finito.
           </p>
           <p className="text-gray-700 mb-12">
-            Un problema tecnico tipico: i PDF dei fogli informativi. Google li indicizza, e capita che sulla ricerca "conto corrente Banca Rossi" esca prima un PDF di 12 pagine che la pagina del prodotto. L'utente apre il PDF, non trova un pulsante, non trova un contatto, e se ne va. La soluzione non è nasconderli (devono restare pubblici e accessibili), ma indicare a Google qual è la pagina principale con un canonical nell'intestazione HTTP del PDF (un'indicazione che si imposta lato server e dice a Google "la versione da mostrare è quest'altra pagina") e linkare il PDF dalla pagina prodotto, non viceversa.
+            Un problema tecnico tipico: i PDF dei fogli informativi. Google li indicizza, e capita che sulla ricerca "conto corrente Banca Rossi" esca prima un PDF di 12 pagine che la pagina del prodotto. L'utente apre il PDF, non trova un pulsante, non trova un contatto, e se ne va. La soluzione non è nasconderli (devono restare pubblici e accessibili), ma indicare a Google qual è la pagina principale con un <a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">canonical nell'intestazione HTTP</a> del PDF (un'indicazione che si imposta lato server e dice a Google "la versione da mostrare è quest'altra pagina") e linkare il PDF dalla pagina prodotto, non viceversa.
           </p>
 
           {/* Dati strutturati */}
           <h2 className="text-3xl font-bold mb-6">Inserire i dati strutturati</h2>
           <p className="text-gray-700 mb-4">
-            I dati strutturati non sono un fattore di posizionamento diretto, ma aiutano Google a capire chi sei e cosa offri. Per il settore finanziario Schema.org ha tipi dedicati:
+            I dati strutturati non sono un fattore di posizionamento diretto, ma aiutano Google a capire chi sei e cosa offri. Per il settore finanziario <a href="https://schema.org/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Schema.org</a> ha tipi dedicati:
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
-            <li><strong>BankOrCreditUnion</strong> per la banca e le singole filiali (con indirizzo, orari, coordinate);</li>
-            <li><strong>FinancialService</strong> per consulenti, mediatori e società di servizi finanziari;</li>
-            <li><strong>LoanOrCredit</strong> e <strong>MortgageLoan</strong> per descrivere prodotti come prestiti e mutui;</li>
+            <li><strong><a href="https://schema.org/BankOrCreditUnion" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">BankOrCreditUnion</a></strong> per la banca e le singole filiali (con indirizzo, orari, coordinate);</li>
+            <li><strong><a href="https://schema.org/FinancialService" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">FinancialService</a></strong> per consulenti, mediatori e società di servizi finanziari;</li>
+            <li><strong><a href="https://schema.org/LoanOrCredit" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">LoanOrCredit</a></strong> e <strong><a href="https://schema.org/MortgageLoan" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">MortgageLoan</a></strong> per descrivere prodotti come prestiti e mutui;</li>
             <li><strong>Person</strong> e <strong>Article</strong> per collegare ogni contenuto al suo autore, con le sue qualifiche.</li>
           </ul>
           <p className="text-gray-700 mb-12">
@@ -275,7 +275,7 @@ export default function SEOBancheFinanza() {
             I link restano uno dei fattori di posizionamento più importanti, e nel finanziario quelli giusti valgono doppio. La buona notizia è che una realtà locale ha occasioni che un sito nazionale non ha:
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
-            <li><strong>Educazione finanziaria:</strong> incontri nelle scuole, serate con le associazioni di categoria, il Mese dell'educazione finanziaria che si tiene ogni anno a ottobre. Sono iniziative utili davvero, e i siti che le raccontano (scuole, comuni, giornali locali) linkano volentieri.</li>
+            <li><strong>Educazione finanziaria:</strong> incontri nelle scuole, serate con le associazioni di categoria, il <a href="https://www.quellocheconta.gov.it/attivita/mese-delleducazione-finanziaria/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Mese dell'educazione finanziaria</a> che si tiene ogni anno in autunno (nel 2026 a novembre). Sono iniziative utili davvero, e i siti che le raccontano (scuole, comuni, giornali locali) linkano volentieri.</li>
             <li><strong>Territorio:</strong> sponsorizzazioni sportive e culturali, convenzioni con ordini professionali e associazioni, partnership con i Confidi.</li>
             <li><strong>Dati e ricerche:</strong> un'analisi sull'andamento dei mutui in provincia, fatta con i propri dati aggregati e anonimi, interessa ai giornali locali molto più di un comunicato stampa.</li>
           </ul>
