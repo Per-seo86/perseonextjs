@@ -63,6 +63,9 @@ export default function SEOBancheFinanza() {
             Cerca "mutuo prima casa" su Google e guarda chi c'è. Comparatori come MutuiOnline e Facile.it, le grandi banche nazionali, le banche online, i giornali economici. Siti con budget, autorevolezza e anni di link alle spalle.
           </p>
           <p className="text-gray-700 mb-4">
+            Per darti un'idea dei numeri, ho controllato su SEOZoom (dati di novembre 2026): "mutuo prima casa" ha circa 49.500 ricerche al mese, "prestito personale" 33.100, "surroga mutuo" 27.100. La keyword difficulty (un punteggio da 0 a 100 che stima quanto è dura posizionarsi) sta tra 65 e 67. Tradotto: tanta gente, e tanta concorrenza.
+          </p>
+          <p className="text-gray-700 mb-4">
             Pensare di superarli sulle ricerche generiche è, diciamo, ottimista. Ma non è lì che si gioca la partita per una realtà locale o per un professionista. Si gioca su ricerche più specifiche, che quei colossi coprono male o non coprono affatto:
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
@@ -70,6 +73,9 @@ export default function SEOBancheFinanza() {
             <li><strong>Ricerche di nicchia:</strong> "finanziamento per aziende agricole", "mutuo per giovani under 36 con contratto a tempo determinato", "prestito per partita IVA in regime forfettario".</li>
             <li><strong>Ricerche legate al territorio:</strong> bandi regionali, agevolazioni locali, accordi con i Confidi della zona.</li>
           </ul>
+          <p className="text-gray-700 mb-4">
+            Attenzione però a una cosa. Se cerchi su SEOZoom "mutuo cosenza" o "consulente finanziario cosenza", trovi volume zero. Sembra una pessima notizia. Non lo è: i tool stimano male le ricerche locali a basso volume, e per molte ricerche Google mostra comunque risultati vicini a chi cerca, anche se la città non viene scritta. Zero nei tool non vuol dire zero clienti.
+          </p>
           <p className="text-gray-700 mb-12">
             Nell'analisi dei competitor, quindi, non guardare solo chi è primo. Guarda cosa manca. Spesso trovi SERP dove i risultati sono articoli generici scritti a Milano per un pubblico nazionale, e nessuno che risponda alla domanda di chi abita a 20 km da te.
           </p>
@@ -195,6 +201,9 @@ export default function SEOBancheFinanza() {
             <li><strong>Fonti citate:</strong> <a href="https://www.bancaditalia.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Banca d'Italia</a>, <a href="https://www.consob.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Consob</a>, <a href="https://www.abi.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">ABI</a>, <a href="https://www.istat.it/" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">Istat</a>. Linkare fonti ufficiali non ti "toglie" autorevolezza, te la dà.</li>
             <li><strong>Informazione separata dalla vendita:</strong> la guida spiega come funziona la surroga, poi, alla fine, dice che se vuoi valutarla puoi prendere un appuntamento. Non il contrario.</li>
           </ul>
+          <p className="text-gray-700 mb-4">
+            Un'ultima cosa sui contenuti informativi. Secondo SEOZoom, su "mutuo prima casa", "cessione del quinto", "surroga mutuo" e "calcolo rata mutuo" Google mostra già l'AI Overview, il riassunto generato dall'IA in cima ai risultati. Chi cerca la definizione generica spesso si ferma lì e non clicca. Un motivo in più per scrivere contenuti che l'IA non può riassumere in tre righe: casi concreti, condizioni locali, l'esperienza di chi i mutui li fa davvero.
+          </p>
           <p className="text-gray-700 mb-12">
             C'è poi un aspetto che i colossi nazionali non possono copiare: il territorio. Un articolo su come funzionano le agevolazioni regionali per le imprese calabresi, scritto da chi quelle pratiche le segue davvero, vale più di dieci guide generiche sull'inflazione.
           </p>
@@ -202,7 +211,7 @@ export default function SEOBancheFinanza() {
           {/* Simulatori */}
           <h2 className="text-3xl font-bold mb-6">Simulatori e strumenti: il contenuto che si fa linkare da solo</h2>
           <p className="text-gray-700 mb-4">
-            Il calcolatore della rata del mutuo è uno dei contenuti più cercati e più linkati del settore. Lo stesso vale per il calcolo della rata del prestito, della cessione del quinto, del rendimento di un piano di accumulo.
+            Il calcolatore della rata del mutuo è uno dei contenuti più cercati e più linkati del settore: su SEOZoom "calcolo rata mutuo" fa circa 40.500 ricerche al mese, quasi quanto "mutuo prima casa". Lo stesso vale per il calcolo della rata del prestito, della cessione del quinto, del rendimento di un piano di accumulo.
           </p>
           <p className="text-gray-700 mb-4">
             Funzionano per due motivi. Rispondono perfettamente a un'intenzione di ricerca ("calcolo rata mutuo") e sono utili, quindi altri siti li citano spontaneamente.
@@ -302,7 +311,7 @@ export default function SEOBancheFinanza() {
           {/* SEO e Ads */}
           <h2 className="text-3xl font-bold mb-6">SEO e Ads: nel finanziario ancora più complementari</h2>
           <p className="text-gray-700 mb-4">
-            Google Ads e <Link href="/meta-ads-specialist/" className="text-purple-600 hover:underline">Meta Ads</Link> hanno regole specifiche per i servizi finanziari: restrizioni sui contenuti, requisiti di trasparenza, limiti al targeting su alcuni prodotti di credito. Fare pubblicità resta possibile, ma è più complicato e costoso che in altri settori, e i costi per clic sulle parole chiave del credito sono tra i più alti in assoluto.
+            Google Ads e <Link href="/meta-ads-specialist/" className="text-purple-600 hover:underline">Meta Ads</Link> hanno regole specifiche per i servizi finanziari: restrizioni sui contenuti, requisiti di trasparenza, limiti al targeting su alcuni prodotti di credito. Fare pubblicità resta possibile, ma è più complicato e costoso che in altri settori, e i clic costano. Secondo le stime di SEOZoom, un clic su "conto corrente" costa in media 7,19 €, su "cessione del quinto" 3,51 €, su "prestito personale" 2,79 €. Un clic, non un cliente.
           </p>
           <p className="text-gray-700 mb-12">
             Proprio per questo la SEO ha un valore particolare: ogni visita che arriva in modo organico su "surroga mutuo" o "prestito per ristrutturazione" è una visita che non hai pagato a peso d'oro. La strategia migliore, di solito, è usare le <Link href="/google-ads-specialist/" className="text-purple-600 hover:underline">campagne Google Ads</Link> per i prodotti e i momenti caldi (una nuova offerta, un periodo dell'anno) e la SEO per costruire una presenza che resta.
