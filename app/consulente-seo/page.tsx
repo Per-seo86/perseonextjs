@@ -198,7 +198,7 @@ export default function ConsulenteSEO() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-3xl font-bold mb-12 text-center">Servizi SEO Specializzati</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 gap-8">
             <Link href="/consulente-seo/seo-concessionarie" className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition">
               <h3 className="text-2xl font-bold mb-4">SEO per Concessionarie</h3>
               <p className="text-gray-600 mb-4">
@@ -219,6 +219,14 @@ export default function ConsulenteSEO() {
               <h3 className="text-2xl font-bold mb-4">SEO per Farmacie</h3>
               <p className="text-gray-600 mb-4">
                 Consulenza SEO per farmacie con gestione cataloghi prodotti sanitari e ottimizzazione locale.
+              </p>
+              <span className="text-purple-600 font-semibold">Scopri di più →</span>
+            </Link>
+
+            <Link href="/consulente-seo/seo-banche-e-finanza" className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold mb-4">SEO per Banche e Finanza</h3>
+              <p className="text-gray-600 mb-4">
+                Consulenza SEO per banche locali, consulenti finanziari e mediatori creditizi, con focus su fiducia e local SEO.
               </p>
               <span className="text-purple-600 font-semibold">Scopri di più →</span>
             </Link>

@@ -70,6 +70,9 @@ export default function Header() {
                           <Link href="/consulente-seo/seo-farmacie" className="block px-4 py-2 text-sm text-gray-600 hover:bg-purple-50 hover:text-purple-600">
                             SEO farmacie
                           </Link>
+                          <Link href="/consulente-seo/seo-banche-e-finanza" className="block px-4 py-2 text-sm text-gray-600 hover:bg-purple-50 hover:text-purple-600">
+                            SEO banche e finanza
+                          </Link>
                         </div>
                       )}
                     </div>

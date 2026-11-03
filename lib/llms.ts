@@ -15,6 +15,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'Consulente SEO', path: '/consulente-seo/', description: 'Consulenza SEO: analisi, ottimizzazione tecnica e strategie per posizionarsi su Google.' },
   { title: 'SEO per concessionarie', path: '/consulente-seo/seo-concessionarie/', description: 'Strategie SEO per il settore automotive.' },
   { title: 'SEO per farmacie', path: '/consulente-seo/seo-farmacie/', description: 'Strategie SEO per farmacie online e fisiche.' },
+  { title: 'SEO per banche e servizi finanziari', path: '/consulente-seo/seo-banche-e-finanza/', description: 'Strategie SEO per banche, consulenti finanziari e mediatori creditizi.' },
   { title: 'SEO per negozi di arredamento', path: '/consulente-seo/seo-negozi-di-arredamento/', description: 'Strategie SEO per e-commerce e showroom di arredamento.' },
   { title: 'Consulenza SEO a Catanzaro', path: '/consulenza-seo-a-catanzaro/', description: 'Consulenza SEO per studi professionali, sanità, servizi e turismo sulla costa ionica in provincia di Catanzaro.' },
   { title: 'Consulenza SEO a Cosenza', path: '/consulenza-seo-a-cosenza/', description: 'Consulenza SEO per aziende e attività locali di Cosenza.' },
