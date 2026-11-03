@@ -19,7 +19,12 @@ function pushConsent(consent: ConsentState) {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const w = window as any;
   w.dataLayer = w.dataLayer || [];
-  function gtag(...args: unknown[]) { w.dataLayer.push(args); }
+  // GTM accetta i comandi solo come oggetto `arguments`: un array viene ignorato.
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  function gtag(..._args: unknown[]) {
+    // eslint-disable-next-line prefer-rest-params
+    w.dataLayer.push(arguments);
+  }
   gtag('consent', 'update', {
     analytics_storage: consent.analytics_storage,
     ad_storage: consent.ad_storage,
