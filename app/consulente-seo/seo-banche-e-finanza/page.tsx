@@ -302,7 +302,7 @@ export default function SEOBancheFinanza() {
           {/* SEO e Ads */}
           <h2 className="text-3xl font-bold mb-6">SEO e Ads: nel finanziario ancora più complementari</h2>
           <p className="text-gray-700 mb-4">
-            Google Ads e Meta Ads hanno regole specifiche per i servizi finanziari: restrizioni sui contenuti, requisiti di trasparenza, limiti al targeting su alcuni prodotti di credito. Fare pubblicità resta possibile, ma è più complicato e costoso che in altri settori, e i costi per clic sulle parole chiave del credito sono tra i più alti in assoluto.
+            Google Ads e <Link href="/meta-ads-specialist/" className="text-purple-600 hover:underline">Meta Ads</Link> hanno regole specifiche per i servizi finanziari: restrizioni sui contenuti, requisiti di trasparenza, limiti al targeting su alcuni prodotti di credito. Fare pubblicità resta possibile, ma è più complicato e costoso che in altri settori, e i costi per clic sulle parole chiave del credito sono tra i più alti in assoluto.
           </p>
           <p className="text-gray-700 mb-12">
             Proprio per questo la SEO ha un valore particolare: ogni visita che arriva in modo organico su "surroga mutuo" o "prestito per ristrutturazione" è una visita che non hai pagato a peso d'oro. La strategia migliore, di solito, è usare le <Link href="/google-ads-specialist/" className="text-purple-600 hover:underline">campagne Google Ads</Link> per i prodotti e i momenti caldi (una nuova offerta, un periodo dell'anno) e la SEO per costruire una presenza che resta.
