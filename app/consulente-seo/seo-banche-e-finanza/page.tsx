@@ -231,7 +231,7 @@ export default function SEOBancheFinanza() {
             <li><strong>Avvertenze sugli investimenti:</strong> rischi, costi, "i rendimenti passati non sono indicativi di quelli futuri". Restano, anche se allungano la pagina.</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            La SEO, qui, lavora intorno: titoli, struttura, contenuti di supporto, collegamenti interni. Il consiglio pratico è coinvolgere la compliance dall'inizio, non alla fine. Mi è capitato di vedere progetti fermi per mesi perché l'ufficio legale ha visto i testi solo a sito finito.
+            La SEO, qui, lavora intorno: titoli, struttura, contenuti di supporto, collegamenti interni. Il consiglio pratico è coinvolgere la compliance dall'inizio, non alla fine. Nel settore succede spesso: progetti fermi per mesi perché l'ufficio legale vede i testi solo a sito finito.
           </p>
           <p className="text-gray-700 mb-12">
             Un problema tecnico tipico: i PDF dei fogli informativi. Google li indicizza, e capita che sulla ricerca "conto corrente Banca Rossi" esca prima un PDF di 12 pagine che la pagina del prodotto. L'utente apre il PDF, non trova un pulsante, non trova un contatto, e se ne va. La soluzione non è nasconderli (devono restare pubblici e accessibili), ma indicare a Google qual è la pagina principale con un <a href="https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls" target="_blank" rel="noopener noreferrer" className="text-purple-600 hover:underline">canonical nell'intestazione HTTP</a> del PDF (un'indicazione che si imposta lato server e dice a Google "la versione da mostrare è quest'altra pagina") e linkare il PDF dalla pagina prodotto, non viceversa.
