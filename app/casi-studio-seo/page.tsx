@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
+import Link from 'next/link';
 import ContactForm from '@/components/ContactForm';
 import TableOfContents from '@/components/TableOfContents';
 import { generateId } from '@/lib/utils';
@@ -125,7 +126,7 @@ export default function CasiSEO() {
             Vado sulla Search Console e mi accorgo che c'è un numero spropositato di pagine scansionate, ma non indicizzate. Il povero crawler stava faticando assai. Scansionare URL spazzatura non è bello, anche tag non pertinenti del vecchio sito, quando era in WordPress (ora è in un CMS proprietario). Bisogna bloccare questo sistema disfunzionale.
           </p>
           <p className="text-gray-700 mb-4">
-            "Vabbè, ma vanno poi tutte in 404, che te frega?! poi Google le elimina" mi dicono. Il fatto è che stavano aumentando di giorno in giorno.
+            "Vabbè, ma vanno poi tutte in <Link href="/seo/errori-404-sul-tuo-sito" className="text-purple-600 underline hover:text-pink-500">404</Link>, che te frega?! poi Google le elimina" mi dicono. Il fatto è che stavano aumentando di giorno in giorno.
           </p>
           <p className="text-gray-700 mb-4">
             Rifletti, analizza e vai a beccare che all'interno della sitemap_index, ci sono 2 sitemap. "Mi sta bene" penso io. Ci sono tantissimi articoli ed è corretto che anche prima dei 50k URL, si crei una seconda sitemap per non appesantire tutto il sito in una sola. Dopo un paio di giorni, ritorno sulle 2 sitemap e vedo che hanno gli stessi URL. Sono identiche. Una la copia dell'altra.
@@ -157,7 +158,7 @@ export default function CasiSEO() {
             Apriamo Search Console, partiamo con l'analisi e scopriamo il problema: tutti gli articoli del blog sono andati perduti. Se li è persi per strada il webmaster che ha lavorato al rifacimento.
           </p>
           <p className="text-gray-700 mb-4">
-            Di solito, in questi casi, il colpevole è un redirect 301 mancante (quello che dice a Google "questa pagina è stata spostata definitivamente qui"). Qui i redirect mancavano, certo, ma il problema era a monte: non c'era più una pagina verso cui farli puntare. Non esisteva nemmeno la sezione blog. Zero.
+            Di solito, in questi casi, il colpevole è un <Link href="/seo/guida-pratica-all-htaccess-redirect-cache-e-seo-tecnica" className="text-purple-600 underline hover:text-pink-500">redirect 301</Link> mancante (quello che dice a Google "questa pagina è stata spostata definitivamente qui"). Qui i redirect mancavano, certo, ma il problema era a monte: non c'era più una pagina verso cui farli puntare. Non esisteva nemmeno la sezione blog. Zero.
           </p>
           <p className="text-gray-700 mb-6">
             In buona sostanza, un'azienda che vende porte aveva murato quelle da cui entravano i clienti. Il grafico di Search Console non ha bisogno di tante spiegazioni: da inizio luglio 2025, con giornate tra gli 80 e i 120 clic, si scende in poche settimane fino a una manciata di clic al giorno.
@@ -214,7 +215,7 @@ export default function CasiSEO() {
 
           <h3 className="text-xl font-semibold mb-4">Cosa ci porto a casa</h3>
           <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
-            <li><strong>Prima di rifare un sito, fai l'inventario:</strong> esporta tutti gli URL e guarda in Search Console quali portano traffico. Sono quelli che non puoi perdere.</li>
+            <li><strong>Prima di rifare un sito, fai l'inventario:</strong> esporta tutti gli URL e guarda in Search Console <Link href="/seo/come-capire-quali-pagine-del-sito-hanno-perso-traffico" className="text-purple-600 underline hover:text-pink-500">quali pagine portano traffico</Link>. Sono quelle che non puoi perdere, e anche quando restano online <Link href="/seo/modificare-una-pagina-senza-perdere-il-posizionamento-seo" className="text-purple-600 underline hover:text-pink-500">vanno modificate con calma</Link>.</li>
             <li><strong>I redirect non bastano se manca la destinazione:</strong> prima si controlla che i contenuti esistano ancora, poi si pensa a dove mandarli.</li>
             <li><strong>Wayback Machine salva, ma è l'ultima spiaggia:</strong> recuperare a mano quello che bastava non cancellare costa molto più di un backup. Sempre. Non è un consiglio, è una regola.</li>
             <li><strong>Prova su un articolo solo:</strong> importarne cento con lo slug sbagliato significa rifare il lavoro cento volte.</li>
@@ -263,7 +264,7 @@ export default function CasiSEO() {
           </p>
 
           <p className="text-gray-700 mb-4">
-            Il dato che mi convince di più è quello sulle query che contengono la parola "prezzo", cioè proprio gli intenti che prima mancavano. Filtrando Search Console su quella parola, tra il 14 e il 18 ottobre: <strong>230 clic, 4,93K impressioni, CTR del 4,7% e posizione media 5,3</strong>. E guarda la curva: parte da pochi clic al giorno e il 18 ottobre ne porta oltre 100, su un totale di 286 clic quel giorno (7,4K impressioni). In altre parole, una fetta enorme dell'impennata arriva da ricerche che prima non intercettavamo affatto.
+            Il dato che mi convince di più è quello sulle query che contengono la parola "prezzo", cioè proprio gli intenti che prima mancavano. Filtrando <Link href="/seo/keyword-research-google-search-console" className="text-purple-600 underline hover:text-pink-500">Search Console</Link> su quella parola, tra il 14 e il 18 ottobre: <strong>230 clic, 4,93K impressioni, CTR del 4,7% e posizione media 5,3</strong>. E guarda la curva: parte da pochi clic al giorno e il 18 ottobre ne porta oltre 100, su un totale di 286 clic quel giorno (7,4K impressioni). In altre parole, una fetta enorme dell'impennata arriva da ricerche che prima non intercettavamo affatto.
           </p>
           <div className="mb-6">
             <Image
@@ -278,7 +279,7 @@ export default function CasiSEO() {
           <h3 className="text-xl font-semibold mb-4">Cosa ci porto a casa</h3>
           <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
             <li><strong>Guarda gli intenti, non solo i volumi:</strong> un sito pieno di contenuti informativi può essere invisibile proprio dove si decide l'acquisto.</li>
-            <li><strong>Nei prodotti stagionali conta il tempismo:</strong> il contenuto transazionale va pubblicato prima del picco, non durante.</li>
+            <li><strong>Nei prodotti stagionali conta il tempismo:</strong> il contenuto transazionale va pubblicato prima del picco, non durante. Vale anche per le <Link href="/seo/keyword-a-tempo-determinato-seo-editoriale" className="text-purple-600 underline hover:text-pink-500">keyword a tempo determinato</Link>.</li>
             <li><strong>Separa sempre cosa fa il mercato da cosa fai tu:</strong> se non lo fai, ti attribuisci meriti che non hai, o peggio ti dai colpe che non hai.</li>
           </ul>
           <p className="text-gray-700 mb-12">
