@@ -93,7 +93,7 @@ export default function ConsulenteSEO() {
             Quando ho parlato poco più sopra dei SEO accostati agli avvocati, li ho anche accostati ai medici. Perché? Quante volte ci sentiamo dire "ho un sito che non fa più visite" o "gli utenti non comprano più da me, cosa posso fare?". Ovvio un check-up completo dello stato di salute del sito. Non ti sto a spiegare step by step tutta l'analisi tecnica del sito, perché probabilmente parlerei arabo se ti citassi parole come: screaming frog, errori 404 (forse questa ti è più familiare), thin content, meta tags assenti, protocolli https inesistenti, contenuti duplicati, gerarchia headings non rispettata, intenti di ricerca non raggiunti ecc…
           </p>
           <p className="text-gray-700 mb-12">
-            Quindi un audit del sito è fondamentale per capire come proseguire e quali interventi adottare. L'analisi è già un lavoraccio, quindi, se sul tuo sito, hai già uno sviluppatore, un SEO specialist, una volta individuati i problemi, dialoga con lo sviluppatore, illustrandogli gli errori trovati o seguendolo passo passo per la loro effettiva risoluzione.
+            Quindi un audit del sito è fondamentale per capire come proseguire e quali interventi adottare. L'analisi è già un lavoraccio, quindi, se sul tuo sito, hai già uno sviluppatore, un SEO specialist, una volta individuati i problemi, dialoga con lo sviluppatore, illustrandogli gli errori trovati o seguendolo passo passo per la loro effettiva risoluzione. Se vuoi farti un'idea di cosa può saltare fuori da un'analisi, leggi i miei <Link href="/casi-studio-seo" className="text-purple-600 underline hover:text-pink-500">casi studio SEO</Link>.
           </p>
 
           {/* SEO a tempo indeterminato */}

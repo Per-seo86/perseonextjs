@@ -1886,7 +1886,7 @@ Link:
       },
       {
         type: 'paragraph',
-        content: 'Utilizzando Excel ed esportando i dati di questi tre potentissimi strumenti, puoi avere un pieno controllo di cosa fare e su quali pagine esatte agire.'
+        content: 'Utilizzando Excel ed esportando i dati di questi tre potentissimi strumenti, puoi avere un pieno controllo di cosa fare e su quali pagine esatte agire. Se vuoi vedere dove può portare questa analisi, leggi i miei [casi studio SEO](/casi-studio-seo/): in uno, è stata proprio Search Console a farci scoprire che gli articoli di un cliente erano spariti.'
       },
       {
         type: 'heading',
@@ -2370,7 +2370,7 @@ Link:
       },
       {
         type: 'paragraph',
-        content: 'Il consiglio dato è provocatorio: NON MIGRATE! Sebbene sia legale e possibile, è un\'operazione complessa specialmente per siti con migliaia di pagine. Anche se il nuovo sito è più user-friendly, veloce e attraente, subisce solitamente un calo drammatico di visite.'
+        content: 'Il consiglio dato è provocatorio: NON MIGRATE! Sebbene sia legale e possibile, è un\'operazione complessa specialmente per siti con migliaia di pagine. Anche se il nuovo sito è più user-friendly, veloce e attraente, subisce solitamente un calo drammatico di visite. E se pensi che esageri, nei miei [casi studio SEO](/casi-studio-seo/) trovi un\'azienda di infissi che, con il rifacimento del sito, ha perso l\'intero blog.'
       },
       {
         type: 'paragraph',
@@ -3056,7 +3056,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         type: 'paragraph',
-        content: 'Avevo consigliato di procedere per gradi. Non è stato possibile, per tempistiche e per l\'entusiasmo (comprensibile) del cliente nel voler vedere subito la nuova veste grafica online. Risultato: nel giro di pochi giorni, la pagina è passata dalla prima posizione in prima pagina alla terza pagina dei risultati di Google. Nessun errore tecnico, nessun problema di crawl, nessuna penalizzazione manuale: semplicemente, Google ha ricalcolato la rilevanza di quella pagina come se fosse un contenuto sostanzialmente nuovo, senza più tutti i segnali accumulati nel tempo dalla versione precedente. La stessa identica lezione di Birkermaier, applicata al posizionamento organico.'
+        content: 'Avevo consigliato di procedere per gradi. Non è stato possibile, per tempistiche e per l\'entusiasmo (comprensibile) del cliente nel voler vedere subito la nuova veste grafica online. Risultato: nel giro di pochi giorni, la pagina è passata dalla prima posizione in prima pagina alla terza pagina dei risultati di Google. Nessun errore tecnico, nessun problema di crawl, nessuna penalizzazione manuale: semplicemente, Google ha ricalcolato la rilevanza di quella pagina come se fosse un contenuto sostanzialmente nuovo, senza più tutti i segnali accumulati nel tempo dalla versione precedente. La stessa identica lezione di Birkermaier, applicata al posizionamento organico. E poteva andare peggio: tra i miei [casi studio SEO](/casi-studio-seo/) c\'è un sito che, rifatto da capo, ha perso tutto il blog.'
       },
       {
         type: 'heading',
