@@ -6,8 +6,8 @@ import TableOfContents from '@/components/TableOfContents';
 import { generateId } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'I casi più problematici che mi siano capitati sulla SEO | Perseo',
-  description: 'Casi studio SEO reali: i problemi più complessi affrontati in oltre 10 anni di attività.',
+  title: 'Casi studio SEO: i più problematici e come li ho risolti | Perseo',
+  description: 'Casi studio SEO reali: i problemi più complessi che mi sono capitati in oltre 10 anni di attività e come li ho affrontati, con numeri e grafici.',
 };
 
 const CASI = [
@@ -23,9 +23,9 @@ export default function CasiSEO() {
       {/* Hero */}
       <section className="relative bg-gradient-to-br from-blue-600 via-blue-400 to-cyan-400 text-white pt-20 pb-32 overflow-hidden">
         <div className="container mx-auto px-4 text-center relative z-10">
-          <Breadcrumb items={[{ label: 'Consulente SEO', href: '/consulente-seo' }, { label: 'Casi SEO' }]} light />
+          <Breadcrumb items={[{ label: 'Consulente SEO', href: '/consulente-seo' }, { label: 'Casi studio SEO' }]} light />
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            I casi più problematici che mi siano capitati sulla SEO
+            I casi studio SEO più problematici che mi siano mai capitati e come li ho risolti
           </h1>
         </div>
         <div className="absolute bottom-0 left-0 w-full overflow-hidden leading-none">

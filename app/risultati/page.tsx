@@ -44,10 +44,10 @@ export default function Risultati() {
                 <Image src="/images/risultati-1.png" alt="Risultato SEO - Prima posizione" width={1642} height={628} className="w-full h-auto" />
               </div>
               <Link
-                href="/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo"
+                href="/casi-studio-seo"
                 className="text-purple-600 font-semibold hover:underline"
               >
-                Vedi altri casi SEO →
+                Vedi altri casi studio SEO →
               </Link>
             </div>
 
