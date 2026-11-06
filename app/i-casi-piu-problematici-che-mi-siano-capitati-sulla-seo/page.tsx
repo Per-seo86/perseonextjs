@@ -124,7 +124,84 @@ export default function CasiSEO() {
             />
           </div>
 
-          {/* Caso 3 - Prodotto stagionale */}
+          {/* Caso 3 - Blog perso nel rifacimento del sito */}
+          <h2 className="text-3xl font-bold mb-6">Azienda di infissi – Il blog sparito con il rifacimento del sito</h2>
+          <p className="text-gray-700 mb-4">
+            Un'azienda che vende infissi arriva da noi disperata: i contatti di chi ha bisogno di una porta, di una finestra o di infissi nuovi non arrivano più. Il sito è stato appena rifatto ed è pure bello. Solo che non porta più nessuno.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Il caso studio è questo</h3>
+          <p className="text-gray-700 mb-4">
+            Apriamo Search Console, partiamo con l'analisi e scopriamo il problema: tutti gli articoli del blog sono andati perduti. Se li è persi per strada il webmaster che ha lavorato al rifacimento.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Di solito, in questi casi, il colpevole è un redirect 301 mancante (quello che dice a Google "questa pagina è stata spostata definitivamente qui"). Qui i redirect mancavano, certo, ma il problema era a monte: non c'era più una pagina verso cui farli puntare. Non esisteva nemmeno la sezione blog. Zero.
+          </p>
+          <p className="text-gray-700 mb-6">
+            In buona sostanza, un'azienda che vende porte aveva murato quelle da cui entravano i clienti. Il grafico di Search Console non ha bisogno di tante spiegazioni: da inizio luglio 2025, con giornate tra gli 80 e i 120 clic, si scende in poche settimane fino a una manciata di clic al giorno.
+          </p>
+          <div className="mb-6 max-w-2xl mx-auto">
+            <Image
+              src="/images/caso-studio-infissi-search-console.webp"
+              alt="Clic in Search Console del sito di infissi: il crollo dell'estate 2025 e la risalita dall'autunno"
+              width={860}
+              height={946}
+              className="rounded-lg shadow-md w-full"
+            />
+          </div>
+
+          <h3 className="text-xl font-semibold mb-4">Cosa abbiamo fatto</h3>
+          <p className="text-gray-700 mb-4">
+            Se gli articoli non ci sono più, bisogna andare a riprenderli dove sono rimasti. A quel punto ci siamo rivolti a Wayback Machine (l'archivio di Internet Archive che conserva le copie storiche dei siti). Abbiamo portato in locale le copie archiviate del vecchio sito e scritto uno script Python che, per ogni articolo:
+          </p>
+          <ol className="list-decimal pl-6 text-gray-700 mb-4 space-y-2">
+            <li>cerca il file HTML dell'articolo nella copia locale;</li>
+            <li>sceglie lo snapshot più recente disponibile (lo snapshot è la "fotografia" della pagina in una certa data);</li>
+            <li>estrae titolo e contenuto, e ricava la data dallo snapshot;</li>
+            <li>ricava slug (la parte finale dell'URL) e categoria dal percorso originale;</li>
+            <li>genera un file WXR (il formato XML con cui WordPress importa ed esporta i contenuti), pronto per l'importazione.</li>
+          </ol>
+          <p className="text-gray-700 mb-4">
+            Detta così sembra una passeggiata. O meglio: lo sembra finché non lanci lo script.
+          </p>
+          <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
+            <li><strong>I percorsi di Wayback:</strong> le cartelle degli snapshot hanno come nome un timestamp seguito da "id_" e la struttura delle sottocartelle cambia. Lo script doveva fare i conti con le varianti https://, http:// e www, e con una modifica alla ricerca siamo passati direttamente a zero risultati.</li>
+            <li><strong>Il contenuto:</strong> nelle prime prove non veniva importato correttamente. Ottimo, un articolo senza articolo.</li>
+            <li><strong>Lo slug:</strong> quando l'estrazione dal percorso falliva, il contenuto arrivava, ma lo slug diventava "articolo" e la categoria "Blog". Ed è l'errore più subdolo, perché a occhio sembra tutto a posto. Se l'URL non è quello di prima, però, non stai recuperando un vecchio articolo: ne stai pubblicando uno nuovo, che Google non ha mai visto.</li>
+          </ul>
+          <p className="text-gray-700 mb-4">
+            Per questo la regola è stata una sola: <strong>prima un articolo, poi tutti gli altri</strong>. Si importa il primo in WordPress, si controllano contenuto, slug e categoria, e solo dopo si passa al resto. Per il primo articolo lo script ha trovato 6 snapshot e ha scelto quello del 24 giugno 2025: l'ultima fotografia di una porta, poco prima che venisse murata. Alla fine gli articoli li abbiamo recuperati tutti, e il blog è tornato online.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Com'è andata</h3>
+          <p className="text-gray-700 mb-6">
+            In Search Console la risalita si vede da settembre 2025: si torna intorno ai 40 clic al giorno, con punte tra i 50 e i 60. Su tutto il periodo fanno <strong>14,9K clic e 1,33 milioni di impressioni</strong>. Lo stesso film su SEOZoom: l'andamento del dominio crolla da circa 3,5K a meno di 500 tra luglio e settembre 2025, poi risale fino a circa 3K a inizio 2026.
+          </p>
+          <div className="mb-6">
+            <Image
+              src="/images/caso-studio-infissi-seozoom.webp"
+              alt="Andamento del dominio su SEOZoom: il crollo dell'estate 2025 e la risalita fino a inizio 2026"
+              width={1462}
+              height={1118}
+              className="rounded-lg shadow-md w-full"
+            />
+          </div>
+          <p className="text-gray-700 mb-4">
+            Ora, onestà prima di tutto. I clic non sono tornati ai picchi di luglio. Il dominio, su SEOZoom, era già in calo da prima del rifacimento. Nello stesso periodo il grafico segna anche degli aggiornamenti di Google, quindi non tutto si può attribuire al nostro lavoro. E l'ultimo tratto riscende sotto i 2K: non l'ho tagliato, perché un sito recuperato non è un sito guarito per sempre.
+          </p>
+
+          <h3 className="text-xl font-semibold mb-4">Cosa ci porto a casa</h3>
+          <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
+            <li><strong>Prima di rifare un sito, fai l'inventario:</strong> esporta tutti gli URL e guarda in Search Console quali portano traffico. Sono quelli che non puoi perdere.</li>
+            <li><strong>I redirect non bastano se manca la destinazione:</strong> prima si controlla che i contenuti esistano ancora, poi si pensa a dove mandarli.</li>
+            <li><strong>Wayback Machine salva, ma è l'ultima spiaggia:</strong> recuperare a mano quello che bastava non cancellare costa molto più di un backup. Sempre. Non è un consiglio, è una regola.</li>
+            <li><strong>Prova su un articolo solo:</strong> importarne cento con lo slug sbagliato significa rifare il lavoro cento volte.</li>
+          </ul>
+          <p className="text-gray-700 mb-12">
+            Il sito nuovo era bellissimo, per carità. Mancavano solo le porte.
+          </p>
+
+          {/* Caso 4 - Prodotto stagionale */}
           <h2 className="text-3xl font-bold mb-6">Azienda enogastronomica – Prodotto stagionale: l'intento che mancava</h2>
           <p className="text-gray-700 mb-4">
             Questo non è un caso problematico, anzi. Ma insegna una cosa che vedo sbagliare di continuo: <strong>cercare di capire cosa cerca davvero la gente, prima di scrivere</strong>.

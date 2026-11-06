@@ -26,7 +26,7 @@ const pages = [
   { url: '/contatti', priority: 0.7, changefreq: 'yearly', lastmod: '2026-05-15' },
   { url: '/uso-intelligenza-artificiale', priority: 0.3, changefreq: 'yearly', lastmod: '2026-10-27' },
   { url: '/casi-studio-google-ads', priority: 0.7, changefreq: 'monthly', lastmod: '2026-10-26' },
-  { url: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo', priority: 0.7, changefreq: 'monthly', lastmod: '2026-10-26' },
+  { url: '/i-casi-piu-problematici-che-mi-siano-capitati-sulla-seo', priority: 0.7, changefreq: 'monthly', lastmod: '2026-11-06' },
 ];
 
 export function getStaticPageUrlsXml(): string {
