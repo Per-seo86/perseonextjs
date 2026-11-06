@@ -2,11 +2,20 @@ import type { Metadata } from 'next';
 import Breadcrumb from '@/components/Breadcrumb';
 import Image from 'next/image';
 import ContactForm from '@/components/ContactForm';
+import TableOfContents from '@/components/TableOfContents';
+import { generateId } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'I casi più problematici che mi siano capitati sulla SEO | Perseo',
   description: 'Casi studio SEO reali: i problemi più complessi affrontati in oltre 10 anni di attività.',
 };
+
+const CASI = [
+  "Sito estero – Blocco Paypal",
+  "Sito di informazione – Problema principale: thin content",
+  "Azienda di infissi – Il blog sparito con il rifacimento del sito",
+  "Azienda enogastronomica – Prodotto stagionale: l'intento che mancava",
+];
 
 export default function CasiSEO() {
   return (
@@ -31,8 +40,21 @@ export default function CasiSEO() {
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
 
+          <div className="mb-8">
+            <Image
+              src="/images/casi-seo-problematici-copertina.webp"
+              alt="Professionista alla scrivania di notte con le mani sul volto, davanti al computer"
+              width={1000}
+              height={563}
+              priority
+              className="rounded-lg shadow-md w-full"
+            />
+          </div>
+
+          <TableOfContents sections={CASI.map((content) => ({ type: 'heading', level: 2, content }))} />
+
           {/* Caso 1 - Blocco Paypal */}
-          <h2 className="text-3xl font-bold mb-6">Sito estero – Blocco Paypal</h2>
+          <h2 id={generateId(CASI[0])} className="text-3xl font-bold mb-6">{CASI[0]}</h2>
           <p className="text-gray-700 mb-4">
             In più di 10 anni di attività, mi sono capitate, ovviamente, alcune sfide. Alcune grosse, altre di meno. All'inizio non ci capivo niente e avevo più difficoltà, poi con l'abitudine e il ripresentarsi di medesimi errori, c'ho fatto il callo, come tutti.
           </p>
@@ -95,7 +117,7 @@ export default function CasiSEO() {
           </p>
 
           {/* Caso 2 - Sito di informazione */}
-          <h2 className="text-3xl font-bold mb-6">Sito di informazione – Problema principale: thin content</h2>
+          <h2 id={generateId(CASI[1])} className="text-3xl font-bold mb-6">{CASI[1]}</h2>
           <p className="text-gray-700 mb-4">
             Infatti molte news non venivano indicizzate. Cominciamo a pubblicare news lunghe, formattate per la SEO (headings, link interni ed esterni, tag alt ecc…), dettagliate, esaustive e alcune, addirittura, escono prima dei competitor. Cresciamo sulla ricerca organica, ma c'è qualcosa che blocca l'aumento di visite.
           </p>
@@ -118,14 +140,14 @@ export default function CasiSEO() {
             <Image
               src="/images/andamento-sito-informazione.jpg"
               alt="andamento sito di informazione Search Console"
-              width={1200}
-              height={600}
+              width={2560}
+              height={853}
               className="rounded-lg shadow-md w-full"
             />
           </div>
 
           {/* Caso 3 - Blog perso nel rifacimento del sito */}
-          <h2 className="text-3xl font-bold mb-6">Azienda di infissi – Il blog sparito con il rifacimento del sito</h2>
+          <h2 id={generateId(CASI[2])} className="text-3xl font-bold mb-6">{CASI[2]}</h2>
           <p className="text-gray-700 mb-4">
             Un'azienda che vende infissi arriva da noi disperata: i contatti di chi ha bisogno di una porta, di una finestra o di infissi nuovi non arrivano più. Il sito è stato appena rifatto ed è pure bello. Solo che non porta più nessuno.
           </p>
@@ -202,7 +224,7 @@ export default function CasiSEO() {
           </p>
 
           {/* Caso 4 - Prodotto stagionale */}
-          <h2 className="text-3xl font-bold mb-6">Azienda enogastronomica – Prodotto stagionale: l'intento che mancava</h2>
+          <h2 id={generateId(CASI[3])} className="text-3xl font-bold mb-6">{CASI[3]}</h2>
           <p className="text-gray-700 mb-4">
             Questo non è un caso problematico, anzi. Ma insegna una cosa che vedo sbagliare di continuo: <strong>cercare di capire cosa cerca davvero la gente, prima di scrivere</strong>.
           </p>
