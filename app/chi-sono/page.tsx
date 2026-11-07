@@ -11,6 +11,22 @@ export const metadata: Metadata = {
 
 const timeline = [
   {
+    year: '2024',
+    company: 'Smart Network Group',
+    description: 'Performance Manager',
+    color: '#1e4079',
+    logo: '/images/logo-smart-network-group.png',
+    side: 'right',
+  },
+  {
+    year: '2024',
+    company: 'Advertaria',
+    description: 'SEO Specialist',
+    color: '#e6007e',
+    logo: '/images/logo-advertaria.png',
+    side: 'left',
+  },
+  {
     year: '2019',
     company: 'AvvocatoFlash',
     description: 'Responsabile Web Marketing',
