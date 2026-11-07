@@ -15,7 +15,7 @@ const timeline = [
     company: 'AvvocatoFlash',
     description: 'Responsabile Web Marketing',
     color: '#737de8',
-    logo: '/images/logo-avvocatoflash.jpeg',
+    logo: '/images/logo-avvocatoflash.webp',
     side: 'right', // card on right, logo on left
   },
   {
@@ -31,7 +31,7 @@ const timeline = [
     company: 'Internet e Idee',
     description: 'System integration, Web Solutions, Digital Marketing',
     color: '#737de8',
-    logo: '/images/logo-internet-idee.jpeg',
+    logo: '/images/logo-internet-idee.png',
     side: 'right',
   },
   {
@@ -39,7 +39,7 @@ const timeline = [
     company: 'Devoloop',
     description: 'Software & App',
     color: '#ef4444',
-    logo: '/images/logo-devoloop.jpeg',
+    logo: '/images/logo-devoloop.jpg',
     side: 'left',
   },
   {
