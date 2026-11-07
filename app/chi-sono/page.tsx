@@ -37,7 +37,7 @@ const timeline = [
   {
     year: '2019',
     company: 'Arkys',
-    description: 'SEO · Web Agency · Web Marketing',
+    description: 'Frontend Developer WordPress e SEO',
     color: '#9ca3af',
     logo: '/images/logo-arkys.png',
     side: 'left', // card on left, logo on right
@@ -45,7 +45,7 @@ const timeline = [
   {
     year: '2018',
     company: 'Internet e Idee',
-    description: 'System integration, Web Solutions, Digital Marketing',
+    description: 'SEO Specialist e Social Media Manager',
     color: '#737de8',
     logo: '/images/logo-internet-idee.png',
     side: 'right',
@@ -53,7 +53,7 @@ const timeline = [
   {
     year: '2013',
     company: 'Devoloop',
-    description: 'Software & App',
+    description: 'CMO',
     color: '#ef4444',
     logo: '/images/logo-devoloop.jpg',
     side: 'left',
