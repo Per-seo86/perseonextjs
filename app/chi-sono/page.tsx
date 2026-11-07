@@ -13,6 +13,7 @@ const timeline = [
   {
     year: '2024',
     company: 'Smart Network Group',
+    url: 'https://www.smartnetworkgroup.it/',
     description: 'Performance Manager',
     color: '#1e4079',
     logo: '/images/logo-smart-network-group.png',
@@ -21,6 +22,7 @@ const timeline = [
   {
     year: '2024',
     company: 'Advertaria',
+    url: 'https://www.advertaria.it/',
     description: 'SEO Specialist',
     color: '#e6007e',
     logo: '/images/logo-advertaria.png',
@@ -29,6 +31,7 @@ const timeline = [
   {
     year: '2019',
     company: 'AvvocatoFlash',
+    url: 'https://www.avvocatoflash.it/',
     description: 'Responsabile Web Marketing',
     color: '#737de8',
     logo: '/images/logo-avvocatoflash.webp',
@@ -37,6 +40,7 @@ const timeline = [
   {
     year: '2019',
     company: 'Arkys',
+    url: 'https://arkys.agency/',
     description: 'Frontend Developer WordPress e SEO',
     color: '#9ca3af',
     logo: '/images/logo-arkys.png',
@@ -45,6 +49,7 @@ const timeline = [
   {
     year: '2018',
     company: 'Internet e Idee',
+    url: 'https://www.internet-idee.net/',
     description: 'SEO Specialist e Social Media Manager',
     color: '#737de8',
     logo: '/images/logo-internet-idee.png',
@@ -53,6 +58,7 @@ const timeline = [
   {
     year: '2013',
     company: 'Devoloop',
+    url: null,
     description: 'CMO',
     color: '#ef4444',
     logo: '/images/logo-devoloop.jpg',
@@ -61,6 +67,7 @@ const timeline = [
   {
     year: '2012',
     company: 'IED',
+    url: 'https://www.ied.it/',
     description: 'Master in Copywriting',
     color: '#9ca3af',
     logo: '/images/ied-istituto-europeo-di-design-spa-logo-vector.png',
@@ -69,12 +76,41 @@ const timeline = [
   {
     year: '2010',
     company: 'Unical',
+    url: 'https://www.unical.it/',
     description: 'Laurea in Filosofia e Scienze della Comunicazione',
     color: '#22c55e',
     logo: '/images/unical.png',
     side: 'left',
   },
 ] as const;
+
+function TimelineLogo({
+  item,
+  className,
+  imageClassName,
+}: {
+  item: (typeof timeline)[number];
+  className: string;
+  imageClassName: string;
+}) {
+  const boxClassName = `relative block overflow-hidden bg-white border border-gray-100 ${className}`;
+  const image = <Image src={item.logo} alt={item.company} fill className={`object-contain ${imageClassName}`} />;
+
+  if (!item.url) {
+    return <div className={boxClassName}>{image}</div>;
+  }
+
+  return (
+    <a
+      href={item.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className={`${boxClassName} transition hover:-translate-y-0.5 hover:shadow-lg`}
+    >
+      {image}
+    </a>
+  );
+}
 
 export default function ChiSono() {
   return (
@@ -131,9 +167,7 @@ export default function ChiSono() {
                       {/* Logo + card stacked */}
                       <div className="flex flex-col gap-3 flex-1">
                         {item.logo && (
-                          <div className="relative w-24 h-14 rounded-lg overflow-hidden bg-white border border-gray-100 shadow-sm">
-                            <Image src={item.logo} alt={item.company} fill className="object-contain p-2" />
-                          </div>
+                          <TimelineLogo item={item} className="w-24 h-14 rounded-lg shadow-sm" imageClassName="p-2" />
                         )}
                         <div
                           className="bg-white rounded-xl shadow-sm border-l-4 px-4 py-3"
@@ -153,9 +187,7 @@ export default function ChiSono() {
                         {isRight ? (
                           <div className="flex items-center justify-end">
                             {item.logo && (
-                              <div className="relative w-44 h-28 rounded-xl overflow-hidden bg-white border border-gray-100 shadow-md">
-                                <Image src={item.logo} alt={item.company} fill className="object-contain p-3" />
-                              </div>
+                              <TimelineLogo item={item} className="w-44 h-28 rounded-xl shadow-md" imageClassName="p-3" />
                             )}
                           </div>
                         ) : (
@@ -196,9 +228,7 @@ export default function ChiSono() {
                         ) : (
                           <div className="flex items-center">
                             {item.logo && (
-                              <div className="relative w-44 h-28 rounded-xl overflow-hidden bg-white border border-gray-100 shadow-md">
-                                <Image src={item.logo} alt={item.company} fill className="object-contain p-3" />
-                              </div>
+                              <TimelineLogo item={item} className="w-44 h-28 rounded-xl shadow-md" imageClassName="p-3" />
                             )}
                           </div>
                         )}
