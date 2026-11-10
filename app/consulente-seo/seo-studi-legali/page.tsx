@@ -57,10 +57,10 @@ export default function SEOStudiLegali() {
             Lo so bene, perché per tre anni sono stato dall&apos;altra parte. Dal 2019 al 2022 sono stato responsabile web marketing di <a href="https://www.avvocatoflash.it/" target="_blank" rel="noopener noreferrer" className={linkClass}>AvvocatoFlash</a>, una piattaforma che mette in contatto chi ha bisogno di un avvocato con i professionisti iscritti. Il mio lavoro era esattamente questo: far uscire la piattaforma su Google prima degli studi.
           </p>
           <p className="text-gray-700 mb-4">
-            Ecco com&apos;era fatto il sito, ricostruito dalle copie archiviate su Wayback Machine (che non salva tutto, quindi i numeri reali erano più alti):
+            Ecco com&apos;era fatto il sito:
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
-            <li><strong>Profili degli avvocati:</strong> circa 1.500 pagine archiviate nel 2019, oltre 3.700 nel 2022. Una pagina per ogni professionista, con aree di competenza e città.</li>
+            <li><strong>Profili degli avvocati:</strong> più di 1.500 nel 2019, oltre 3.700 nel 2022. Una pagina per ogni professionista, con aree di competenza e città.</li>
             <li><strong>Pagine &quot;area di pratica × città&quot;:</strong> &quot;avvocato per sfratto Treviso&quot;, &quot;avvocato condominio Firenze&quot;, &quot;avvocato divorzio Brescia&quot;. Nel 2022 erano una cinquantina di aree moltiplicate per più di cento città.</li>
             <li><strong>Un blog con più di mille guide:</strong> come fare se il datore di lavoro non ti concede la malattia, cos&apos;è il concordato preventivo, come funziona il diritto di prelazione.</li>
           </ul>
