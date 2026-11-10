@@ -190,7 +190,7 @@ export default function SEOStudiLegali() {
           </p>
           <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
             <li>verificato, con il nome reale dello studio (non &quot;Studio Legale Rossi – Avvocato Divorzista Separazioni Cosenza&quot;: riempire il nome di keyword è contro le <a href="https://support.google.com/business/answer/3038177?hl=it" target="_blank" rel="noopener noreferrer" className={linkClass}>linee guida di Google</a>, e i concorrenti possono segnalarlo);</li>
-            <li>con la categoria giusta (Google ne ha di specifiche: avvocato divorzista, avvocato del lavoro, avvocato penalista, e così via) e le categorie secondarie per le altre aree;</li>
+            <li>con la categoria principale più precisa possibile: non si possono inventare, si scelgono dall&apos;elenco di Google, e oltre al generico &quot;Avvocato&quot; conviene cercare quella che corrisponde alla tua area principale. Le categorie aggiuntive servono per le altre aree in cui lavori davvero, non per ogni singolo servizio (e attenzione: cambiarle può far scattare una nuova verifica del profilo);</li>
             <li>con orari aggiornati, foto vere dello studio e delle persone, il link alla pagina del sito più pertinente;</li>
             <li>con un profilo per ogni sede, se lo studio ne ha più di una.</li>
           </ul>
