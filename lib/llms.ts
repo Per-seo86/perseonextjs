@@ -17,6 +17,7 @@ const pages: { title: string; path: string; description: string }[] = [
   { title: 'SEO per farmacie', path: '/consulente-seo/seo-farmacie/', description: 'Strategie SEO per farmacie online e fisiche.' },
   { title: 'SEO per banche e servizi finanziari', path: '/consulente-seo/seo-banche-e-finanza/', description: 'Strategie SEO per banche, consulenti finanziari e mediatori creditizi.' },
   { title: 'SEO per studi legali e avvocati', path: '/consulente-seo/seo-studi-legali/', description: 'Strategie SEO per studi legali e avvocati: local SEO, pagine per area di pratica e codice deontologico.' },
+  { title: 'SEO per assicurazioni: agenzie e broker', path: '/consulente-seo/seo-assicurazioni/', description: 'Strategie SEO per agenzie assicurative e broker: local SEO, fiducia, RUI e regole IVASS.' },
   { title: 'SEO per negozi di arredamento', path: '/consulente-seo/seo-negozi-di-arredamento/', description: 'Strategie SEO per e-commerce e showroom di arredamento.' },
   { title: 'Consulenza SEO a Catanzaro', path: '/consulenza-seo-a-catanzaro/', description: 'Consulenza SEO per studi professionali, sanità, servizi e turismo sulla costa ionica in provincia di Catanzaro.' },
   { title: 'Consulenza SEO a Cosenza', path: '/consulenza-seo-a-cosenza/', description: 'Consulenza SEO per aziende e attività locali di Cosenza.' },

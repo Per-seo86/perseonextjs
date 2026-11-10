@@ -238,6 +238,14 @@ export default function ConsulenteSEO() {
               </p>
               <span className="text-purple-600 font-semibold">Scopri di più →</span>
             </Link>
+
+            <Link href="/consulente-seo/seo-assicurazioni" className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold mb-4">SEO per Assicurazioni</h3>
+              <p className="text-gray-600 mb-4">
+                Consulenza SEO per agenzie assicurative e broker: local SEO, fiducia e regole IVASS, contro comparatori e compagnie online.
+              </p>
+              <span className="text-purple-600 font-semibold">Scopri di più →</span>
+            </Link>
           </div>
         </div>
       </section>
