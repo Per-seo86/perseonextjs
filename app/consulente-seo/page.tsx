@@ -230,6 +230,14 @@ export default function ConsulenteSEO() {
               </p>
               <span className="text-purple-600 font-semibold">Scopri di più →</span>
             </Link>
+
+            <Link href="/consulente-seo/seo-studi-legali" className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl transition">
+              <h3 className="text-2xl font-bold mb-4">SEO per Studi Legali</h3>
+              <p className="text-gray-600 mb-4">
+                Consulenza SEO per studi legali e avvocati: profilo Google, pagine per area di pratica e regole del codice deontologico.
+              </p>
+              <span className="text-purple-600 font-semibold">Scopri di più →</span>
+            </Link>
           </div>
         </div>
       </section>

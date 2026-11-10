@@ -8,11 +8,12 @@ export const BASE_URL = 'https://perseo.biz';
 const pages = [
   { url: '/', priority: 1.0, changefreq: 'weekly', lastmod: 'latest-post' },
   { url: '/chi-sono', priority: 0.8, changefreq: 'monthly', lastmod: '2026-11-07' },
-  { url: '/consulente-seo', priority: 0.9, changefreq: 'monthly', lastmod: '2026-11-06' },
+  { url: '/consulente-seo', priority: 0.9, changefreq: 'monthly', lastmod: '2026-11-10' },
   { url: '/consulente-seo/seo-concessionarie', priority: 0.8, changefreq: 'monthly', lastmod: '2026-05-15' },
   { url: '/consulente-seo/seo-negozi-di-arredamento', priority: 0.8, changefreq: 'monthly', lastmod: '2026-05-15' },
   { url: '/consulente-seo/seo-farmacie', priority: 0.8, changefreq: 'monthly', lastmod: '2026-05-15' },
   { url: '/consulente-seo/seo-banche-e-finanza', priority: 0.8, changefreq: 'monthly', lastmod: '2026-11-03' },
+  { url: '/consulente-seo/seo-studi-legali', priority: 0.8, changefreq: 'monthly', lastmod: '2026-11-10' },
   { url: '/google-ads-specialist', priority: 0.9, changefreq: 'monthly', lastmod: '2026-05-15' },
   { url: '/meta-ads-specialist', priority: 0.9, changefreq: 'monthly', lastmod: '2026-05-15' },
   { url: '/risultati', priority: 0.7, changefreq: 'monthly', lastmod: '2026-05-15' },
