@@ -384,7 +384,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/googlebot-crawl-render.png',
-        alt: 'Googlebot crawl render index process flow'
+        alt: 'Come Googlebot scansiona, renderizza e indicizza un sito: coda di scansione, crawler, elaborazione, rendering e indice'
       },
       {
         type: 'heading',
@@ -698,7 +698,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-catalogo-business-manager.png',
-        alt: 'Catalogo Business Manager'
+        alt: 'DPA Meta Ads: menu del Business Manager con la voce Gestore delle vendite per creare il catalogo'
       },
       {
         type: 'paragraph',
@@ -707,7 +707,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-tipo-catalogo.png',
-        alt: 'Tipo di catalogo Meta'
+        alt: 'DPA Meta Ads: scelta del tipo di catalogo e-commerce nel Gestore delle vendite'
       },
       {
         type: 'paragraph',
@@ -716,7 +716,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-impostazioni-catalogo.png',
-        alt: 'Impostazioni catalogo Meta'
+        alt: 'DPA Meta Ads: impostazioni del catalogo prodotti Meta'
       },
       {
         type: 'paragraph',
@@ -729,7 +729,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-articoli-catalogo.png',
-        alt: 'Caricamento articoli per catalogo Meta'
+        alt: 'DPA Meta Ads: caricamento degli articoli nel catalogo prodotti Meta'
       },
       {
         type: 'paragraph',
@@ -738,7 +738,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-campi-catalogo.png',
-        alt: 'Campi per catalogo Meta'
+        alt: 'DPA Meta Ads: campi degli articoli del catalogo prodotti Meta'
       },
       {
         type: 'paragraph',
@@ -764,7 +764,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-catalogo-attivazione.png',
-        alt: 'Catalogo attivazione Meta'
+        alt: 'DPA Meta Ads: attivazione del catalogo prodotti Meta'
       },
       {
         type: 'paragraph',
@@ -773,7 +773,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-retargeting-pubblico.png',
-        alt: 'Retargeting Meta catalogo'
+        alt: 'DPA Meta Ads: pubblico di retargeting basato sul catalogo prodotti'
       },
       {
         type: 'paragraph',
@@ -786,7 +786,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-eventi-retargeting.png',
-        alt: 'Eventi retargeting DPA Meta'
+        alt: 'DPA Meta Ads: eventi del pixel usati per il retargeting dinamico'
       },
       {
         type: 'paragraph',
@@ -820,7 +820,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dpa-insieme-catalogo.png',
-        alt: 'Scelta insiemi dal catalogo delle vendite'
+        alt: 'DPA Meta Ads: scelta dell\'insieme di prodotti dal catalogo delle vendite'
       },
       {
         type: 'paragraph',
@@ -891,7 +891,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/dynamic-creativita.png',
-        alt: 'creatività dinamiche Meta'
+        alt: 'Creatività dinamiche Meta Ads: opzione attiva a livello di inserzione'
       },
       {
         type: 'paragraph',
@@ -904,7 +904,7 @@ AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application
       {
         type: 'image',
         src: '/images/persona-ottimizzazione.png',
-        alt: 'ottimizza la creatività per ogni persona Meta'
+        alt: 'Creatività dinamiche Meta Ads: opzione Ottimizza la creatività per ogni persona attiva'
       },
       {
         type: 'paragraph',
@@ -2048,7 +2048,7 @@ Link:
       {
         type: 'image',
         src: '/images/google-shopping-prodotti.webp',
-        alt: 'google shopping prodotti'
+        alt: 'Prodotti nelle pagine Google: annunci Google Shopping per la ricerca nduja di Spilinga, con foto, prezzo e negozio'
       },
       {
         type: 'paragraph',
@@ -3039,7 +3039,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         type: 'image',
         src: '/images/fantozzi-polpette-birkermaier.jpeg',
-        alt: 'Fantozzi ruba le polpette di Bavaria dal piatto del professor Birkermaier'
+        alt: 'Fantozzi ruba le polpette di Bavaria dal piatto del professor Birkermaier: modificare una pagina a piccoli passi per non perdere il posizionamento SEO'
       },
       {
         type: 'paragraph',
@@ -3312,7 +3312,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/meta-ads-usa-come-suggerimento-esclusione.png",
-        "alt": "Gruppo di inserzioni Meta Ads con lista clienti in esclusione e casella Usa come suggerimento spuntata"
+        "alt": "Remarketing su Meta Ads: gruppo di inserzioni con lista clienti in esclusione e casella Usa come suggerimento spuntata"
       },
       {
         "type": "paragraph",
@@ -3528,7 +3528,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/remarketing-google-ads-segmenti-pubblico.png",
-        "alt": "Google Ads, menu Strumenti: Libreria condivisa → Gestione segmenti di pubblico"
+        "alt": "Remarketing su Google Ads: menu Strumenti, Libreria condivisa → Gestione segmenti di pubblico"
       },
       {
         "type": "paragraph",
@@ -3651,7 +3651,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/remarketing-meta-gruppi-di-pubblico.png",
-        "alt": "Gestione inserzioni di Meta, menu laterale con la voce Gruppi di pubblico"
+        "alt": "Remarketing su Meta Ads: Gestione inserzioni, menu laterale con la voce Gruppi di pubblico"
       },
       {
         "type": "list",
@@ -3733,7 +3733,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/remarketing-brevo-carrello-abbandonato.png",
-        "alt": "Automazione Carrello abbandonato su Brevo: Carrello aggiornato, Attendi 2 ore, Invia un'email, Uscita"
+        "alt": "Remarketing via email su Brevo: automazione Carrello abbandonato (Carrello aggiornato, Attendi 2 ore, Invia un'email, Uscita)"
       },
       {
         "type": "paragraph",
@@ -4250,7 +4250,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/noindex-wordpress-scoraggia-motori-ricerca.png",
-        "alt": "La casella \"Scoraggia i motori di ricerca dall'effettuare l'indicizzazione di questo sito\" in Impostazioni → Lettura di WordPress"
+        "alt": "Noindex su tutto il sito: la casella Scoraggia i motori di ricerca dall'effettuare l'indicizzazione in Impostazioni → Lettura di WordPress"
       },
       {
         "type": "paragraph",
@@ -4368,7 +4368,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       {
         "type": "image",
         "src": "/images/noindex-search-console-controllo-url.png",
-        "alt": "La barra \"Controlla qualsiasi URL\" in alto in Google Search Console"
+        "alt": "Controllare il noindex di una pagina con la barra Controlla qualsiasi URL di Google Search Console"
       },
       {
         "type": "list",
