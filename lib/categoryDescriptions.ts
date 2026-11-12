@@ -134,7 +134,6 @@ Per fare ciò:</p>
 <p>I meta tags sono i titoli non visibili. Quelli che leggono i motori di ricerca "dietro le quinte". Vanno scritti nell'HTML della pagina o se si utilizza un CMS, basta un'estensione o plugin e il gioco è fatto.</p>
 <h3>Tag Title</h3>
 <p>Molte volte si lascia identico all'H1, perché anch'esso descrive il contenuto della pagina. Con la differenza che il titolo lo si vede non nella pagina, ma nei risultati di ricerca. Anche qui, bisogna inserire la parola chiave principale all'interno del titolo. Esso dev'essere lungo non più di 65 caratteri, compresi gli spazi.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/03/title.png" alt="tag title" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <h3>Meta description</h3>
 <p>A differenza degli Heading e del Tag Title, la meta description non contribuisce più al migliore posizionamento del sito. Molti SEO neanche scrivono più la meta description. Lasciano scegliere a Google quale porzione di testo inserire nei risultati di ricerca.</p>
 <h3>Figure retoriche</h3>
@@ -160,7 +159,6 @@ Per fare ciò:</p>
 <h2>Architettura dei contenuti</h2>
 <p>Avere una chiara idea di cosa e come pubblicare, renderà il tuo sito molto più funzionante rispetto ad un competitor. Una buona struttura del sito e dei contenuti del blog, può permettere agli utenti e ai motori di ricerca una fruibilità ed una esperienza utente agevole, chiara, pertinente e completa.</p>
 <p>Il metodo migliore è quello dei silos. Cioè l'organizzare i contenuti del sito in modo gerarchico e strutturato. Ovvero sezioni che raggruppano i contenuti in base all'argomento trattato e che sono collegate tra loro tramite link interni.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/03/xmind.png" alt="architettura dei contenuti" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <h3>Attento alla cannibalizzazione</h3>
 <p>C'è però un aspetto da non sottovalutare: la questione della cannibalizzazione. Alcune volte è molto sottovalutata questa problematica, ma può portare perdite di traffico anche notevoli. In sostanza, quando si hanno due o più articoli molto simili, nei risultati di ricerca si comincia a concorrere per le stesse parole chiavi.</p>
 <h2>I piani editoriali</h2>
@@ -184,7 +182,6 @@ Per fare ciò:</p>
 <p><strong>Ma come si fa a battere la concorrenza</strong>? Che sia a livello locale, nazionale o regionale, ci sono vari fattori che Meta prende a parametri, tra cui il budget allocato alle campagne, la precisione del target, ma soprattutto le creatività. Comunicare meglio degli altri il nostro prodotto, permetterà all'algoritmo di Meta di raggiungere più persone.</p>
 <h2>Il copy</h2>
 <p>Partiamo dal copy, ovvero la parte testuale del post.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/04/copy.png" alt="meta ads copy" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <p>Ci sono alcune buone pratiche da seguire (non proprio regole) tra cui:</p>
 <ol>
 <li><strong>Conoscere il pubblico di riferimento</strong>: usi e costumi, abitudini, orari di riferimento, gerghi linguistici;</li>
@@ -194,15 +191,12 @@ Per fare ciò:</p>
 </ol>
 <h2>La call to action</h2>
 <p>È fondamentalmente la frase che invita gli utenti a compiere un'azione.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/04/cta.png" alt="cta meta ads" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <p>Di solito, rispecchia l'obiettivo che si è preposti quando si è creata la campagna: se cliccata può linkare al sito oppure far apparire un modulo di contatto o ancora, far apparire Whatsapp o Messenger per ricevere messaggi. È importante, quindi, che sia chiara, coerente con il copy e con il servizio o attività che si sta proponendo.</p>
 <h2>Il titolo</h2>
 <p>Il titolo svolge un ruolo fondamentale nel determinare il successo di un annuncio, poiché è spesso la prima cosa che gli utenti vedono quando visualizzano un annuncio nelle Meta Ads.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/04/titolo.png" alt="titolo meta ads" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <p>Non avrai molto spazio per scriverlo, quindi bisogna cercare di essere estremamente sintetici, ma efficaci. In buona sostanza bisogna riassumere in pochissime parole ciò che abbiamo descritto nel copy. Può essere descrittivo, ma anche persuasivo o allusivo.</p>
 <h2>La description</h2>
 <p>La description è un elemento importante che può fornire informazioni aggiuntive agli utenti, spingendoli a interagire con l'annuncio o a compiere l'azione desiderata.</p>
-<img src="https://per-seo.it/wp-content/uploads/2023/04/description.png" alt="description meta ads" style="max-width:100%;height:auto;border-radius:8px;margin:16px 0;" />
 <p>È solitamente più lunga del titolo, ma ha comunque uno spazio limitato. Perciò, è importante utilizzare parole ed espressioni chiare e coinvolgenti per massimizzare l'impatto del messaggio.</p>
 <h2>Il visual</h2>
 <p>Il cuore della pubblicità su Meta sono le immagini/video/caroselli, ovvero tutto ciò che è visivo. Ed è indubbio che è la prima cosa che colpisce gli utenti mentre stanno scrollando la home di Facebook o di Instagram. Per cui, è bene tenere presente alcuni consigli che possono aumentare l'engagement del pubblico:</p>
