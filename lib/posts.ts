@@ -4462,6 +4462,313 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    "slug": "purchase-doppio-meta-woocommerce",
+    "title": "Purchase doppio su Meta: quando WooCommerce conta ogni vendita due volte",
+    "category": "meta-ads",
+    "subcategory": "strategie-meta-ads",
+    "date": "2026-11-20",
+    "excerpt": "Le tue campagne Meta vendono il doppio di quanto incassi? Non è un miracolo. È un evento contato due volte. Vediamo come scovarlo.",
+    "content": "",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Se c'è una cosa che fa felice un cliente, è aprire Ads Manager e vedere un ROAS che sembra uscito da un case study americano. Il problema è quando quel ROAS non trova riscontro nel conto corrente."
+      },
+      {
+        "type": "paragraph",
+        "content": "Mi è capitato pochi giorni fa con l'e-commerce di un frantoio calabrese: WordPress, WooCommerce, checkout gestito da FunnelKit e una campagna Advantage+ Vendite ottimizzata sull'evento Purchase. In Gestione eventi, dal 17 al 19 novembre, Meta registrava 38 acquisti. Gli ordini veri, nello stesso periodo, erano 19."
+      },
+      {
+        "type": "paragraph",
+        "content": "Non 30, non 25. Esattamente il doppio."
+      },
+      {
+        "type": "paragraph",
+        "content": "Quando un numero è il doppio preciso di un altro, non è sfortuna e non è \"l'algoritmo che ragiona a modo suo\". È un purchase doppio: lo stesso acquisto che arriva a Meta due volte. Ti racconto come l'ho trovato, perché il metodo vale più della soluzione."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Perché un Purchase doppio è un problema serio?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Potresti pensare: \"Vabbè, i numeri sono gonfiati, basta dividerli per due mentalmente\". Sbagliato. O meglio: puoi farlo tu, ma l'algoritmo di Meta no."
+      },
+      {
+        "type": "paragraph",
+        "content": "Le conseguenze sono due, e la seconda è peggio della prima:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Report falsi: conversioni e ROAS in Ads Manager risultano gonfiati di circa due volte. Se decidi il budget su quei numeri, stai investendo su una campagna che rende la metà di quello che pensi.",
+          "Algoritmo addestrato male: una campagna Advantage+ ottimizzata sul Purchase impara da quell'evento chi compra e chi no. Se gli dai un segnale sbagliato, ottimizza su un segnale sbagliato."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Immagina un ristorante dove due camerieri battono in cassa lo stesso tavolo, ognuno con il proprio numero di scontrino. A fine serata l'incasso sulla carta è il doppio di quello nel cassetto. E siccome gli scontrini hanno numeri diversi, la cassa non ha modo di capire che si tratta dello stesso conto."
+      },
+      {
+        "type": "paragraph",
+        "content": "Tienilo a mente, perché è esattamente quello che stava succedendo."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "\"Ma non l'avevamo già risolto?\""
+      },
+      {
+        "type": "paragraph",
+        "content": "Ecco il dettaglio che rende la storia interessante. Mesi prima qualcuno aveva già messo uno snippet \"anti-doppione\" sul sito, e da allora tutti davano il problema per chiuso."
+      },
+      {
+        "type": "paragraph",
+        "content": "Nessuno, però, l'aveva verificato sui dati."
+      },
+      {
+        "type": "paragraph",
+        "content": "È la lezione numero uno, e te la do subito: \"risolto\" non vuol dire verificato. Uno snippet che dovrebbe togliere un evento duplicato va controllato confrontando gli eventi con gli ordini veri. Altrimenti è solo una speranza scritta in PHP."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Come ti accorgi che il Purchase è doppio?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il modo più rapido è avere un evento di controllo: un evento che parte una sola volta per ordine e che non dipende dalla stessa integrazione del Purchase."
+      },
+      {
+        "type": "paragraph",
+        "content": "In questo caso c'era già, senza che nessuno ci facesse caso. FunnelKit manda un evento personalizzato, WooFunnels_Thankyou, che scatta una volta sola sulla pagina di ringraziamento. In Gestione eventi:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Purchase: 38",
+          "WooFunnels_Thankyou: 19"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Due numeri messi uno accanto all'altro, e il problema salta all'occhio. Se nel tuo setup non hai un evento del genere, il confronto lo fai con il numero di ordini in WooCommerce. Ma attenzione a come li conti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Attenzione: gli export degli ordini mentono per omissione"
+      },
+      {
+        "type": "paragraph",
+        "content": "La prima cosa che ho fatto è stata esportare gli ordini da FunnelKit. Peccato che l'export includa solo gli ordini con pagamento definitivo. I bonifici ancora in sospeso non ci sono."
+      },
+      {
+        "type": "paragraph",
+        "content": "E indovina quale ordine mancava? Proprio quello arrivato da Meta."
+      },
+      {
+        "type": "paragraph",
+        "content": "Se mi fossi fermato lì, avrei concluso che la campagna non aveva venduto nulla. Per contare gli ordini veri devi includere anche quelli in attesa di pagamento: nel periodo erano 17 pagati più 2 bonifici in sospeso. Totale 19. Il conto torna."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Da dove arriva il doppione?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui di solito tutti pensano alla causa classica: il pixel nel browser e la Conversions API (o CAPI, cioè l'invio degli eventi direttamente dal server del sito a Meta, senza passare dal browser dell'utente) che mandano lo stesso Purchase senza essere deduplicati."
+      },
+      {
+        "type": "paragraph",
+        "content": "Può essere. Ma prima di toccare il codice, i dati vanno guardati. Io ho fatto tre controlli, in quest'ordine."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "1. I log della Conversions API di FunnelKit"
+      },
+      {
+        "type": "paragraph",
+        "content": "FunnelKit Pixel Tracking mandava gli eventi sia dal browser sia dal server, con un token CAPI generato a mano. I suoi log si trovano in WooCommerce → Stato → Log, nel file bwf_facebook_conversion_api. Prima però devi attivare l'opzione \"Enable Purchase Event Logs\" nelle impostazioni del plugin, altrimenti il file resta vuoto."
+      },
+      {
+        "type": "paragraph",
+        "content": "Risultato: un solo Purchase lato server per ogni ordine, con un event_id del tipo Purchase_<numero ordine>."
+      },
+      {
+        "type": "paragraph",
+        "content": "FunnelKit era pulito. Il colpevole era altrove."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "2. L'export orario di Gestione eventi, diviso per origine"
+      },
+      {
+        "type": "paragraph",
+        "content": "In Gestione eventi puoi scaricare i dati dell'evento Purchase suddivisi per ora e per origine (browser o server). Ho preso gli ultimi 28 giorni."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Browser: un solo Purchase in un mese.",
+          "Server: circa due eventi per ogni ordine, già da fine ottobre."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Il browser mandava quasi niente per un motivo semplice: il sito usa iubenda con il blocco preventivo, quindi il pixel parte solo dopo il consenso ai cookie. E quasi nessuno lo dà."
+      },
+      {
+        "type": "paragraph",
+        "content": "Quindi il doppione non era il classico \"browser più server non deduplicati\". Erano due fonti server diverse che mandavano lo stesso acquisto."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "3. La pagina Integrazioni"
+      },
+      {
+        "type": "paragraph",
+        "content": "In Gestione eventi → Integrazioni trovi l'elenco di tutto ciò che è collegato al pixel. È la mappa del tracciamento, e va guardata prima di qualsiasi intervento. Ecco cosa c'era:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Conversions API manuale: il token di FunnelKit.",
+          "Partner WooCommerce: Meta for WooCommerce.",
+          "Gateway dell'API Conversions + Signals Gateway: creato e mai finito. Nessun dominio configurato, quindi non riceve nulla.",
+          "Meta Pixel: il pixel nel browser."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Il gateway mezzo configurato l'ho escluso: senza dominio non può mandare eventi. Restava un solo sospettato."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Il colpevole: Meta for WooCommerce"
+      },
+      {
+        "type": "paragraph",
+        "content": "Meta for WooCommerce era stato installato per un motivo preciso: sincronizzare il catalogo prodotti con Meta. Il problema è che, quando lo colleghi, attiva da solo anche il pixel e la Conversions API. Non te lo chiede. Lo fa e basta."
+      },
+      {
+        "type": "paragraph",
+        "content": "Quindi ogni ordine generava due Purchase lato server:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "uno da FunnelKit, con event_id = Purchase_<numero ordine>;",
+          "uno da Meta for WooCommerce, con un event_id tutto suo."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "E qui torniamo ai due camerieri. La deduplicazione di Meta (il meccanismo che riconosce due eventi uguali e ne tiene uno solo) funziona solo se i due eventi hanno lo stesso event_name e lo stesso event_id. Con due event_id diversi, per Meta sono due acquisti distinti. Due scontrini, due incassi."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Perché il vecchio snippet non funzionava?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Lo snippet \"anti-doppione\" di mesi prima cercava di togliere il metodo inject_purchase_event di Meta for WooCommerce, ma solo da due hook (i punti di WordPress in cui i plugin si agganciano per eseguire il loro codice) e con una priorità fissa:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "woocommerce_thankyou a priorità 40;",
+          "woocommerce_checkout_update_order_meta a priorità 10."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Le versioni recenti del plugin, però, agganciano il Purchase anche ad altri hook: i cambi di stato dell'ordine, i gateway di pagamento, con priorità diverse. Lo snippet chiudeva due porte e lasciava aperte le altre."
+      },
+      {
+        "type": "paragraph",
+        "content": "In buona sostanza: era stato scritto per una versione del plugin che non esisteva più."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "La soluzione: togliere il Purchase da ovunque sia agganciato"
+      },
+      {
+        "type": "paragraph",
+        "content": "Invece di indovinare hook e priorità, ho scritto uno snippet che li cerca tutti. Scorre ogni hook registrato in WordPress, a qualsiasi priorità, e rimuove i metodi del plugin di Meta che mandano il Purchase. Così non dipende dalla versione installata."
+      },
+      {
+        "type": "paragraph",
+        "content": "Attenzione: prima di toccare qualsiasi cosa, fai un backup completo del sito."
+      },
+      {
+        "type": "paragraph",
+        "content": "Poi aggiungi lo snippet con Code Snippets (o WPCode), impostato su \"Run everywhere\":"
+      },
+      {
+        "type": "code",
+        "language": "php",
+        "content": "add_action( 'wp_loaded', function () {\n\tglobal $wp_filter;\n\t// I metodi di Meta for WooCommerce che mandano il Purchase\n\t$metodi = [ 'inject_purchase_event', 'inject_gateway_purchase_event' ];\n\t// Scorre tutti gli hook registrati, a qualsiasi priorità\n\tforeach ( $wp_filter as $hook => $wp_hook ) {\n\t\tif ( ! $wp_hook instanceof WP_Hook ) { continue; }\n\t\tforeach ( $wp_hook->callbacks as $priorita => $callbacks ) {\n\t\t\tforeach ( $callbacks as $cb ) {\n\t\t\t\t$f = $cb['function'];\n\t\t\t\t// Rimuove solo i metodi di classi \"facebook\" con quei nomi\n\t\t\t\tif ( is_array( $f ) && is_object( $f[0] )\n\t\t\t\t\t&& stripos( get_class( $f[0] ), 'facebook' ) !== false\n\t\t\t\t\t&& in_array( $f[1], $metodi, true ) ) {\n\t\t\t\t\tremove_action( $hook, $f, $priorita );\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n}, 5 );"
+      },
+      {
+        "type": "paragraph",
+        "content": "Il catalogo e la sincronizzazione dei prodotti restano attivi. Il Purchase lo manda solo FunnelKit, con il suo event_id coerente."
+      },
+      {
+        "type": "paragraph",
+        "content": "Piano B, se non bastasse: spegnere del tutto il tracciamento di Meta for WooCommerce con il filtro facebook_for_woocommerce_integration_pixel_enabled, facendogli restituire false. Prima però controlla che il filtro esista con quel nome nella versione del plugin che hai installato: questi plugin cambiano spesso."
+      },
+      {
+        "type": "paragraph",
+        "content": "Cosa non fare: scollegare l'integrazione WooCommerce da Meta Business per \"fare prima\". Rischi di rompere il catalogo, e se lo usi per le inserzioni dinamiche ti ritrovi con un problema più grosso di quello di partenza (se non sai di cosa parlo, ho scritto un articolo sui [DPA per le Meta Ads](/meta-ads/dpa-per-le-meta-ads/))."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Ha funzionato?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Lo snippet è attivo dal 19 novembre e il sito funziona regolarmente. Il controllo vero, però, è uno solo: sul prossimo ordine reale, nell'export orario di Gestione eventi, deve comparire un solo evento server."
+      },
+      {
+        "type": "paragraph",
+        "content": "Mentre scrivo quell'ordine non è ancora arrivato, quindi l'esito non te lo posso dare. Appena lo vedo, aggiorno l'articolo con il numero vero."
+      },
+      {
+        "type": "paragraph",
+        "content": "E no, non ti scrivo \"risolto\" prima di averlo visto. Sarebbe un po' ridicolo, dopo tutto quello che ti ho raccontato."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cosa mi porto a casa da questo caso"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Un evento di controllo ti salva: un evento che parte una volta per ordine, come WooFunnels_Thankyou, rende evidente il doppione senza bisogno di analisi complicate.",
+          "Il doppione non è sempre browser più server: può venire da due integrazioni server diverse, ognuna con il suo event_id.",
+          "Collegare il catalogo attiva anche il tracciamento: se usi Meta for WooCommerce solo per i prodotti e il tracciamento lo gestisce già un altro plugin, controlla subito che non stia mandando eventi anche lui.",
+          "La pagina Integrazioni viene prima del codice: elenca tutte le fonti collegate al pixel, comprese quelle configurate a metà.",
+          "Il consenso cambia la diagnosi: con un blocco cookie rigido il pixel nel browser manda pochissimo, e la Conversions API diventa la tua unica fonte affidabile. Se è doppia lei, è doppio tutto."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Alla fine il problema non era tecnico, era di cassa: due camerieri, due scontrini, un tavolo solo. E un titolare convinto di aver incassato il doppio. Prima di aumentare il budget di una campagna che va benissimo, conta i piatti in cucina."
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
