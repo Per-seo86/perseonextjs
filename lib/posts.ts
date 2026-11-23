@@ -4885,12 +4885,12 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "Ecco i primi quattro mesi, da fine luglio a fine novembre 2025, quando la redazione lavorava ancora sui tag: 111 clic e circa 9.450 impressioni sulle sole pagine tag. Due clic su tre di tutto il periodo sono arrivati qui."
+        "content": "Ecco l'andamento delle sole pagine tag negli ultimi 16 mesi: 165 clic e circa 15.900 impressioni in tutto. I picchi sono concentrati all'inizio; da quando i tag non vengono più inseriti, la curva resta piatta."
       },
       {
         "type": "image",
-        "src": "/images/tag-quotidiano-search-console-2025.webp",
-        "alt": "Search Console: clic e impressioni delle pagine tag di un quotidiano online da luglio a novembre 2025"
+        "src": "/images/tag-quotidiano-search-console-16-mesi.webp",
+        "alt": "Search Console: clic e impressioni delle pagine tag di un quotidiano online negli ultimi 16 mesi, con i picchi nei primi mesi"
       },
       {
         "type": "heading",
