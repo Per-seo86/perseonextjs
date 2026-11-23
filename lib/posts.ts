@@ -4774,6 +4774,8 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     "title": "Tag e categorie in SEO: come usare le tassonomie senza riempire Google di pagine inutili",
     "category": "seo",
     "subcategory": "technical-seo",
+    "image": "/images/tag-categorie-seo-featured.png",
+    "imageAiGenerated": true,
     "date": "2026-11-23",
     "excerpt": "Hai più tag che articoli? Non sei il solo. Ed è uno dei modi più rapidi per riempire Google di pagine che nessuno cercherà mai. Vediamo come rimettere ordine.",
     "content": "",
