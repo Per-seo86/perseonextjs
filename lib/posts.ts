@@ -4773,7 +4773,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
     "slug": "tag-categorie-seo-tassonomie",
     "title": "Tag e categorie in SEO: come usare le tassonomie senza riempire Google di pagine inutili",
     "category": "seo",
-    "subcategory": "technical-seo",
+    "subcategory": "copywriting",
     "image": "/images/tag-categorie-seo-featured.png",
     "imageAiGenerated": true,
     "date": "2026-11-23",
@@ -4951,7 +4951,7 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       },
       {
         "type": "paragraph",
-        "content": "È quello che faccio anche qui su Perseo: ogni categoria, come le [guide alla SEO tecnica](/category/seo/technical-seo/), ha una sua descrizione, pensata per chi ci arriva da Google e non sa ancora cosa troverà."
+        "content": "È quello che faccio anche qui su Perseo: ogni categoria, come le [guide alla SEO copywriting](/category/seo/copywriting/), ha una sua descrizione, pensata per chi ci arriva da Google e non sa ancora cosa troverà."
       },
       {
         "type": "heading",
