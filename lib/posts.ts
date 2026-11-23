@@ -4884,6 +4884,15 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
         "content": "La seconda: un tag vive finché qualcuno lo alimenta. I picchi sono arrivati tutti tra luglio e ottobre 2025, quando la redazione era seguita anche dal punto di vista SEO e i giornalisti inserivano i tag in ogni articolo. Poi quel lavoro si è fermato, i giornalisti hanno smesso di mettere i tag, e la curva si è appiattita. Non è cambiato Google. È cambiato il modo di lavorare in redazione."
       },
       {
+        "type": "paragraph",
+        "content": "Ecco i primi quattro mesi, da fine luglio a fine novembre 2025, quando la redazione lavorava ancora sui tag: 111 clic e circa 9.450 impressioni sulle sole pagine tag. Due clic su tre di tutto il periodo sono arrivati qui."
+      },
+      {
+        "type": "image",
+        "src": "/images/tag-quotidiano-search-console-2025.webp",
+        "alt": "Search Console: clic e impressioni delle pagine tag di un quotidiano online da luglio a novembre 2025"
+      },
+      {
         "type": "heading",
         "level": 2,
         "content": "Qual è la forza di tag e categorie? I link interni"
