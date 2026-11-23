@@ -4769,6 +4769,378 @@ Redirect 301 /categoria/nome-slug-2 https://www.tuosito.it/categoria/nome-slug`
       }
     ]
   },
+  {
+    "slug": "tag-categorie-seo-tassonomie",
+    "title": "Tag e categorie in SEO: come usare le tassonomie senza riempire Google di pagine inutili",
+    "category": "seo",
+    "subcategory": "technical-seo",
+    "date": "2026-11-23",
+    "excerpt": "Hai più tag che articoli? Non sei il solo. Ed è uno dei modi più rapidi per riempire Google di pagine che nessuno cercherà mai. Vediamo come rimettere ordine.",
+    "content": "",
+    "sections": [
+      {
+        "type": "paragraph",
+        "content": "Uno degli equivoci più diffusi tra chi gestisce un blog è che i tag servano alla SEO. Più tag metti, più parole chiave \"copri\", più Google ti trova. Così ogni articolo esce con quindici etichette in fondo, alcune scritte in maiuscolo, altre al plurale, altre ancora con un errore di battitura che nessuno ha mai corretto."
+      },
+      {
+        "type": "paragraph",
+        "content": "Sbagliato. O meglio: tag e categorie possono aiutare la SEO, eccome. Ma solo se sono pensati come una struttura, non come un posto dove buttare parole chiave. Usati male, producono l'effetto opposto: centinaia di pagine vuote e quasi identiche che Google deve scansionare, valutare e, nella maggior parte dei casi, ignorare."
+      },
+      {
+        "type": "paragraph",
+        "content": "In questa guida vediamo cosa sono le tassonomie, che differenza c'è tra categorie e tag dal punto di vista SEO, quali danni possono fare e come si fa pulizia senza perdere traffico."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Cos'è una tassonomia (e perché Google se ne accorge)?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Tassonomia è una parola difficile per una cosa semplice: un sistema per classificare i contenuti. In WordPress le tassonomie predefinite sono due, categorie e tag. Poi ci sono quelle personalizzate: negli e-commerce WooCommerce, per esempio, le categorie prodotto, i tag prodotto e gli attributi (taglia, colore, materiale) sono tutte tassonomie."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il punto che sfugge a molti è questo: ogni termine di una tassonomia genera una pagina. Crei il tag \"Google Ads\"? Il CMS crea in automatico un archivio, tipo tuosito.it/tag/google-ads/, che elenca tutti gli articoli con quel tag. Ha un suo URL, un suo title, finisce nella sitemap e Google lo può indicizzare."
+      },
+      {
+        "type": "paragraph",
+        "content": "Quindi un blog con 80 articoli e 400 tag non è un sito di 80 pagine. È un sito di quasi 500 pagine, di cui più dell'80% sono elenchi generati da un software. Google se ne accorge."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Che differenza c'è tra categorie e tag?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Pensa al supermercato sotto casa."
+      },
+      {
+        "type": "paragraph",
+        "content": "Le categorie sono le corsie: pasta, detersivi, surgelati, ortofrutta. Sono poche, stabili, e ogni prodotto sta in una corsia sola. Nessuno mette gli spaghetti un po' tra la pasta e un po' tra i detersivi. Se entri e cerchi la pasta, sai dove andare."
+      },
+      {
+        "type": "paragraph",
+        "content": "I tag sono i bollini sulle confezioni: \"senza glutine\", \"bio\", \"in offerta\", \"prodotto in Calabria\". Attraversano le corsie: trovi il bollino \"bio\" sulla pasta, sul latte e sulle mele. Servono a chi cerca una caratteristica precisa, non un reparto."
+      },
+      {
+        "type": "paragraph",
+        "content": "Tradotto in SEO:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Categorie: gerarchiche (possono avere sottocategorie), poche, obbligatorie. Ogni articolo dovrebbe averne una principale. Disegnano l'architettura del sito, cioè il modo in cui le pagine sono organizzate e collegate tra loro, e sono la base dei percorsi di navigazione e delle breadcrumb (le \"briciole di pane\" in cima alla pagina, tipo Home → SEO → Guide alla SEO tecnica).",
+          "Tag: piatti (nessuna gerarchia), facoltativi, trasversali. Collegano contenuti che stanno in categorie diverse ma parlano della stessa cosa."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Il problema è che il supermercato i bollini li stampa con criterio. Molti blog invece li stampano a caso, uno per ogni parola che viene in mente in quel momento."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Perché i tag possono fare danni alla SEO?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Di per sé un tag non fa male a nessuno. Il danno arriva quando se ne creano troppi, senza regole. Ecco cosa succede."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Pagine vuote: un tag usato su un solo articolo genera un archivio con un solo articolo dentro. Una pagina che non aggiunge niente rispetto all'articolo stesso. Google la chiama thin content (contenuto scarno, con poco o nessun valore), e un sito pieno di pagine così rischia di essere valutato peggio nel suo insieme.",
+          "Duplicati: \"SEO\", \"seo tecnica\", \"SEO tecnica\" e \"Seo-tecnica\" sono quattro tag diversi per il CMS e quattro pagine quasi identiche per Google. Lo stesso vale per tag e categorie con lo stesso nome: la categoria \"Google Ads\" e il tag \"Google Ads\" mostrano più o meno gli stessi articoli.",
+          "Cannibalizzazione: quando più pagine dello stesso sito competono per la stessa ricerca, Google fa fatica a scegliere quale mostrare. A volte sceglie l'archivio del tag invece dell'articolo che hai scritto con tanta cura. Ed è una scelta che non ti piacerà.",
+          "Crawl budget sprecato: il crawl budget è, in parole povere, la quantità di pagine che Googlebot è disposto a scansionare sul tuo sito in un certo periodo. Su un blog piccolo non è un problema serio. Su un e-commerce con migliaia di prodotti e combinazioni di filtri, invece, ogni pagina inutile è tempo tolto a quelle che contano.",
+          "Link interni dispersi: ogni pagina di tag riceve link da tutti gli articoli che la usano. Quei link potrebbero spingere le pagine importanti, e invece alimentano archivi che non portano nemmeno una visita."
+        ]
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Quando i tag funzionano davvero?"
+      },
+      {
+        "type": "paragraph",
+        "content": "C'è un tipo di sito dove i tag possono lavorare bene: i giornali online. Lì i tag non sono bollini attaccati a caso. Sono le persone, i luoghi e i fatti di cui si parla ogni giorno: il nome di un sindaco, la squadra di calcio della città, un'inchiesta giudiziaria."
+      },
+      {
+        "type": "paragraph",
+        "content": "Mi è capitato di lavorare su un quotidiano online calabrese impostato proprio così. Negli ultimi 16 mesi le sue pagine tag hanno raccolto circa 15.900 impressioni e 165 clic da Google. Il tag dedicato a un ex sindaco della zona è comparso in media in decima posizione per la ricerca del suo nome, con quasi 470 impressioni. Altri tag sono usciti in prima pagina per la squadra di calcio cittadina, per un'inchiesta giudiziaria e perfino per un formaggio tipico silano."
+      },
+      {
+        "type": "paragraph",
+        "content": "Numeri piccoli? Sì, e non ho intenzione di gonfiarli. Ma raccontano due cose utili."
+      },
+      {
+        "type": "paragraph",
+        "content": "La prima: per Google una pagina tag è una pagina come un'altra. Se raccoglie tanti articoli su una persona o su un fatto, e il suo nome corrisponde a una ricerca reale, si posiziona. Per un giornale locale, il tag con il nome del sindaco è di fatto la pagina più completa del web su quel sindaco."
+      },
+      {
+        "type": "paragraph",
+        "content": "La seconda: un tag vive finché qualcuno lo alimenta. I picchi sono arrivati tutti tra luglio e ottobre 2025, quando la redazione era seguita anche dal punto di vista SEO e i giornalisti inserivano i tag in ogni articolo. Poi quel lavoro si è fermato, i giornalisti hanno smesso di mettere i tag, e la curva si è appiattita. Non è cambiato Google. È cambiato il modo di lavorare in redazione."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Qual è la forza di tag e categorie? I link interni"
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui ti do un mio modesto parere, frutto di quello che ho visto su questo e su altri siti: la forza di tag e categorie sta nei link interni."
+      },
+      {
+        "type": "paragraph",
+        "content": "Pensaci. Ogni articolo che usa il tag \"nome del sindaco\" contiene un link verso la pagina di quel tag. Cento articoli, cento link interni che puntano tutti nello stesso posto, e tutti con lo stesso testo. Pochissime pagine di un sito ricevono così tanti link. E nell'altro senso, la pagina tag linka a sua volta tutti quegli articoli: per Google è un hub (un punto di snodo) che raccoglie tutto quello che il sito ha scritto su quell'argomento."
+      },
+      {
+        "type": "paragraph",
+        "content": "È anche il motivo per cui, quando i giornalisti smettono di inserire i tag, la pagina perde forza: niente articoli nuovi, niente link nuovi, niente contenuto fresco. La pagina resta lì, ferma, mentre Google premia chi su quella persona continua a pubblicare."
+      },
+      {
+        "type": "paragraph",
+        "content": "Ed è la stessa ragione per cui, su un blog con tag usati una volta sola, quei link diventano un problema invece che una risorsa: spingono pagine che non hanno niente da offrire."
+      },
+      {
+        "type": "paragraph",
+        "content": "Con i tag sui fatti di cronaca, poi, c'è anche un altro fattore: l'interesse delle persone sale e scende insieme alla notizia. Ne ho parlato nell'articolo sulle [keyword a tempo determinato](/seo/keyword-a-tempo-determinato-seo-editoriale/)."
+      },
+      {
+        "type": "paragraph",
+        "content": "La lezione, per chi gestisce una testata: i tag sulle persone e sui fatti vanno tenuti indicizzati e curati. Un tag per persona, scritto sempre nello stesso modo (niente \"Mario Rossi\" in un articolo e \"sindaco Rossi\" in quello dopo), con un title che dica cosa trova l'utente. Su un blog aziendale con trenta articoli, invece, quella stessa strategia produce solo pagine vuote."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Le pagine categoria possono posizionarsi su Google?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Eccome. Anzi, spesso sono le pagine che lavorano di più, soprattutto negli e-commerce: chi cerca \"scarpe da trekking donna\" vuole vedere un elenco di scarpe da trekking da donna, cioè esattamente una pagina categoria. Non una scheda prodotto, non un articolo del blog."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il problema è che di solito vengono lasciate così come le crea il CMS: un titolo, un elenco di anteprime, una paginazione. Nessun testo, nessun motivo per cui Google dovrebbe preferirle a quelle dei concorrenti."
+      },
+      {
+        "type": "paragraph",
+        "content": "Se vuoi che una categoria si posizioni, trattala come una landing page:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Title e meta description scritti a mano, non generati in automatico dal plugin con la formula \"Archivi della categoria X\".",
+          "Un testo introduttivo che spieghi cosa trova l'utente in quella sezione e perché. Non serve un romanzo: bastano poche righe utili in cima, e un approfondimento più lungo in fondo se l'argomento lo merita.",
+          "Link verso i contenuti più importanti della categoria, scelti da te e non solo in ordine di data.",
+          "Un nome che corrisponda a come le persone cercano. \"Guide pratiche\" è un nome bellissimo per la redazione e inutile per Google. \"Guide alla SEO tecnica\" dice cosa c'è dentro."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "È quello che faccio anche qui su Perseo: ogni categoria, come le [guide alla SEO tecnica](/category/seo/technical-seo/), ha una sua descrizione, pensata per chi ci arriva da Google e non sa ancora cosa troverà."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Quante categorie e quanti tag servono?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Dipende. Ma qualche regola pratica la posso dare, ed è quella che applico quando riordino un sito."
+      },
+      {
+        "type": "paragraph",
+        "content": "Per le categorie:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Poche e stabili: su un blog aziendale, tra 5 e 10 categorie principali bastano quasi sempre. Se ne hai 40, probabilmente alcune sono in realtà tag travestiti.",
+          "Massimo due livelli: categoria e sottocategoria. Oltre, l'utente si perde e le pagine finiscono troppo in profondità rispetto alla home.",
+          "Una categoria principale per articolo: puoi assegnarne due, ma scegli quella principale (Yoast e Rank Math te lo fanno indicare), perché è quella che finisce nella breadcrumb e, se la usi nei permalink, nell'URL.",
+          "Mai \"Senza categoria\": è la categoria predefinita di WordPress. Rinominala o assegnane una vera a ogni articolo."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Per i tag:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Un tag ha senso solo se raccoglie più articoli: la mia soglia è almeno 4-5. Se sai già che un tag verrà usato una volta sola, non crearlo.",
+          "Una lista chiusa: decidi in anticipo quali tag esistono e scrivili da qualche parte, anche in un foglio condiviso. Chi scrive sceglie da quella lista, non inventa.",
+          "Mai un tag uguale a una categoria: se esiste la categoria \"Meta Ads\", il tag \"Meta Ads\" è un doppione.",
+          "Da 2 a 5 tag per articolo: oltre, stai facendo keyword stuffing (il riempimento forzato di parole chiave) con un altro nome."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Su un blog piccolo, la risposta più onesta a volte è: i tag non ti servono proprio. Le categorie bastano e avanzano."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Gli archivi dei tag vanno indicizzati o no?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Non c'è una risposta valida per tutti. Hai tre opzioni principali."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Noindex, follow: dici a Google di non mostrare gli archivi dei tag nei risultati, ma di seguire i link che contengono. È la scelta più comune e la più prudente quando i tag sono tanti e nessuno porta traffico. Tieni presente che Google ha spiegato che, se una pagina resta in noindex a lungo, col tempo smette di seguirne anche i link: il \"follow\" quindi non è una garanzia per sempre.",
+          "Eliminazione con redirect 301: cancelli i tag inutili e reindirizzi il loro URL verso la pagina più vicina (la categoria corrispondente, un tag più generale o l'articolo principale). Il redirect 301 dice a Google \"questa pagina è stata spostata definitivamente qui\". È la soluzione più pulita quando i tag sono davvero spazzatura.",
+          "Valorizzazione: tieni indicizzati i pochi tag che hanno senso e li tratti come le categorie, con testo, title e meta description. Ha senso quando un tag intercetta una ricerca reale che nessun'altra pagina del sito copre, come i tag su persone e fatti del quotidiano di cui parlavo sopra."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Nella pratica, quasi sempre il risultato è un mix: pochi tag valorizzati, gli altri unificati o eliminati, e il noindex sugli archivi che restano solo per la navigazione interna."
+      },
+      {
+        "type": "paragraph",
+        "content": "Una cosa da evitare: mettere in noindex le categorie per riflesso, solo perché \"gli archivi sono contenuti duplicati\". Le categorie, se costruite bene, sono pagine che possono portarti traffico. Spegnerle è come chiudere le corsie del supermercato e lasciare aperti solo i bollini."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "La categoria va messa nell'URL?"
+      },
+      {
+        "type": "paragraph",
+        "content": "È una scelta che va fatta all'inizio, perché cambiarla dopo costa."
+      },
+      {
+        "type": "paragraph",
+        "content": "Gli URL con la categoria (tuosito.it/seo/titolo-articolo/) hanno un vantaggio: raccontano a utenti e motori di ricerca in quale sezione si trova la pagina. Lo svantaggio è che legano l'URL alla categoria. Se domani sposti un articolo da \"SEO\" a \"Analisi dei dati\", il suo URL cambia, e ti serve un redirect 301 dal vecchio al nuovo."
+      },
+      {
+        "type": "paragraph",
+        "content": "Gli URL senza categoria (tuosito.it/titolo-articolo/) sono più corti e non si rompono mai quando riorganizzi le sezioni. In WordPress la struttura si imposta in Impostazioni → Permalink."
+      },
+      {
+        "type": "paragraph",
+        "content": "Non c'è una scelta giusta in assoluto. C'è quella che non cambierai fra sei mesi. E se hai già un sito avviato e posizionato, il consiglio è uno solo: non toccare la struttura dei permalink a cuor leggero, perché vuol dire cambiare gli URL di tutto il sito in un colpo. Se proprio devi farlo, ti servono redirect pagina per pagina: trovi come impostarli nella [guida pratica all'.htaccess](/seo/guida-pratica-all-htaccess-redirect-cache-e-seo-tecnica/)."
+      },
+      {
+        "type": "paragraph",
+        "content": "Una nota sul prefisso /category/: WordPress lo aggiunge di default agli archivi (tuosito.it/category/seo/). Yoast e Rank Math hanno un'opzione per toglierlo e ottenere URL più puliti. Va bene farlo, ma su un sito già indicizzato verifica che i vecchi indirizzi vengano reindirizzati ai nuovi."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "E negli e-commerce?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Negli e-commerce le tassonomie pesano ancora di più, perché alle categorie si aggiungono gli attributi e i filtri: taglia, colore, prezzo, marca. Ogni combinazione di filtri può generare un URL diverso, tipo /scarpe/?colore=rosso&taglia=38, e le combinazioni possibili diventano migliaia in un attimo. È quella che in gergo si chiama navigazione a faccette."
+      },
+      {
+        "type": "paragraph",
+        "content": "Qui il ragionamento è lo stesso dei tag, solo moltiplicato:"
+      },
+      {
+        "type": "list",
+        "items": [
+          "le combinazioni che corrispondono a ricerche reali (\"scarpe da trekking donna\", \"olio extravergine calabrese biologico\") possono meritare una pagina vera, indicizzabile, con il suo testo;",
+          "tutte le altre vanno tenute fuori dall'indice, con il tag canonical (un'indicazione nel codice che dice a Google quale versione della pagina considerare principale) verso la categoria madre o con il noindex."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Ne parlo più nel dettaglio nell'articolo su [come gestire i contenuti copiati e duplicati](/seo/come-gestire-i-contenuti-copiati-e-duplicati-del-tuo-sito/)."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Come fare pulizia in tag e categorie senza perdere traffico?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se hai già un sito con una giungla di tag, ecco il metodo, passo per passo."
+      },
+      {
+        "type": "paragraph",
+        "content": "Attenzione: prima di qualsiasi intervento, fai un backup completo di file e database. Unire ed eliminare termini in WordPress non si annulla con Ctrl+Z."
+      },
+      {
+        "type": "list",
+        "items": [
+          "Fai l'inventario: In WordPress vai su Articoli → Tag e ordina per numero di articoli (la colonna \"Conteggio\"). Già così vedi quanti tag hanno un solo articolo. Per avere tutti gli URL in un file, lancia Screaming Frog (la versione gratuita arriva a 500 URL) e filtra gli indirizzi che contengono /tag/ e /category/.",
+          "Controlla il traffico: In Search Console vai su \"Rendimento\" → \"Risultati della ricerca\", aggiungi un filtro Pagina che contiene \"/tag/\" e imposta gli ultimi 16 mesi. Nella scheda \"Pagine\" vedi quali archivi di tag hanno portato clic. Spoiler: di solito pochissimi.",
+          "Classifica ogni termine: Per ognuno decidi una di tre strade: tienilo (ha articoli e traffico), uniscilo (è un doppione di un altro tag o di una categoria), eliminalo (un solo articolo, zero clic, nessun senso).",
+          "Unisci i doppioni: WordPress non ha una funzione nativa per unire due tag: ti serve un plugin per la gestione dei termini, oppure riassegni gli articoli a mano se sono pochi. Gli Strumenti di WordPress includono anche un convertitore tra categorie e tag, utile quando una categoria andrebbe declassata a tag (o viceversa).",
+          "Imposta i redirect 301: Per ogni tag eliminato o unito, reindirizza il vecchio URL verso la pagina più pertinente. Con il plugin Redirection lo fai da Strumenti → Redirection, senza toccare il file .htaccess. Se l'archivio non aveva traffico né link esterni, puoi anche lasciarlo andare in [404](/seo/errori-404-sul-tuo-sito/): non è un dramma.",
+          "Decidi sull'indicizzazione dei tag rimasti: Con Yoast: Yoast SEO → Impostazioni → Tassonomie → Tag, e disattivi \"Mostra i tag nei risultati di ricerca\". Con Rank Math il percorso è Titoli & Meta → Tag. In entrambi i casi gli archivi spariscono anche dalla sitemap.",
+          "Sistema le categorie: Rinomina quelle vaghe, scrivi title, meta description e testo introduttivo per le principali, elimina \"Senza categoria\".",
+          "Monitora: Nelle settimane successive controlla in Search Console il report Indicizzazione → Pagine: le pagine dei tag passeranno tra quelle escluse, ed è quello che vuoi. Tieni d'occhio anche il traffico delle pagine principali. Se fai le cose con calma, non dovresti vedere scossoni."
+        ]
+      },
+      {
+        "type": "paragraph",
+        "content": "Un consiglio: se i tag da eliminare sono centinaia, non farlo tutto in un pomeriggio. Procedi a blocchi, partendo da quelli con un solo articolo e zero clic. Sono quelli che non rischi di rimpiangere. È lo stesso principio che vale quando [modifichi una pagina già posizionata](/seo/modificare-una-pagina-senza-perdere-il-posizionamento-seo/): un passo alla volta, e si controlla."
+      },
+      {
+        "type": "paragraph",
+        "content": "Il supermercato funziona perché le corsie sono poche e chiare, e i bollini li stampa qualcuno che sa cosa sta facendo. Un sito non è diverso: prima le corsie, poi, se proprio servono, i bollini. Mai il contrario."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "content": "Domande frequenti su tag e categorie"
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "I tag aiutano il posizionamento?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Non direttamente. Un tag non è una parola chiave che \"segnali\" a Google: è una pagina di archivio in più. Aiuta solo se quella pagina è utile all'utente e corrisponde a una ricerca reale, come succede nei giornali online con i tag su persone, luoghi e fatti."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Meglio categorie o tag?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Servono a cose diverse. Le categorie organizzano il sito e sono indispensabili. I tag sono facoltativi: su un blog piccolo spesso se ne può fare a meno."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Devo mettere in noindex gli archivi dei tag?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Se i tag sono tanti e non portano traffico, sì: noindex o, meglio ancora, unificazione ed eliminazione con redirect. Se un tag porta clic e risponde a una ricerca precisa, valorizzalo invece di spegnerlo."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Posso assegnare un articolo a più categorie?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Sì, ma scegli sempre una categoria principale. È quella che finisce nella breadcrumb e, se la usi nei permalink, nell'URL."
+      },
+      {
+        "type": "heading",
+        "level": 3,
+        "content": "Cancellare un tag fa perdere posizionamento?"
+      },
+      {
+        "type": "paragraph",
+        "content": "Di solito no, se l'archivio non portava traffico. Se invece portava clic, prima di eliminarlo imposta un redirect 301 verso la pagina più vicina."
+      }
+    ]
+  },
 ];
 
 export function getAllPosts(): Post[] {
